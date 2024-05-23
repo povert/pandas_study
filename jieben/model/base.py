@@ -13,15 +13,17 @@ class CBase(object):
 		self.word1 = ""
 		self.shortWord1 = ""
 		self.wordType1 = ""
+		self.valRange1 = []
+		self.valMean1 = []
 		self.word2 = ""
 		self.shortWord2 = ""
 		self.wordType2 = ""
+		self.valRange2 = []
+		self.valMean2 = []
 		self.steps = [random.randint(1, 5) for i in range(5)]
 		self.num = random.randint(1, 10)
-		self.left = random.randint(0, 3)
-		self.right = random.randint(self.left + 1, self.left + 10)
-		self.valRange = []
-		self.valMean = []
+		self.left = random.randint(1, 3)
+		self.right = random.randint(self.left + 2, self.left + 10)
 		self.built(word)
 		self.custombuilt(word)
 		self.shortWord1 = self.wordcut(self.shortWord1, self.word1)
@@ -29,6 +31,10 @@ class CBase(object):
 		if self.shortWord1 == self.shortWord2:
 			self.shortWord1 += self.word1[:2]
 			self.shortWord2 += self.word2[:2]
+		if self.valRange1:
+			self.num = self.valRange1[random.randint(0, len(self.valRange1) - 1)]
+			self.left = min(self.valRange1)
+			self.right = max(self.valRange1)
 
 	def __str__(self):
 		return self.question() + '\n' + self.answer()
@@ -84,6 +90,7 @@ class CBase(object):
 
 	def analyza_val(self, tag, index):
 		valList = tag.split("-")
+		valRange, valMean = [], []
 		valType = ""
 		for val in valList:
 			if "_" in val:
@@ -92,18 +99,20 @@ class CBase(object):
 					valType = "整数型"
 				else:
 					valType = "字符串型"
-				self.valRange.append(val)
-				self.valMean.append(mean)
+				valRange.append(val)
+				valMean.append(mean)
 			else:
-				self.valRange.append(val)
-		if len(self.valRange) == 2 and self.valRange[0].isdigit() and self.valRange[1].isdigit():
-			self.valRange = [i for i in range(int(self.valRange[0]), int(self.valRange[0])+1)]
+				valRange.append(val)
+		if len(valRange) == 2 and valRange[0].isdigit() and valRange[1].isdigit():
+			valRange = [i for i in range(int(valRange[0]), int(valRange[1])+1)]
 			valType = "整数型"
 		else:
 			valType = "字符串型"
+		setattr(self, f'valRange{index}', valRange)
+		setattr(self, f'valMean{index}', valMean)
 		setattr(self, f'wordType{index}', valType)
 
-class CRangeVal(CBase):
+class CCompVal(CBase):
 
 	def custombuilt(self, word):
 		self.modeType = "数据分析"
@@ -122,6 +131,7 @@ class CRangeVal(CBase):
 				continue
 			self.word = word
 			self.num = random.randint(0, 10)
+			self.steps = [random.randint(1, 5) for i in range(5)]
 			seriesList.append(pd.Series({"问题":self.question(), "答案":self.answer(), "能力":self.modeType}))
 		return pd.concat(seriesList, axis=1).transpose()
 
@@ -138,6 +148,14 @@ class CRangeVal(CBase):
 		comStr1 = self.strMode[self.comMode][1]
 		comstr2 = self.strMode[self.comMode-1][1] if self.comMode % 2 == 0 else self.strMode[self.comMode+1][1]
 		return f'if {translate.TranslateC(self.word)}{comStr1}{self.num}: to “{self.steps[0]}”\nif {translate.TranslateC(self.word)}{comstr2}{self.num}: to "stop"'
+
+class CRangeVal(CBase):
+
+	def question(self):
+		return f'根据{self.word}数值分析，{self.word}为整数型：\n如果{self.word}大于{self.left}并且{self.word}小于{self.right}，执行步骤{self.steps[0]},否则，结束'
+
+	def answer(self):
+		return f'if {self.shortWord}>{self.left} and {self.shortWord}<{self.right}: to "{self.steps[0]}"\nif {self.shortWord}<={self.left} or {self.shortWord}>={self.right}: to "stop"'
 
 class CSingleList(CBase):
 
@@ -162,6 +180,7 @@ class CSingleList(CBase):
 			self.word = word
 			self.shortWord = shortWord
 			self.num = random.randint(0, 10)
+			self.steps = [random.randint(1, 5) for i in range(5)]
 			seriesList.append(pd.Series({"问题":self.question(), "答案":self.answer(), "能力":self.modeType}))
 		return pd.concat(seriesList, axis=1).transpose()
 	def question(self):
@@ -202,9 +221,46 @@ class CDoubleList(CBase):
 		return f'if len({translate.TranslateC(self.shortWord1)})==1 or len({translate.TranslateC(self.shortWord2)})==1: to "stop"\nif len({translate.TranslateC(self.shortWord1)})!=1 and len({translate.TranslateC(self.shortWord2)})!=1: to "{self.steps[0]}"'
 
 class CSingleStatus(CBase):
-	pass
+	
+	def custombuilt(self, word):
+		super().custombuilt(word)
+		self.valRange = self.valRange1
+		self.valMean = self.valMean1
+		self.mean = ""
+		if self.valMean:
+			self.mean = "，" + "，".join([f'{self.valRange[i]}表示{self.valMean[i]}' for i in range(len(self.valMean))])
+		self.val = random.sample(self.valRange, 1)[0]
+
+	def output(self):
+		seriesList = []
+		for i in range(2):
+			word = getattr(self, f'word{i+1}', "")
+			shortWord = getattr(self, f'shortWord{i+1}', "")
+			valRange = getattr(self, f'valRange{i+1}')
+			valMean = getattr(self, f'valMean{i+1}')
+			if not word or not valRange:
+				continue
+			self.word = word
+			self.shortWord = shortWord
+			self.valRange = valRange
+			self.valMean = valMean
+			self.steps = [random.randint(1, 5) for i in range(5)]
+			self.mean = ""
+			if self.valMean:
+				self.mean = "，" + "，".join([f'{self.valRange[i]}表示{self.valMean[i]}' for i in range(len(self.valMean))])
+			self.val = random.sample(self.valRange, 1)[0]
+			seriesList.append(pd.Series({"问题":self.question(), "答案":self.answer(), "能力":self.modeType}))
+		return pd.concat(seriesList, axis=1).transpose()
+	def question(self):
+		return f'根据{self.word}分析，{self.word}为整数型{self.mean}：\n如果{self.word}为{self.val}，执行步骤"{self.steps[0]}"\n如果{self.word}不为{self.val}，结束'
+
+	def answer(self):
+		return f'if {translate.TranslateC(self.shortWord)}=={self.val}: to "{self.steps[0]}"\nf {translate.TranslateC(self.shortWord)}!={self.val}: to "stop"'
+	
+	
 
 class CDoubleStatus(CBase):
-	pass
-
+	
+	def question(self):
+		return super().question()
 

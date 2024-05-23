@@ -1,10 +1,12 @@
 from model.base import *
 
 text = {
-	"光伏值，$光伏，1-20；参考值，1-5":(CRangeVal,),
+	"光伏值，$光伏，1-20；参考值，1-2-35":(CRangeVal, CSingleStatus),
 	"Tunnel隧道接入网元信息列表，$网元信息":(CSingleList, CDoubleList),
 	"Tunnel隧道接入网元信息列表，$$告警;保护Tunnel隧道网元信息列表，":(CSingleList, CDoubleList)
 }
+
+print(CSingleStatus("光伏值，$光伏，1-20；参考值，1-2-5").output())
 
 df_list = []
 for w, tC in text.items():
@@ -13,4 +15,4 @@ for w, tC in text.items():
 		df_list.append(o.output())
 r = pd.concat(df_list)
 # r.head()
-r.to_excel("./deal.xlsx")
+# r.to_excel("./deal.xlsx")
