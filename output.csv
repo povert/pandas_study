@@ -1,0 +1,247 @@
+input,output
+在移动网知识范围内，解释一下什么是A3,"A3算法（Algorithm A3,【缩写】A3）
+A3算法是一种鉴权算法，采用RAND 和Ki作为输入产生SRES。"
+在移动网知识范围内，解释一下什么是A5,"A5算法（Algorithm A5,【缩写】A5）
+A5算法是一种加密算法，采用Kc键对重要的信息进行加密。"
+在移动网知识范围内，解释一下什么是A8,"A8算法（Algorithm A8,【缩写】A8）
+A8算法是一种加密算法，采用RAND和Ki产生Kc键。"
+在移动网知识范围内，解释一下什么是ACLR,"邻道泄漏比（Adjacent ChannelLeakage Ratio,【缩写】ACLR）
+ACLR是用来衡量规定使用传输频道以外，传输RF能量的一个指标，由输出功率放大器产生；ACLR 也是WCDMA发射机性能的度量，它定义为发射功率与相邻RF信道接收机滤波器后所测功率之比。"
+在移动网知识范围内，解释一下什么是ACS,"邻道选择性（Adjacent ChannelSelectivity,【缩写】ACS）
+邻道选择性是指在相邻信道信号存在的情况下，接收机在其指定信道频率上接收有用信号的能力。邻道选择性的定义，使接收机滤波器在指定信道频率上的衰减与在相邻信道-1-频率上的衰减对比具有了相当的意义与可对比性，而邻道选择性的强弱，直接影响着射频收信机的接收性能，这一性能的好坏，可以直接通过邻道选择性定义后所获得的相关数字显示出来。"
+在移动网知识范围内，解释一下什么是AGCH,"接入准许信道（Access GrantedCHannel,【缩写】AGCH）
+接入准许信道是用于基站向随机接入成功的移动台发送指配了的独立专用控制信道(SDCCH),为下行信道。"
+在移动网知识范围内，解释一下什么是AICH,"捕获指示信道（Acquisition IndicatorCHannel,【缩写】AICH）
+捕获指示信道是一个扩频因子为256的固定速率下行链路信道，用于携带网络的捕获指示符号。该指示符号告知UE 其通过PRACH 发送的前缀已经被系统检测到，因而可以进一步发送PRACH 消息。"
+在移动网知识范围内，解释一下什么是Ainterface,"A接口（A interface,【缩写】Ainterface）
+A接口定义为网络子系统(NSS)与基站子系统(BSS)间的通信接口。从系统上来讲，就是移动交换中心(MSC)与基站控制器(BSC)之间的接口，物理链路采用标准的2.048Mbit/s的数字传输链路实现。此接口传递的信息包括移动台管理、基站管理、移动性管理、接续管理等。"
+在移动网知识范围内，解释一下什么是AKA,"鉴权与密钥协商（Authentication andKey Agreement,【缩写】AKA）
+AKA是无线移动通信网中引用的对用户和网络进行安全保护的算法，由IETF制定并被3GPP采用，广泛应用于3G无线网络的鉴权机制。"
+在移动网知识范围内，解释一下什么是ALCAP,"接入链路控制应用协议（Access Link ControlApplication Protocol,【缩写】ALCAP）
+接入链路控制应用协议又称为Q.AAL2协议，遵循ITU-T Q.2630.1规范，处于UMTS 网络体系结构中的Iub/Iur/Iu-CS传的制面，信令承载类型为SAALUNI 和MTP3-b。ALCAP内部由两个层面组成：Q.AAL2协议处理层以及两个STC适配层。ALCAP的基本功能是在两个信令点之间建立、释放AAL2连接，同时对该信令系统内信元的通道、通路等资源进行必要的维护和管理。"
+在移动网知识范围内，解释一下什么是AMR,"自适应多速率（Adaptive Multi Rate,【缩写】AMR）
+AMR是一种新的语音编码类型，该技术是基于变速率多模式语音编码技术发展起来的，其主要原理在于语音编码模型由一系列能提供多种编码移动网输出速率与合成质量的声码器构成，AMR标准中规定了8种语音编码输出速率，从4.75kbit/s到12.2kbit/s不等，每种语音编码模式都要求一种信道编码模式与之对应。AMR可以和移动信道的时变特性进行匹配，通过语音编码、信道编码和链路适配技术的优化，使用户可以根据当前的信道状况自适应地选择最优的编码模式，以实现语音质量和系统容量的优化。"
+在移动网知识范围内，解释一下什么是ANR,"环境噪声抑制（Ambient NoiseRejection,【缩写】ANR）
+环境噪声抑制是指UE对环境噪声的抑制能力，环境噪声抑制应不小于0dB。"
+在移动网知识范围内，解释一下什么是AoCC,"计费通知（Advice of ChargeCharging,【缩写】AoCC）
+AoCC是一种补充-3-业务，向需要付费的移动用户提供所使用通信业务的计费信息。当拜访地不支持该业务时，不能向移动用户提供服务。当移动用户的预留金额无法支付通信费用时，中断正在进行中的业务。"
+在移动网知识范围内，解释一下什么是AoCl,"计费通知信息（Advice of ChargeInformation,【缩写】AoCl）
+AoCI是一种补充业务，向移动用户提供所使用通信业务的计费信息，仅供移动用户作为参考信息。"
+在移动网知识范围内，解释一下什么是AP,"接入前缀（Access Preamble,【缩写】AP）
+接入前缀是由物理层产生的序列，移动台将试探性地以初始功率发送该序列，直至下行链路上有应答才停止发送此序列。"
+在移动网知识范围内，解释一下什么是AP-AICH,"接入前缀捕获指示信道（Access PreambleAcquisition Indicator CHannel,【缩写】AP-AICH）
+AP-AICH 是一个固定速率(SF=256)的用来传送CPCH的AP捕获指示(API)的物理信道。"
+在移动网知识范围内，解释一下什么是API,"接入前缀指示（Access PreambleIndicator,【缩写】API）
+API对应于UE发射的AP特征码。"
+在移动网、固定语音知识范围内，解释一下什么是APM,"应用传送机制（Application Trans-port Mechanism,【缩写】APM）
+APM提供了传送承载连接建立所需BICC专用信息的一种手段。"
+在移动网知识范围内，解释一下什么是ARFCN,"绝对射频频道号（Absolute RF Chan-nel Number,【缩写】ARFCN）
+ARFCN是在GSM无线系统中用来鉴别特殊射频通道的编号方案，以整数表示的绝对射频信道号。"
+在移动网知识范围内，解释一下什么是AS,"接入层（Access Stratum,【缩写】AS）
+接入层通常指网络中直接面向用户连接或访问的部分，接入层的目的是允许移动终端用户连接到网络。"
+在移动网知识范围内，解释一下什么是ASC,"接入服务等级（Access ServiceClass,【缩写】ASC）
+接入服务等级与特定的UE接入等级(AC)相关联，用于控制不同等级的用户接入网络的难易程度。"
+在移动网知识范围内，解释一下什么是AuC,"鉴权中心（AuthenticationCenter,【缩写】AuC）
+鉴权中心是一个管理与移动台相关的鉴权信息的功能实体，其主要功能是完成对移动用户的鉴权操作，能够存储移动用户的鉴权参数，并能根据MSC/VLR的请求产生、传送相应的鉴权参数。"
+在移动网知识范围内，解释一下什么是BA,"BCCH配置（BCCH Allocation,【缩写】BA）
+BA是指在小区中分配用于广播控制信道(BCCH)传输的无线频率信道。"
+在移动网知识范围内，解释一下什么是BAIC,"闭锁所有入呼叫（Barring of AllIncoming Calls,【缩写】BAIC）
+BAIC是指一种补充业务，移动用户用以防止所有入呼叫（或仅与特定的基本业务相关)。服务移动用户发起呼叫-5-下图XIATUSHU.COM的能力不受影响。"
+在移动网知识范围内，解释一下什么是BAOC,"闭锁所有出呼叫（Barring of AllOutgoing Calls,【缩写】BAOC）
+BAOC是指一种补充业务，移动用户用以防止所有出呼叫（或仅与特定的基本业务相关)。服务移动用户接收呼叫的能力不受影响。用户发起紧急呼叫的能力也不受影响。"
+在移动网知识范围内，解释一下什么是BCCH,"广播控制信道（Broadcast ControlCHannel,【缩写】BCCH）
+BCCH是用于广播基于每个小区的通用信息的信道。"
+在移动网知识范围内，解释一下什么是BCFE,"广播控制功能实体（Broadcast ControlFunctional Entity,【缩写】BCFE）
+广播控制功能实体处理广播功能，该实体用于发送-6-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读一般控制接入点所需要的无线资源控制业务。"
+在移动网知识范围内，解释一下什么是BCH,"广播信道（Broadcast CHannel,【缩写】BCH）
+BCH是一种“一点对多点”的单方向控制信道，用于基站向所有移动台广播公用信息，传输的内容是移动台入网和呼叫建立所需要的各种信息。"
+在移动网知识范围内，解释一下什么是BIC-Roam,"当漫游出归属PL-MN 国家后，闭锁所有入呼叫（Barring of IncomingCalls when Roaming Outside theHome PLMN Country,【缩写】BIC-Roam）
+BIC-Roam是一种补充业务，仅当移动用户漫游出归属PLMN国家时，移动用户用以防止所有入呼叫（或仅与特定的基本业务相关)，服务移动用户发起呼叫的能力不受影响。"
+在移动网知识范围内，解释一下什么是BLER,"误块率（Block Error Ratio,【缩写】BLER）
+误块率是指数字电路系统中有差错的块与接收的总块数之比。误块率用于数据业务中的性能评估，其在信道解交错和解码后，由评价各传输块上的循环冗余检验(CRC)度量。"
+在移动网知识范围内，解释一下什么是B interface,"B接口（B interface,【缩写】B interface）
+B接口是MSC与VLR 之间的接口，该接口为内部接口。"
+在移动网知识范围内，解释一下什么是BOIC,"闭锁所有国际出呼叫（Barring of OutgoingInternational Calls,【缩写】BOIC）
+BOIC 是一种补充业务，移动用户用以防止所有国际出呼叫（或仅与特定的基本业务相关)。移动用户仅能够建立与所在国的 PLMN 和固定网络间的出呼叫能力。移动用户所处移动网的PLMN 可以是归属PLMN或拜访PLMN。服务移动用户接收呼叫的能力不受影响。用户发起紧急呼叫的能力也不受影响。"
+在移动网知识范围内，解释一下什么是BOIC-exHC,"闭锁除归属PLMN国家外的所有国际出呼叫（Barring of OutgoingInternational Calls except thosedirected to the Home PLMNCountry,【缩写】BOIC-exHC）
+BOIC是一种补充业务，除至归属PLMN国家外，移动用户用以防止进行所有国际出呼叫（或仅与特定的基本业务相关)。移动用户仅具有建立与所在国的PLMN和固定网络间的呼叫，或与移动用户归属PLMN 国家的 PLMN 和固定用户的出呼叫能力。移动用户所处的PLMN 可以是归属PLMN 或拜访PLMN。服务移动用户接收呼叫的能力不受影响。用户发起紧急呼叫的能力也不受影响。"
+在移动网知识范围内，解释一下什么是BSC,"基站控制器（Base Station Cont-roller,【缩写】BSC）
+BSC是主要负责管理2G无线网络资源、小区资料管理、功率控制、定位和切换等的网络单元，是基站收发台和移动交换中心之间的连接点，也为基站收发台和操作维修中心之间交换信息提供接口。"
+在移动网知识范围内，解释一下什么是BSIC,"基站识别码（Base Station Identi-ty Code,【缩写】BSIC）
+BSIC 包括 PLMN色码和基站色码，用于区分不同运营者或同一运营者广播控制信道频率相同的不同小区。"
+在移动网知识范围内，解释一下什么是BSS,"基站子系统（Base StationSubsystem,【缩写】BSS）
+BSS是由基站控制器和若干基站组成的子系统。-8-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读BSS 又称基站设备，它是GSM系统的重要组成部分。基站子系统主要包括：基站收发信台(BTS)、基站控制器(BSC)、码变换和速率适配器(XCDR)、无线操作维护中心(OMC_R)。在一定的无线覆盖区中由 MSC控制，与MS进行通信的系统设备，完成信道的分配、用户的接入和寻呼、信息的传送等功能。"
+在移动网知识范围内，解释一下什么是BSSAP,"基站子系统应用部分（BSS ApplicationPart,【缩写】BSSAP）
+基站子系统应用部分，为GSM中A接口上的应用层协议。BSSAP层被分为两部分：BSS管理部分(BSSMAP)和数据直传应用部分(DTAP)。其中，BSSMAP 部分负责MSC与BSS之间的通信，DTAP部分负责MSC与MS上的MM层和CM层之间的消息传递。DTAP 消息将会在CM 和MM部分进行处理。对于 BSSMAP消息，由于大多数消息仅仅用每日更新永久免费于MSC与BSC之间的通信，或在传递至BTS或MS之前已经被BSC改变了消息格式，因此这部分消息将不会在A-bis接口上看到。"
+在移动网知识范围内，解释一下什么是BSSMAP,"基站子系统管理应用部分（BSS ManagementApplication Part,【缩写】BSSMAP）
+BSSMAP是指支持MSC与BSS间有关MS的其他规程（如资源管理、切换控制），这些规程可以是针对BSS的一个小区或对整个BSS。"
+在移动网知识范围内，解释一下什么是BSSOMAP,"基站子系统操作维护应用部分（BSS Operation andMaintenance Application,【缩写】BSSOMAP）
+BSSOMAP 是用于MSC和BSS之间交换维护管理信息。"
+在移动网知识范围内，解释一下什么是BTFD,"盲传输格式检测（Blind TransportFormat Detection,【缩写】BTFD）
+BTFD是指底层将来自不同传输信道的传输格式指示信息合并成为传输格式组合指示，并通过物理控制信道发送，用于告知接收机当前帧中哪个传输信道是激活的。"
+在移动网知识范围内，解释一下什么是BTS,"基站（Base TransceiverStation,【缩写】BTS）
+BTS是陆地移动业务中的网络单元，它是为一个小区服务的无线收发信设备，包括一个或多个无线收发信机。"
+在移动网知识范围内，解释一下什么是C-,"控制—（Control-,【缩写】C-）
+为达到规定的目标，对元件或系统的工作特性所进行的调节或操作。"
+在移动网知识范围内，解释一下什么是CAI,"信道指派指示（Channel AssignmentIndicator,【缩写】CAI）
+CAI是指BSC在收到BTS 发出的信道激活响应(channel activation ack)报文后，按照BTS所提供的信道的物理信息，将上述报文放在指派命令的消息中通过SDCCH 发送给MS这一过程。"
+在移动网知识范围内，解释一下什么是CAMEL,"移动增强逻辑客户化应用（CustomizedApplication for Mobile EnhancedLogic,【缩写】CAMEL）
+CAMEL是GSM系统中一种智能网的网络特征，它的机制主要在于拜访PLMN、归属 PLMN及CAMEL 业务环境(CSE)之间的信息交换，以支持运营者特定的业务。"
+在移动网知识范围内，解释一下什么是CAP,"CAMEL应用部分（CAMEL Applicati-on Part,【缩写】CAP）
+CAMEL应用部分是指 SSP 与 SCP 之间、SCP与 SRF 之间传送业务控制的信令。它是 No.7 信令系统的高层用户。"
+在移动网知识范围内，解释一下什么是CBC,"小区广播短消息中心（Cell BroadcastCenter,【缩写】CBC）
+CBC是指与多个BSC和CBE相连接，负责小区广播短消息的管理工作。"
+在移动网知识范围内，解释一下什么是CBCH,"小区广播信道（Cell BroadcastCHannel,【缩写】CBCH）
+用于携载小区广播短消息业务信息的信道。"
+在移动网知识范围内，解释一下什么是CBE,"小区广播实体（Cell BroadcastEntity,【缩写】CBE）
+CBE是指发起小区广播业务的实体。"
+在移动网知识范围内，解释一下什么是CC,"呼叫控制（Call Control,【缩写】CC）
+CC是GSM层3结构中接续管理CM层的功能之一，用于呼叫处理。"
+在移动网知识范围内，解释一下什么是CCCH,"公共控制信道（Common ControlCHannel,【缩写】CCCH）
+用于公共控制信令的逻辑信道，包括PCH、RACH、AGCH等。"
+在移动网知识范围内，解释一下什么是CCH,"公共传输信道移动网（Common transportCHannel,【缩写】CCH）
+CCH是指在蜂窝通信系统中，针对不同的业务信息（如控制信息、业务信息）在物理信道之上与物理信道有一定映射关系的用于公共控制和少量业务信道传输的信道。"
+在移动网知识范围内，解释一下什么是CCPCH,"公共控制物理信道（Common ControlPhysical Channel,【缩写】CCPCH）
+CCPCH 分为基本CCPCH(P-CCPCH)和辅CCPCH(S-CCPCH), P-CCPCH为一个固定速率(30kbit/s,SF=256)的下行物理信道，用于传输BCH;S-CCPCH用于传输FACH 和PCH。"
+在移动网知识范围内，解释一下什么是CCTrCH,"编码组合传输信道（Coded CompositeTransport Channel,【缩写】CCTrCH）
+CCTrCH 属于UMTS物理层技术，是指传输信道和物理信道间的连接，使得从-11-一个或多个传输信道的译码和复用过程中产生数据流。"
+在移动网知识范围内，解释一下什么是CD/CA-ICH,"冲突检测/信道指派指示信道（Collision Detection/Channel Assignment IndicatorChannel,【缩写】CD/CA-ICH）
+CD/CA-ICH是一个固定速率(SF=256)的物理信道，当CA不活跃的时候，用来传输CDI,或当CA活跃时用来传输CDI/CAI。"
+在移动网知识范围内，解释一下什么是CDI,"冲突检测指示（Collision DetectionIndicator,【缩写】CDI）
+用于指示冲突检测。"
+在移动网知识范围内，解释一下什么是Cell,"小区（Cell,【缩写】Cell）
+一个基站或该基站-12-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读的一部分（扇形天线）所覆盖的区域。"
+在移动网知识范围内，解释一下什么是CI,"小区识别（Cell Identity,【缩写】CI）
+用以识别一个位置区内一个小区的识别码。"
+在移动网知识范围内，解释一下什么是CFN,"连接帧号（Connection FrameNumber,【缩写】CFN）
+CFN是连接帧号计数器，范围：0~255帧，用于UE 和UTRAN 传输信道的同步。"
+在移动网知识范围内，解释一下什么是CFNRc,"不可及呼叫前转（Call Forwarding onMobile Subscriber Not Reacha-ble,【缩写】CFNRc）
+当移动客户未登记、没有 SIM 卡、无线链路阻塞或移动客户离开无线覆盖区域而无法找到时，将入局呼叫接至另日更新永久免费一个设定号码。"
+在移动网知识范围内，解释一下什么是CFNRy,"无应答呼叫前转（Call Forwarding onmobile subscriber not reply,【缩写】CFNRy）
+是指当网络遇被叫移动客户无应答时，将入局呼叫接至另一设定号码。"
+在移动网知识范围内，解释一下什么是CG,"计费网关（Charging Gateway,【缩写】CG）
+实时采集各GPRS支持节点的话单记录，存储、备份、合并话单，并向计费中心传送话单文件。"
+在移动网知识范围内，解释一下什么是CGI,"小区全球识别（Cell Global Identi-fication,【缩写】CGI）
+CGI是指在所有GSM PLMN中唯一地识别一个小区的识别码，包括位置区识别(LAI)和小区识别(CI)。XIATUSHU.COM移动网"
+在移动网知识范围内，解释一下什么是CH,"信道（Channel,【缩写】CH）
+Channel是一种传输方式，在TDMA系统中，为定义的一定时间序列（如时隙）。"
+在移动网知识范围内，解释一下什么是Cinterface,"C接口（Cinterface,【缩写】Cinterface）
+C接口是HLR与MSC 之间的接口。当建立一个至移动台的呼叫或向移动台发送短消息，而固定网或短消息业务中心无法查询路由时，则必须通过GMSC询问MS的HLR以获得被叫MS的漫游号码。"
+在移动网知识范围内，解释一下什么是CoLP,"被叫号码识别提供（Connected LineIdentification Presentation,【缩写】CoLP）
+将被叫方的号码提供给主叫方。"
+在移动网知识范围内，解释一下什么是CoLR,"被叫号码识别限制（Connected LineIdentification Restriction,【缩写】CoLR）
+限制将被叫方的号码提供给主叫方。"
+在移动网知识范围内，解释一下什么是CPCH,"公共分组信道（Common PacketCHannel,【缩写】CPCH）
+CPCH是一个上行传输信道，与一个下行链路的专用信道相随，该专用信道用于提供上行链路。"
+在移动网知识范围内，解释一下什么是CPICH,"公共导频信道（Common PilotCHannel,【缩写】CPICH）
+固定速率(30kbit/s,SF=256)的下行物理信道，用于传输预定义的比特、符号。"
+在移动网知识范围内，解释一下什么是CQI,"信道质量指示（Channel Quality-14-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读Indicator,【缩写】CQI）
+CQI是一个给定信道的信道质量指示。通常，一个高值的CQI 表示一个信道有高的质量，反之亦然。"
+在移动网知识范围内，解释一下什么是CRNC,"控制无线网络控制器（Controlling RadioNetwork Controller,【缩写】CRNC）
+CRNC是针对某个基站或小区而言的，是从管理整个小区公共资源的角度出发派生的，它直接和 Node B 相连，一个 Node B 有且只有一个 CRNC,主要是对 Node B资源进行控制，包括合理分配和使用。"
+在移动网知识范围内，解释一下什么是CSICH,"CPCH状态指示信道（CPCH StatusIndicator CHannel,【缩写】CSICH）
+CSICH 是一个用日更新永久免费XIATUSHU.COM于传输CPCH 状态信息的固定速率(SF=256)的物理信道。"
+在移动网知识范围内，解释一下什么是CTCH,"公共业务信道（Common TrafficCHannel,【缩写】CTCH）
+CTCH是向全部或者一组特定UE传输专用用户信息的点对多点的下行链路。"
+在移动网、固定语音知识范围内，解释一下什么是CUG,"闭合用户群（Closed User Group,【缩写】CUG）
+能使一些客户构成闭合用户群，呼入和呼出该用户群要受限制。一个特定的移动客户可以是一个或多个CUG的成员。一个特定CUG的成员彼此间可以相互进行通信，但一般不能与用户群外的客户通信。可以建立紧急呼叫。"
+在移动网知识范围内，解释一下什么是D interface,"D接口（D interface,【缩写】D interface）
+D接口是HLR与VLR 之间的接口，主要交换位置信息和用户信息。"
+在移动网知识范围内，解释一下什么是DCA,"动态信道分配（Dynamic ChannelAllocation,【缩写】DCA）
+DCA是指根据用户的需要进行实时动态的资源（频率、时隙、码字等）分配。"
+在移动网知识范围内，解释一下什么是DCCH,"专用控制信道（Dedicated ControlChannel,【缩写】DCCH）
+DCCH是一种“点对点”的双向控制信道，其用途是在呼叫接续阶段和通信进行当中，在移动台和基站之间传输必需的控制信息。"
+在移动网知识范围内，解释一下什么是DCFE,"专用控制功能实体（Dedicated ControlFunctional Entity,【缩写】DCFE）
+DCFE是处理一个特定的UE的所有功能，该实体用于发送专用控制(DC-SAP)所需要的RRC业务。根据发送的消息和当前UE的服务状态，DCFE 可使 Tr-SAP 和UM/AM-SAP提供的服务。"
+在移动网知识范围内，解释一下什么是DCH,"专用信道（Dedicated CHannel,【缩写】DCH）
+专用信道就是从公用信道单独划分出的专用信道，保证信息在无线网络传输的安全性。专用信道又可分为专用业务信道(DSCH)、旁路专用控制信道(SD-CCH)和辅助专用控制信道(ACCH)。"
+在移动网知识范围内，解释一下什么是DC-SAP,"专用控制业务接入点-16-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读（Dedicated ControlSAP,【缩写】DC-SAP）
+DC-SAP是指在移动无线网中，一个层次系统的上下层之间进行通信的专用接口。"
+在移动网知识范围内，解释一下什么是DGPS,"差分全球定位系统（Differential GlobalPositioning System,【缩写】DGPS）
+DGPS 是指在一个精确的已知位置上安装监测接收机，计算得到它能跟踪的每颗GPS卫星的距离误差，将此数据传送给用户接收机作误差修正，从而提高了定位精度。"
+在移动网知识范围内，解释一下什么是DL,"下行链路（Downlink,【缩写】DL）
+DL是指从BTS向MS方向的物理链路(BTS发送，MS接收)。"
+在移动网知识范围内，解释一下什么是DPCCH,"专用物理控制信道每日更新永久免费（Dedicated PhysicalControl CHannel,【缩写】DPCCH）
+DPCCH 是指传输用户信令的物理信道。"
+在移动网知识范围内，解释一下什么是DPCH,"专用物理信道（Dedicated PhysicalCHannel,【缩写】DPCH）
+包括专用物理控制信道(DPCCH)和专用物理数据信道(DPDCH)。"
+在移动网知识范围内，解释一下什么是DPDCH,"专用物理数据信道（Dedicated PhysicalData Channel,【缩写】DPDCH）
+DPDCH是指传输用户数据的物理信道。"
+在移动网知识范围内，解释一下什么是DRAC,"动态资源分配控制（Dynamic ResourceAllocation Control,【缩写】DRAC）
+DRAC是指动态信道分配的控制算法。"
+在移动网知识范围内，解释一下什么是DRNC,"漂移无线网络控制器（Drift Radio NetworkController,【缩写】DRNC）
+DRNC是针对某个具体的终端而言的，从专用数据处理角度进行区分，它与CN无连接，在连接状态下为UE提供无线资源。"
+在移动网知识范围内，解释一下什么是DRNS,"漂移RNS（Drift RNS,【缩写】DRNS）
+DRNS包括DRNC以及所带的Node B。"
+在移动网知识范围内，解释一下什么是D-RNTI,"漂移RNTI（Drift RNTI,【缩写】D-RNTI）
+DRNC下的无线网络临时识别。"
+在移动网知识范围内，解释一下什么是DRX,"非连续接收-17-（DiscontinuousReception,【缩写】DRX）
+DRX是指MS根据其所属的寻呼组来确定接收机的开关。"
+在移动网知识范围内，解释一下什么是DS-CDMA,"直接序列码分多址（Direct-SequenceCode Division Multiple Access,【缩写】DS-CDMA）
+DS-CDMA是通过将携带信息的窄带信号与高速地址码信号相乘而获得的宽带扩频信号。收端需要用与发端同步的相同地址码信号去控制输入变频器的载频相位即可实现解扩。"
+在移动网知识范围内，解释一下什么是DSCH,"下行共享信道（Downlink SharedCHannel,【缩写】DSCH）
+DSCH是指多用户共享的下行物理信道。"
+在移动网知识范围内，解释一下什么是DSMA-CD,"数字监听多址接入—冲突检测（Digital SenseMultiple Access-Collison-18-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读Detection,【缩写】DSMA-CD）
+DSMA-CD是一种分布式介质访问控制协议，网络中的各个站（节点）都能独立地决定数据帧的发送与接收。每个站在发送数据帧之前，首先要进行监听，只有介质空闲时，才允许发送帧。"
+在移动网知识范围内，解释一下什么是DTAP,"直接传送应用部分（Direct TransferApplication Part,【缩写】DTAP）
+用来传递有关MS的呼叫控制和移动性管理消息，这些消息中的第三层信息不被BSS 翻译。"
+在移动网知识范围内，解释一下什么是DTCH,"专用业务信道（Dedicatd TrafficCHannel,【缩写】DTCH）
+用于承载针对某移动台的某种业务的逻辑信道。不同的业务采用不同的专用业务日更新永久免费逻辑信道。"
+在移动网知识范围内，解释一下什么是DTX,"不连续发射（DiscontinuousTransmission,【缩写】DTX）
+DTX是指当有话音或数据发送时，才打开发射机。"
+在移动网知识范围内，解释一下什么是E interface,"E接口（E interface,【缩写】E interface）
+E接口是指MSC之间的接口。当移动用户需要进行局间切换时，两MSC之间交换数据以启动和实现这一系列操作。"
+在移动网知识范围内，解释一下什么是Ec,"每个伪随机码的平均能量（Average energy perPN chip,【缩写】Ec）
+Ec是扩频码一个码片的能量，它不需要对信号进行解扩就可以直接测量。移动网"
+在移动网知识范围内，解释一下什么是Ec/No,"接收每码片能量与带内噪声功率密度比（Received energy perchip divided by the power den-sity in the band,【缩写】Ec/No）
+Ec/No表示扩频以后的码片能量与带宽内总功率谱密度之比。"
+在移动网知识范围内，解释一下什么是EDGE,"增强型数据速率GSM演进技术（Enhanced Data Ratefor GSM Evolution,【缩写】EDGE）
+EDGE是一种从GSM到3G的过渡技术，它主要是在GSM系统中采用了一种新的调制方法，即最先进的多时隙操作和8PSK调制技术。由于8PSK 可将现有GSM网络采用的GMSK 调制技术的符号携带信息空间从1扩展到3，从而使每个符号所包含的信息是原来的3倍。"
+在移动网知识范围内，解释一下什么是EGPRS,"增强型GPRS（Enhanced GPRS,【缩写】EGPRS）
+EGPRS也称为EDGE,是一种能利用已有频带使现有GSM网络具有提供3G业务能力的移动网络无线技术。"
+在移动网、业务平台知识范围内，解释一下什么是EIR,"设备识别寄存器（Equipment IdentityRegister,【缩写】EIR）
+EIR是指存储有关移动设备(ME)参数的数据库，主要完成对移动设备的识别、监视、闭锁等功能。"
+在移动网知识范围内，解释一下什么是eMLPP,"增强多级优先和占先（enhanced Multi-Level Precedence and Premption,【缩写】eMLPP）
+eMLPP为呼叫建立时和在切换连续性呼叫时提供不同级别的占先业务。EMLPP 可以提供7级优先级，其中两个最高优先级A、B属于系统内部使用，且只能在本系统-20-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读的本地MSC中应用，其余5级优先级允许用户在全球范围内使用，但需要互联的网络支持。"
+在移动网知识范围内，解释一下什么是FACCH,"快速随路控制信道（Fast AssociationControl CHannel,【缩写】FACCH）
+FACCH是指与TCH随路的快速控制信道，它传送在通话过程中的一些快速信令，如切换信令。"
+在移动网知识范围内，解释一下什么是FACH,"前向接入信道（Forward AccessCHannel,【缩写】FACH）
+FACH一般用于网络响应从RACH信道上接收到的信息，该信道也可用来传送一些短的用户数据。"
+在移动网知识范围内，解释一下什么是FBI,"反馈信息每日更新永久免费（Feedback Infor-mation,【缩写】FBI）
+FBI是指接收方对发送方提供的状态报告。"
+在移动网知识范围内，解释一下什么是FCCH,"频率校正信道（FrequencyCorrection CHannel,【缩写】FCCH）
+FCCH是指携载用于MS频率纠正的信息。"
+在移动网知识范围内，解释一下什么是FDD,"频分双工（Frequency DivisionDuplex,【缩写】FDD）
+FDD是指在两个方向上使用不同频率同时发送信号的双工方式。也称为全双工，操作时需要两个独立的信道：一个信道用来向下传送信息，另一个信道用来向上传送信息。两个信道之间存在一个保护频段，以防止邻近的发射机和接收机之间产生相互干扰。"
+在移动网知识范围内，解释一下什么是F-DPCH,"部分化专用物理信道（Fractional移动网Dedicated Physical Channel,【缩写】F-DPCH）
+F-DPCH 在3GPP协议的R6版本中引入。该信道不是一个UE占据一条专用物理信道仅用于传送上行功控信息，而是多个用户共享一条（每用户小于一条)DPCH的方式。各厂家对此处理方式和方案不同。"
+在移动网知识范围内，解释一下什么是FER,"误帧率（Frame Error Rate,【缩写】FER）
+误帧率是CDMA系统优化工作需测试的指标之一，误帧率定义为错误的全速率帧的个数与总的全速率帧的个数之比。一般是在正常通话时测量，也可以使用Markov 测试，测量的时间必须有效即平均通话时长在100~120s以上。误帧率在1%~3%之间为可接受。"
+在移动网知识范围内，解释一下什么是F interface,"F接口下国书-21-（F interface,【缩写】F interface）
+F接口是指MSC与EIR 之间的接口。此接口在MSC 检验IMEI时使用。"
+在移动网知识范围内，解释一下什么是FP,"帧协议（Frame Protocol,【缩写】FP）
+帧协议是一系列定义用于处理接口的数据传输。在WCDMA的RAN接口中，用户平面的媒体协议主要处理数据流的帧，因此称为帧协议(FP),帧协议为公共信道FP和专用信道FP。"
+在移动网知识范围内，解释一下什么是FPLMN,"被禁止的公共陆地移动网络（Forbidden PublicLand Mobile Network,【缩写】FPLMN）
+FPLMN是指终端在开机和脱网时，需要搜索可登录的全部PLMN,并选择其中一个合适的进行小区捕获。终端维护几种不同类型的PLMN列表，其中禁用PLMN(FPLMN)为被禁止访问的PLMN,通常终端-22-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）下图书高清图书享受阅读在尝试接入某个PLMN 被拒绝以后会将其加到本列表中。"
+在移动网知识范围内，解释一下什么是GERAN,"GSM/EDGE无线接入网（GSM/EDGE RadioAccess Network,【缩写】GERAN）
+GERAN是GSM/EDGE无线接入网，它采用了EDGE的无线传输技术，网络组成与GPRS 相同。EDGE的目的是为了在现有蜂窝系统中提供更高的数据速率。"
+在移动网知识范围内，解释一下什么是GGSN,"网关GPRS支撑节点（Gateway GPRSSupporting Node,【缩写】GGSN）
+GGSN是GPRS数据业务网络和其他网络之间的网络节点，俗称网关，一般为网络实体。"
+在移动网知识范围内，解释一下什么是GMM,"GPRS移动性管理（GPRS MobilityManagement,【缩写】GMM）
+移动性管理(MM)用于跟踪在本地PLMN 或其他PLMN 中 MS的当前位置。与GPRS 用户相关的移动性管理定义了空闲(Idle)、等待(Standby)、就绪(Ready)3种不同的移动性管理状态，每一种状态都描述了一定的功能性级别和分配的信息，它们之间可以相互转化。"
+在移动网知识范围内，解释一下什么是GMSC,"网关MSC（Gateway MSC,【缩写】GMSC）
+GMSC作为从其他网络或业务接入到PLMN的接入点，是进入PLMN 呼叫的询问节点。"
+在移动网知识范围内，解释一下什么是GMSK,"高斯滤波最小频移键控移动网（Gaussian filteredMinimum Shift Keying,【缩写】GMSK）
+GMSK是GSM系统采用的调制方式。数字调制解调技术是数字峰窝移动通信系统空中接口的重要组成部分。GMSK调制是在MSK(最小频移键控)调制器之前插入高斯低通预调制滤波器这样一种调制方式。GMSK 提高了数字移动通信系统的频谱利用率和通信质量。"
+在移动网知识范围内，解释一下什么是GPRS,"通用分组无线业务（General PacketRadio Service,【缩写】GPRS）
+在GSM PLMN中提供的一种无线分组业务。它使得移动用户能够在端到端分组传输模式下发送和接收数据。在GPRS中定义了两类承载业务：点对点业务(PTP)和点对多点业务(PTM)。"
+在移动网知识范围内，解释一下什么是GSM,"全球移动通信系统-23-（Global System forMobile communications,【缩写】GSM）
+GSM是指第二代移动通信技术，GSM系统包括GSM900:900MHz、GSM1800:1800MHz  GSM1900:1900MHz 等几个频段。"
+在移动网知识范围内，解释一下什么是GSN,"GPRS支持节点（GPRS SupportingNode,【缩写】GSN）
+GSN是GPRS网络中最重要的网络节点，是GSM网络为引入GPRS 功能增加的物理功能实体。GSN 具有移动路由管理功能，它可以连接各种类型的数据网络，并可以连到GPRS寄存器；可以完成移动台和各种数据网络之间的数据传送和格式转换。GSN 可以是一种类似于路由器的独立设备，也可以与GSM 中的MSC 集成在一起。"
+在移动网知识范围内，解释一下什么是GTP,"GPRS隧道协议-24-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读（GPRS TunnelProtocol,【缩写】GTP）
+GTP是指用于传送GPRS骨干网中GPRS支持节点间数据和信令的隧道传输协议，由控制面和用户面组成，分别用于传送控制信息和用户分组数据包。"
+在移动网知识范围内，解释一下什么是GTP-C,"GTP控制面（GPRS TunnelingProtocol-Packet Data ControlPlane,【缩写】GTP-C）
+GTP控制面是核心网分组域的传输网络层控制面协议，用于封装并传送分组控制信息。"
+在移动网知识范围内，解释一下什么是GTP-U,"GTP用户面（GPRS TunnelingProtocol-Packet Data User Plane,【缩写】GTP-U）
+GTP用户面是核心网分组域的传输网络层用户面。协议，用于透明封装并传送分组用户数据包等信息。"
