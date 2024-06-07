@@ -1,247 +1,967 @@
 input,output
-在移动网知识范围内，解释一下什么是A3,"A3算法（Algorithm A3,【缩写】A3）
-A3算法是一种鉴权算法，采用RAND 和Ki作为输入产生SRES。"
-在移动网知识范围内，解释一下什么是A5,"A5算法（Algorithm A5,【缩写】A5）
-A5算法是一种加密算法，采用Kc键对重要的信息进行加密。"
-在移动网知识范围内，解释一下什么是A8,"A8算法（Algorithm A8,【缩写】A8）
-A8算法是一种加密算法，采用RAND和Ki产生Kc键。"
-在移动网知识范围内，解释一下什么是ACLR,"邻道泄漏比（Adjacent ChannelLeakage Ratio,【缩写】ACLR）
-ACLR是用来衡量规定使用传输频道以外，传输RF能量的一个指标，由输出功率放大器产生；ACLR 也是WCDMA发射机性能的度量，它定义为发射功率与相邻RF信道接收机滤波器后所测功率之比。"
-在移动网知识范围内，解释一下什么是ACS,"邻道选择性（Adjacent ChannelSelectivity,【缩写】ACS）
-邻道选择性是指在相邻信道信号存在的情况下，接收机在其指定信道频率上接收有用信号的能力。邻道选择性的定义，使接收机滤波器在指定信道频率上的衰减与在相邻信道-1-频率上的衰减对比具有了相当的意义与可对比性，而邻道选择性的强弱，直接影响着射频收信机的接收性能，这一性能的好坏，可以直接通过邻道选择性定义后所获得的相关数字显示出来。"
-在移动网知识范围内，解释一下什么是AGCH,"接入准许信道（Access GrantedCHannel,【缩写】AGCH）
-接入准许信道是用于基站向随机接入成功的移动台发送指配了的独立专用控制信道(SDCCH),为下行信道。"
-在移动网知识范围内，解释一下什么是AICH,"捕获指示信道（Acquisition IndicatorCHannel,【缩写】AICH）
-捕获指示信道是一个扩频因子为256的固定速率下行链路信道，用于携带网络的捕获指示符号。该指示符号告知UE 其通过PRACH 发送的前缀已经被系统检测到，因而可以进一步发送PRACH 消息。"
-在移动网知识范围内，解释一下什么是Ainterface,"A接口（A interface,【缩写】Ainterface）
-A接口定义为网络子系统(NSS)与基站子系统(BSS)间的通信接口。从系统上来讲，就是移动交换中心(MSC)与基站控制器(BSC)之间的接口，物理链路采用标准的2.048Mbit/s的数字传输链路实现。此接口传递的信息包括移动台管理、基站管理、移动性管理、接续管理等。"
-在移动网知识范围内，解释一下什么是AKA,"鉴权与密钥协商（Authentication andKey Agreement,【缩写】AKA）
-AKA是无线移动通信网中引用的对用户和网络进行安全保护的算法，由IETF制定并被3GPP采用，广泛应用于3G无线网络的鉴权机制。"
-在移动网知识范围内，解释一下什么是ALCAP,"接入链路控制应用协议（Access Link ControlApplication Protocol,【缩写】ALCAP）
-接入链路控制应用协议又称为Q.AAL2协议，遵循ITU-T Q.2630.1规范，处于UMTS 网络体系结构中的Iub/Iur/Iu-CS传的制面，信令承载类型为SAALUNI 和MTP3-b。ALCAP内部由两个层面组成：Q.AAL2协议处理层以及两个STC适配层。ALCAP的基本功能是在两个信令点之间建立、释放AAL2连接，同时对该信令系统内信元的通道、通路等资源进行必要的维护和管理。"
-在移动网知识范围内，解释一下什么是AMR,"自适应多速率（Adaptive Multi Rate,【缩写】AMR）
-AMR是一种新的语音编码类型，该技术是基于变速率多模式语音编码技术发展起来的，其主要原理在于语音编码模型由一系列能提供多种编码移动网输出速率与合成质量的声码器构成，AMR标准中规定了8种语音编码输出速率，从4.75kbit/s到12.2kbit/s不等，每种语音编码模式都要求一种信道编码模式与之对应。AMR可以和移动信道的时变特性进行匹配，通过语音编码、信道编码和链路适配技术的优化，使用户可以根据当前的信道状况自适应地选择最优的编码模式，以实现语音质量和系统容量的优化。"
-在移动网知识范围内，解释一下什么是ANR,"环境噪声抑制（Ambient NoiseRejection,【缩写】ANR）
-环境噪声抑制是指UE对环境噪声的抑制能力，环境噪声抑制应不小于0dB。"
-在移动网知识范围内，解释一下什么是AoCC,"计费通知（Advice of ChargeCharging,【缩写】AoCC）
-AoCC是一种补充-3-业务，向需要付费的移动用户提供所使用通信业务的计费信息。当拜访地不支持该业务时，不能向移动用户提供服务。当移动用户的预留金额无法支付通信费用时，中断正在进行中的业务。"
-在移动网知识范围内，解释一下什么是AoCl,"计费通知信息（Advice of ChargeInformation,【缩写】AoCl）
-AoCI是一种补充业务，向移动用户提供所使用通信业务的计费信息，仅供移动用户作为参考信息。"
-在移动网知识范围内，解释一下什么是AP,"接入前缀（Access Preamble,【缩写】AP）
-接入前缀是由物理层产生的序列，移动台将试探性地以初始功率发送该序列，直至下行链路上有应答才停止发送此序列。"
-在移动网知识范围内，解释一下什么是AP-AICH,"接入前缀捕获指示信道（Access PreambleAcquisition Indicator CHannel,【缩写】AP-AICH）
-AP-AICH 是一个固定速率(SF=256)的用来传送CPCH的AP捕获指示(API)的物理信道。"
-在移动网知识范围内，解释一下什么是API,"接入前缀指示（Access PreambleIndicator,【缩写】API）
-API对应于UE发射的AP特征码。"
-在移动网、固定语音知识范围内，解释一下什么是APM,"应用传送机制（Application Trans-port Mechanism,【缩写】APM）
-APM提供了传送承载连接建立所需BICC专用信息的一种手段。"
-在移动网知识范围内，解释一下什么是ARFCN,"绝对射频频道号（Absolute RF Chan-nel Number,【缩写】ARFCN）
-ARFCN是在GSM无线系统中用来鉴别特殊射频通道的编号方案，以整数表示的绝对射频信道号。"
-在移动网知识范围内，解释一下什么是AS,"接入层（Access Stratum,【缩写】AS）
-接入层通常指网络中直接面向用户连接或访问的部分，接入层的目的是允许移动终端用户连接到网络。"
-在移动网知识范围内，解释一下什么是ASC,"接入服务等级（Access ServiceClass,【缩写】ASC）
-接入服务等级与特定的UE接入等级(AC)相关联，用于控制不同等级的用户接入网络的难易程度。"
-在移动网知识范围内，解释一下什么是AuC,"鉴权中心（AuthenticationCenter,【缩写】AuC）
-鉴权中心是一个管理与移动台相关的鉴权信息的功能实体，其主要功能是完成对移动用户的鉴权操作，能够存储移动用户的鉴权参数，并能根据MSC/VLR的请求产生、传送相应的鉴权参数。"
-在移动网知识范围内，解释一下什么是BA,"BCCH配置（BCCH Allocation,【缩写】BA）
-BA是指在小区中分配用于广播控制信道(BCCH)传输的无线频率信道。"
-在移动网知识范围内，解释一下什么是BAIC,"闭锁所有入呼叫（Barring of AllIncoming Calls,【缩写】BAIC）
-BAIC是指一种补充业务，移动用户用以防止所有入呼叫（或仅与特定的基本业务相关)。服务移动用户发起呼叫-5-下图XIATUSHU.COM的能力不受影响。"
-在移动网知识范围内，解释一下什么是BAOC,"闭锁所有出呼叫（Barring of AllOutgoing Calls,【缩写】BAOC）
-BAOC是指一种补充业务，移动用户用以防止所有出呼叫（或仅与特定的基本业务相关)。服务移动用户接收呼叫的能力不受影响。用户发起紧急呼叫的能力也不受影响。"
-在移动网知识范围内，解释一下什么是BCCH,"广播控制信道（Broadcast ControlCHannel,【缩写】BCCH）
-BCCH是用于广播基于每个小区的通用信息的信道。"
-在移动网知识范围内，解释一下什么是BCFE,"广播控制功能实体（Broadcast ControlFunctional Entity,【缩写】BCFE）
-广播控制功能实体处理广播功能，该实体用于发送-6-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读一般控制接入点所需要的无线资源控制业务。"
-在移动网知识范围内，解释一下什么是BCH,"广播信道（Broadcast CHannel,【缩写】BCH）
-BCH是一种“一点对多点”的单方向控制信道，用于基站向所有移动台广播公用信息，传输的内容是移动台入网和呼叫建立所需要的各种信息。"
-在移动网知识范围内，解释一下什么是BIC-Roam,"当漫游出归属PL-MN 国家后，闭锁所有入呼叫（Barring of IncomingCalls when Roaming Outside theHome PLMN Country,【缩写】BIC-Roam）
-BIC-Roam是一种补充业务，仅当移动用户漫游出归属PLMN国家时，移动用户用以防止所有入呼叫（或仅与特定的基本业务相关)，服务移动用户发起呼叫的能力不受影响。"
-在移动网知识范围内，解释一下什么是BLER,"误块率（Block Error Ratio,【缩写】BLER）
-误块率是指数字电路系统中有差错的块与接收的总块数之比。误块率用于数据业务中的性能评估，其在信道解交错和解码后，由评价各传输块上的循环冗余检验(CRC)度量。"
-在移动网知识范围内，解释一下什么是B interface,"B接口（B interface,【缩写】B interface）
-B接口是MSC与VLR 之间的接口，该接口为内部接口。"
-在移动网知识范围内，解释一下什么是BOIC,"闭锁所有国际出呼叫（Barring of OutgoingInternational Calls,【缩写】BOIC）
-BOIC 是一种补充业务，移动用户用以防止所有国际出呼叫（或仅与特定的基本业务相关)。移动用户仅能够建立与所在国的 PLMN 和固定网络间的出呼叫能力。移动用户所处移动网的PLMN 可以是归属PLMN或拜访PLMN。服务移动用户接收呼叫的能力不受影响。用户发起紧急呼叫的能力也不受影响。"
-在移动网知识范围内，解释一下什么是BOIC-exHC,"闭锁除归属PLMN国家外的所有国际出呼叫（Barring of OutgoingInternational Calls except thosedirected to the Home PLMNCountry,【缩写】BOIC-exHC）
-BOIC是一种补充业务，除至归属PLMN国家外，移动用户用以防止进行所有国际出呼叫（或仅与特定的基本业务相关)。移动用户仅具有建立与所在国的PLMN和固定网络间的呼叫，或与移动用户归属PLMN 国家的 PLMN 和固定用户的出呼叫能力。移动用户所处的PLMN 可以是归属PLMN 或拜访PLMN。服务移动用户接收呼叫的能力不受影响。用户发起紧急呼叫的能力也不受影响。"
-在移动网知识范围内，解释一下什么是BSC,"基站控制器（Base Station Cont-roller,【缩写】BSC）
-BSC是主要负责管理2G无线网络资源、小区资料管理、功率控制、定位和切换等的网络单元，是基站收发台和移动交换中心之间的连接点，也为基站收发台和操作维修中心之间交换信息提供接口。"
-在移动网知识范围内，解释一下什么是BSIC,"基站识别码（Base Station Identi-ty Code,【缩写】BSIC）
-BSIC 包括 PLMN色码和基站色码，用于区分不同运营者或同一运营者广播控制信道频率相同的不同小区。"
-在移动网知识范围内，解释一下什么是BSS,"基站子系统（Base StationSubsystem,【缩写】BSS）
-BSS是由基站控制器和若干基站组成的子系统。-8-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读BSS 又称基站设备，它是GSM系统的重要组成部分。基站子系统主要包括：基站收发信台(BTS)、基站控制器(BSC)、码变换和速率适配器(XCDR)、无线操作维护中心(OMC_R)。在一定的无线覆盖区中由 MSC控制，与MS进行通信的系统设备，完成信道的分配、用户的接入和寻呼、信息的传送等功能。"
-在移动网知识范围内，解释一下什么是BSSAP,"基站子系统应用部分（BSS ApplicationPart,【缩写】BSSAP）
-基站子系统应用部分，为GSM中A接口上的应用层协议。BSSAP层被分为两部分：BSS管理部分(BSSMAP)和数据直传应用部分(DTAP)。其中，BSSMAP 部分负责MSC与BSS之间的通信，DTAP部分负责MSC与MS上的MM层和CM层之间的消息传递。DTAP 消息将会在CM 和MM部分进行处理。对于 BSSMAP消息，由于大多数消息仅仅用每日更新永久免费于MSC与BSC之间的通信，或在传递至BTS或MS之前已经被BSC改变了消息格式，因此这部分消息将不会在A-bis接口上看到。"
-在移动网知识范围内，解释一下什么是BSSMAP,"基站子系统管理应用部分（BSS ManagementApplication Part,【缩写】BSSMAP）
-BSSMAP是指支持MSC与BSS间有关MS的其他规程（如资源管理、切换控制），这些规程可以是针对BSS的一个小区或对整个BSS。"
-在移动网知识范围内，解释一下什么是BSSOMAP,"基站子系统操作维护应用部分（BSS Operation andMaintenance Application,【缩写】BSSOMAP）
-BSSOMAP 是用于MSC和BSS之间交换维护管理信息。"
-在移动网知识范围内，解释一下什么是BTFD,"盲传输格式检测（Blind TransportFormat Detection,【缩写】BTFD）
-BTFD是指底层将来自不同传输信道的传输格式指示信息合并成为传输格式组合指示，并通过物理控制信道发送，用于告知接收机当前帧中哪个传输信道是激活的。"
-在移动网知识范围内，解释一下什么是BTS,"基站（Base TransceiverStation,【缩写】BTS）
-BTS是陆地移动业务中的网络单元，它是为一个小区服务的无线收发信设备，包括一个或多个无线收发信机。"
-在移动网知识范围内，解释一下什么是C-,"控制—（Control-,【缩写】C-）
-为达到规定的目标，对元件或系统的工作特性所进行的调节或操作。"
-在移动网知识范围内，解释一下什么是CAI,"信道指派指示（Channel AssignmentIndicator,【缩写】CAI）
-CAI是指BSC在收到BTS 发出的信道激活响应(channel activation ack)报文后，按照BTS所提供的信道的物理信息，将上述报文放在指派命令的消息中通过SDCCH 发送给MS这一过程。"
-在移动网知识范围内，解释一下什么是CAMEL,"移动增强逻辑客户化应用（CustomizedApplication for Mobile EnhancedLogic,【缩写】CAMEL）
-CAMEL是GSM系统中一种智能网的网络特征，它的机制主要在于拜访PLMN、归属 PLMN及CAMEL 业务环境(CSE)之间的信息交换，以支持运营者特定的业务。"
-在移动网知识范围内，解释一下什么是CAP,"CAMEL应用部分（CAMEL Applicati-on Part,【缩写】CAP）
-CAMEL应用部分是指 SSP 与 SCP 之间、SCP与 SRF 之间传送业务控制的信令。它是 No.7 信令系统的高层用户。"
-在移动网知识范围内，解释一下什么是CBC,"小区广播短消息中心（Cell BroadcastCenter,【缩写】CBC）
-CBC是指与多个BSC和CBE相连接，负责小区广播短消息的管理工作。"
-在移动网知识范围内，解释一下什么是CBCH,"小区广播信道（Cell BroadcastCHannel,【缩写】CBCH）
-用于携载小区广播短消息业务信息的信道。"
-在移动网知识范围内，解释一下什么是CBE,"小区广播实体（Cell BroadcastEntity,【缩写】CBE）
-CBE是指发起小区广播业务的实体。"
-在移动网知识范围内，解释一下什么是CC,"呼叫控制（Call Control,【缩写】CC）
-CC是GSM层3结构中接续管理CM层的功能之一，用于呼叫处理。"
-在移动网知识范围内，解释一下什么是CCCH,"公共控制信道（Common ControlCHannel,【缩写】CCCH）
-用于公共控制信令的逻辑信道，包括PCH、RACH、AGCH等。"
-在移动网知识范围内，解释一下什么是CCH,"公共传输信道移动网（Common transportCHannel,【缩写】CCH）
-CCH是指在蜂窝通信系统中，针对不同的业务信息（如控制信息、业务信息）在物理信道之上与物理信道有一定映射关系的用于公共控制和少量业务信道传输的信道。"
-在移动网知识范围内，解释一下什么是CCPCH,"公共控制物理信道（Common ControlPhysical Channel,【缩写】CCPCH）
-CCPCH 分为基本CCPCH(P-CCPCH)和辅CCPCH(S-CCPCH), P-CCPCH为一个固定速率(30kbit/s,SF=256)的下行物理信道，用于传输BCH;S-CCPCH用于传输FACH 和PCH。"
-在移动网知识范围内，解释一下什么是CCTrCH,"编码组合传输信道（Coded CompositeTransport Channel,【缩写】CCTrCH）
-CCTrCH 属于UMTS物理层技术，是指传输信道和物理信道间的连接，使得从-11-一个或多个传输信道的译码和复用过程中产生数据流。"
-在移动网知识范围内，解释一下什么是CD/CA-ICH,"冲突检测/信道指派指示信道（Collision Detection/Channel Assignment IndicatorChannel,【缩写】CD/CA-ICH）
-CD/CA-ICH是一个固定速率(SF=256)的物理信道，当CA不活跃的时候，用来传输CDI,或当CA活跃时用来传输CDI/CAI。"
-在移动网知识范围内，解释一下什么是CDI,"冲突检测指示（Collision DetectionIndicator,【缩写】CDI）
-用于指示冲突检测。"
-在移动网知识范围内，解释一下什么是Cell,"小区（Cell,【缩写】Cell）
-一个基站或该基站-12-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读的一部分（扇形天线）所覆盖的区域。"
-在移动网知识范围内，解释一下什么是CI,"小区识别（Cell Identity,【缩写】CI）
-用以识别一个位置区内一个小区的识别码。"
-在移动网知识范围内，解释一下什么是CFN,"连接帧号（Connection FrameNumber,【缩写】CFN）
-CFN是连接帧号计数器，范围：0~255帧，用于UE 和UTRAN 传输信道的同步。"
-在移动网知识范围内，解释一下什么是CFNRc,"不可及呼叫前转（Call Forwarding onMobile Subscriber Not Reacha-ble,【缩写】CFNRc）
-当移动客户未登记、没有 SIM 卡、无线链路阻塞或移动客户离开无线覆盖区域而无法找到时，将入局呼叫接至另日更新永久免费一个设定号码。"
-在移动网知识范围内，解释一下什么是CFNRy,"无应答呼叫前转（Call Forwarding onmobile subscriber not reply,【缩写】CFNRy）
-是指当网络遇被叫移动客户无应答时，将入局呼叫接至另一设定号码。"
-在移动网知识范围内，解释一下什么是CG,"计费网关（Charging Gateway,【缩写】CG）
-实时采集各GPRS支持节点的话单记录，存储、备份、合并话单，并向计费中心传送话单文件。"
-在移动网知识范围内，解释一下什么是CGI,"小区全球识别（Cell Global Identi-fication,【缩写】CGI）
-CGI是指在所有GSM PLMN中唯一地识别一个小区的识别码，包括位置区识别(LAI)和小区识别(CI)。XIATUSHU.COM移动网"
-在移动网知识范围内，解释一下什么是CH,"信道（Channel,【缩写】CH）
-Channel是一种传输方式，在TDMA系统中，为定义的一定时间序列（如时隙）。"
-在移动网知识范围内，解释一下什么是Cinterface,"C接口（Cinterface,【缩写】Cinterface）
-C接口是HLR与MSC 之间的接口。当建立一个至移动台的呼叫或向移动台发送短消息，而固定网或短消息业务中心无法查询路由时，则必须通过GMSC询问MS的HLR以获得被叫MS的漫游号码。"
-在移动网知识范围内，解释一下什么是CoLP,"被叫号码识别提供（Connected LineIdentification Presentation,【缩写】CoLP）
-将被叫方的号码提供给主叫方。"
-在移动网知识范围内，解释一下什么是CoLR,"被叫号码识别限制（Connected LineIdentification Restriction,【缩写】CoLR）
-限制将被叫方的号码提供给主叫方。"
-在移动网知识范围内，解释一下什么是CPCH,"公共分组信道（Common PacketCHannel,【缩写】CPCH）
-CPCH是一个上行传输信道，与一个下行链路的专用信道相随，该专用信道用于提供上行链路。"
-在移动网知识范围内，解释一下什么是CPICH,"公共导频信道（Common PilotCHannel,【缩写】CPICH）
-固定速率(30kbit/s,SF=256)的下行物理信道，用于传输预定义的比特、符号。"
-在移动网知识范围内，解释一下什么是CQI,"信道质量指示（Channel Quality-14-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读Indicator,【缩写】CQI）
-CQI是一个给定信道的信道质量指示。通常，一个高值的CQI 表示一个信道有高的质量，反之亦然。"
-在移动网知识范围内，解释一下什么是CRNC,"控制无线网络控制器（Controlling RadioNetwork Controller,【缩写】CRNC）
-CRNC是针对某个基站或小区而言的，是从管理整个小区公共资源的角度出发派生的，它直接和 Node B 相连，一个 Node B 有且只有一个 CRNC,主要是对 Node B资源进行控制，包括合理分配和使用。"
-在移动网知识范围内，解释一下什么是CSICH,"CPCH状态指示信道（CPCH StatusIndicator CHannel,【缩写】CSICH）
-CSICH 是一个用日更新永久免费XIATUSHU.COM于传输CPCH 状态信息的固定速率(SF=256)的物理信道。"
-在移动网知识范围内，解释一下什么是CTCH,"公共业务信道（Common TrafficCHannel,【缩写】CTCH）
-CTCH是向全部或者一组特定UE传输专用用户信息的点对多点的下行链路。"
-在移动网、固定语音知识范围内，解释一下什么是CUG,"闭合用户群（Closed User Group,【缩写】CUG）
-能使一些客户构成闭合用户群，呼入和呼出该用户群要受限制。一个特定的移动客户可以是一个或多个CUG的成员。一个特定CUG的成员彼此间可以相互进行通信，但一般不能与用户群外的客户通信。可以建立紧急呼叫。"
-在移动网知识范围内，解释一下什么是D interface,"D接口（D interface,【缩写】D interface）
-D接口是HLR与VLR 之间的接口，主要交换位置信息和用户信息。"
-在移动网知识范围内，解释一下什么是DCA,"动态信道分配（Dynamic ChannelAllocation,【缩写】DCA）
-DCA是指根据用户的需要进行实时动态的资源（频率、时隙、码字等）分配。"
-在移动网知识范围内，解释一下什么是DCCH,"专用控制信道（Dedicated ControlChannel,【缩写】DCCH）
-DCCH是一种“点对点”的双向控制信道，其用途是在呼叫接续阶段和通信进行当中，在移动台和基站之间传输必需的控制信息。"
-在移动网知识范围内，解释一下什么是DCFE,"专用控制功能实体（Dedicated ControlFunctional Entity,【缩写】DCFE）
-DCFE是处理一个特定的UE的所有功能，该实体用于发送专用控制(DC-SAP)所需要的RRC业务。根据发送的消息和当前UE的服务状态，DCFE 可使 Tr-SAP 和UM/AM-SAP提供的服务。"
-在移动网知识范围内，解释一下什么是DCH,"专用信道（Dedicated CHannel,【缩写】DCH）
-专用信道就是从公用信道单独划分出的专用信道，保证信息在无线网络传输的安全性。专用信道又可分为专用业务信道(DSCH)、旁路专用控制信道(SD-CCH)和辅助专用控制信道(ACCH)。"
-在移动网知识范围内，解释一下什么是DC-SAP,"专用控制业务接入点-16-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读（Dedicated ControlSAP,【缩写】DC-SAP）
-DC-SAP是指在移动无线网中，一个层次系统的上下层之间进行通信的专用接口。"
-在移动网知识范围内，解释一下什么是DGPS,"差分全球定位系统（Differential GlobalPositioning System,【缩写】DGPS）
-DGPS 是指在一个精确的已知位置上安装监测接收机，计算得到它能跟踪的每颗GPS卫星的距离误差，将此数据传送给用户接收机作误差修正，从而提高了定位精度。"
-在移动网知识范围内，解释一下什么是DL,"下行链路（Downlink,【缩写】DL）
-DL是指从BTS向MS方向的物理链路(BTS发送，MS接收)。"
-在移动网知识范围内，解释一下什么是DPCCH,"专用物理控制信道每日更新永久免费（Dedicated PhysicalControl CHannel,【缩写】DPCCH）
-DPCCH 是指传输用户信令的物理信道。"
-在移动网知识范围内，解释一下什么是DPCH,"专用物理信道（Dedicated PhysicalCHannel,【缩写】DPCH）
-包括专用物理控制信道(DPCCH)和专用物理数据信道(DPDCH)。"
-在移动网知识范围内，解释一下什么是DPDCH,"专用物理数据信道（Dedicated PhysicalData Channel,【缩写】DPDCH）
-DPDCH是指传输用户数据的物理信道。"
-在移动网知识范围内，解释一下什么是DRAC,"动态资源分配控制（Dynamic ResourceAllocation Control,【缩写】DRAC）
-DRAC是指动态信道分配的控制算法。"
-在移动网知识范围内，解释一下什么是DRNC,"漂移无线网络控制器（Drift Radio NetworkController,【缩写】DRNC）
-DRNC是针对某个具体的终端而言的，从专用数据处理角度进行区分，它与CN无连接，在连接状态下为UE提供无线资源。"
-在移动网知识范围内，解释一下什么是DRNS,"漂移RNS（Drift RNS,【缩写】DRNS）
-DRNS包括DRNC以及所带的Node B。"
-在移动网知识范围内，解释一下什么是D-RNTI,"漂移RNTI（Drift RNTI,【缩写】D-RNTI）
-DRNC下的无线网络临时识别。"
-在移动网知识范围内，解释一下什么是DRX,"非连续接收-17-（DiscontinuousReception,【缩写】DRX）
-DRX是指MS根据其所属的寻呼组来确定接收机的开关。"
-在移动网知识范围内，解释一下什么是DS-CDMA,"直接序列码分多址（Direct-SequenceCode Division Multiple Access,【缩写】DS-CDMA）
-DS-CDMA是通过将携带信息的窄带信号与高速地址码信号相乘而获得的宽带扩频信号。收端需要用与发端同步的相同地址码信号去控制输入变频器的载频相位即可实现解扩。"
-在移动网知识范围内，解释一下什么是DSCH,"下行共享信道（Downlink SharedCHannel,【缩写】DSCH）
-DSCH是指多用户共享的下行物理信道。"
-在移动网知识范围内，解释一下什么是DSMA-CD,"数字监听多址接入—冲突检测（Digital SenseMultiple Access-Collison-18-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读Detection,【缩写】DSMA-CD）
-DSMA-CD是一种分布式介质访问控制协议，网络中的各个站（节点）都能独立地决定数据帧的发送与接收。每个站在发送数据帧之前，首先要进行监听，只有介质空闲时，才允许发送帧。"
-在移动网知识范围内，解释一下什么是DTAP,"直接传送应用部分（Direct TransferApplication Part,【缩写】DTAP）
-用来传递有关MS的呼叫控制和移动性管理消息，这些消息中的第三层信息不被BSS 翻译。"
-在移动网知识范围内，解释一下什么是DTCH,"专用业务信道（Dedicatd TrafficCHannel,【缩写】DTCH）
-用于承载针对某移动台的某种业务的逻辑信道。不同的业务采用不同的专用业务日更新永久免费逻辑信道。"
-在移动网知识范围内，解释一下什么是DTX,"不连续发射（DiscontinuousTransmission,【缩写】DTX）
-DTX是指当有话音或数据发送时，才打开发射机。"
-在移动网知识范围内，解释一下什么是E interface,"E接口（E interface,【缩写】E interface）
-E接口是指MSC之间的接口。当移动用户需要进行局间切换时，两MSC之间交换数据以启动和实现这一系列操作。"
-在移动网知识范围内，解释一下什么是Ec,"每个伪随机码的平均能量（Average energy perPN chip,【缩写】Ec）
-Ec是扩频码一个码片的能量，它不需要对信号进行解扩就可以直接测量。移动网"
-在移动网知识范围内，解释一下什么是Ec/No,"接收每码片能量与带内噪声功率密度比（Received energy perchip divided by the power den-sity in the band,【缩写】Ec/No）
-Ec/No表示扩频以后的码片能量与带宽内总功率谱密度之比。"
-在移动网知识范围内，解释一下什么是EDGE,"增强型数据速率GSM演进技术（Enhanced Data Ratefor GSM Evolution,【缩写】EDGE）
-EDGE是一种从GSM到3G的过渡技术，它主要是在GSM系统中采用了一种新的调制方法，即最先进的多时隙操作和8PSK调制技术。由于8PSK 可将现有GSM网络采用的GMSK 调制技术的符号携带信息空间从1扩展到3，从而使每个符号所包含的信息是原来的3倍。"
-在移动网知识范围内，解释一下什么是EGPRS,"增强型GPRS（Enhanced GPRS,【缩写】EGPRS）
-EGPRS也称为EDGE,是一种能利用已有频带使现有GSM网络具有提供3G业务能力的移动网络无线技术。"
-在移动网、业务平台知识范围内，解释一下什么是EIR,"设备识别寄存器（Equipment IdentityRegister,【缩写】EIR）
-EIR是指存储有关移动设备(ME)参数的数据库，主要完成对移动设备的识别、监视、闭锁等功能。"
-在移动网知识范围内，解释一下什么是eMLPP,"增强多级优先和占先（enhanced Multi-Level Precedence and Premption,【缩写】eMLPP）
-eMLPP为呼叫建立时和在切换连续性呼叫时提供不同级别的占先业务。EMLPP 可以提供7级优先级，其中两个最高优先级A、B属于系统内部使用，且只能在本系统-20-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读的本地MSC中应用，其余5级优先级允许用户在全球范围内使用，但需要互联的网络支持。"
-在移动网知识范围内，解释一下什么是FACCH,"快速随路控制信道（Fast AssociationControl CHannel,【缩写】FACCH）
-FACCH是指与TCH随路的快速控制信道，它传送在通话过程中的一些快速信令，如切换信令。"
-在移动网知识范围内，解释一下什么是FACH,"前向接入信道（Forward AccessCHannel,【缩写】FACH）
-FACH一般用于网络响应从RACH信道上接收到的信息，该信道也可用来传送一些短的用户数据。"
-在移动网知识范围内，解释一下什么是FBI,"反馈信息每日更新永久免费（Feedback Infor-mation,【缩写】FBI）
-FBI是指接收方对发送方提供的状态报告。"
-在移动网知识范围内，解释一下什么是FCCH,"频率校正信道（FrequencyCorrection CHannel,【缩写】FCCH）
-FCCH是指携载用于MS频率纠正的信息。"
-在移动网知识范围内，解释一下什么是FDD,"频分双工（Frequency DivisionDuplex,【缩写】FDD）
-FDD是指在两个方向上使用不同频率同时发送信号的双工方式。也称为全双工，操作时需要两个独立的信道：一个信道用来向下传送信息，另一个信道用来向上传送信息。两个信道之间存在一个保护频段，以防止邻近的发射机和接收机之间产生相互干扰。"
-在移动网知识范围内，解释一下什么是F-DPCH,"部分化专用物理信道（Fractional移动网Dedicated Physical Channel,【缩写】F-DPCH）
-F-DPCH 在3GPP协议的R6版本中引入。该信道不是一个UE占据一条专用物理信道仅用于传送上行功控信息，而是多个用户共享一条（每用户小于一条)DPCH的方式。各厂家对此处理方式和方案不同。"
-在移动网知识范围内，解释一下什么是FER,"误帧率（Frame Error Rate,【缩写】FER）
-误帧率是CDMA系统优化工作需测试的指标之一，误帧率定义为错误的全速率帧的个数与总的全速率帧的个数之比。一般是在正常通话时测量，也可以使用Markov 测试，测量的时间必须有效即平均通话时长在100~120s以上。误帧率在1%~3%之间为可接受。"
-在移动网知识范围内，解释一下什么是F interface,"F接口下国书-21-（F interface,【缩写】F interface）
-F接口是指MSC与EIR 之间的接口。此接口在MSC 检验IMEI时使用。"
-在移动网知识范围内，解释一下什么是FP,"帧协议（Frame Protocol,【缩写】FP）
-帧协议是一系列定义用于处理接口的数据传输。在WCDMA的RAN接口中，用户平面的媒体协议主要处理数据流的帧，因此称为帧协议(FP),帧协议为公共信道FP和专用信道FP。"
-在移动网知识范围内，解释一下什么是FPLMN,"被禁止的公共陆地移动网络（Forbidden PublicLand Mobile Network,【缩写】FPLMN）
-FPLMN是指终端在开机和脱网时，需要搜索可登录的全部PLMN,并选择其中一个合适的进行小区捕获。终端维护几种不同类型的PLMN列表，其中禁用PLMN(FPLMN)为被禁止访问的PLMN,通常终端-22-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）下图书高清图书享受阅读在尝试接入某个PLMN 被拒绝以后会将其加到本列表中。"
-在移动网知识范围内，解释一下什么是GERAN,"GSM/EDGE无线接入网（GSM/EDGE RadioAccess Network,【缩写】GERAN）
-GERAN是GSM/EDGE无线接入网，它采用了EDGE的无线传输技术，网络组成与GPRS 相同。EDGE的目的是为了在现有蜂窝系统中提供更高的数据速率。"
-在移动网知识范围内，解释一下什么是GGSN,"网关GPRS支撑节点（Gateway GPRSSupporting Node,【缩写】GGSN）
-GGSN是GPRS数据业务网络和其他网络之间的网络节点，俗称网关，一般为网络实体。"
-在移动网知识范围内，解释一下什么是GMM,"GPRS移动性管理（GPRS MobilityManagement,【缩写】GMM）
-移动性管理(MM)用于跟踪在本地PLMN 或其他PLMN 中 MS的当前位置。与GPRS 用户相关的移动性管理定义了空闲(Idle)、等待(Standby)、就绪(Ready)3种不同的移动性管理状态，每一种状态都描述了一定的功能性级别和分配的信息，它们之间可以相互转化。"
-在移动网知识范围内，解释一下什么是GMSC,"网关MSC（Gateway MSC,【缩写】GMSC）
-GMSC作为从其他网络或业务接入到PLMN的接入点，是进入PLMN 呼叫的询问节点。"
-在移动网知识范围内，解释一下什么是GMSK,"高斯滤波最小频移键控移动网（Gaussian filteredMinimum Shift Keying,【缩写】GMSK）
-GMSK是GSM系统采用的调制方式。数字调制解调技术是数字峰窝移动通信系统空中接口的重要组成部分。GMSK调制是在MSK(最小频移键控)调制器之前插入高斯低通预调制滤波器这样一种调制方式。GMSK 提高了数字移动通信系统的频谱利用率和通信质量。"
-在移动网知识范围内，解释一下什么是GPRS,"通用分组无线业务（General PacketRadio Service,【缩写】GPRS）
-在GSM PLMN中提供的一种无线分组业务。它使得移动用户能够在端到端分组传输模式下发送和接收数据。在GPRS中定义了两类承载业务：点对点业务(PTP)和点对多点业务(PTM)。"
-在移动网知识范围内，解释一下什么是GSM,"全球移动通信系统-23-（Global System forMobile communications,【缩写】GSM）
-GSM是指第二代移动通信技术，GSM系统包括GSM900:900MHz、GSM1800:1800MHz  GSM1900:1900MHz 等几个频段。"
-在移动网知识范围内，解释一下什么是GSN,"GPRS支持节点（GPRS SupportingNode,【缩写】GSN）
-GSN是GPRS网络中最重要的网络节点，是GSM网络为引入GPRS 功能增加的物理功能实体。GSN 具有移动路由管理功能，它可以连接各种类型的数据网络，并可以连到GPRS寄存器；可以完成移动台和各种数据网络之间的数据传送和格式转换。GSN 可以是一种类似于路由器的独立设备，也可以与GSM 中的MSC 集成在一起。"
-在移动网知识范围内，解释一下什么是GTP,"GPRS隧道协议-24-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读（GPRS TunnelProtocol,【缩写】GTP）
-GTP是指用于传送GPRS骨干网中GPRS支持节点间数据和信令的隧道传输协议，由控制面和用户面组成，分别用于传送控制信息和用户分组数据包。"
-在移动网知识范围内，解释一下什么是GTP-C,"GTP控制面（GPRS TunnelingProtocol-Packet Data ControlPlane,【缩写】GTP-C）
-GTP控制面是核心网分组域的传输网络层控制面协议，用于封装并传送分组控制信息。"
-在移动网知识范围内，解释一下什么是GTP-U,"GTP用户面（GPRS TunnelingProtocol-Packet Data User Plane,【缩写】GTP-U）
-GTP用户面是核心网分组域的传输网络层用户面。协议，用于透明封装并传送分组用户数据包等信息。"
+解释一下什么是HARQ,"混合自动重传请求（Hybrid AutomaticRepeat Request,【缩写】HARQ）
+HARQ是针对过多的前向纠错编码会使传输效率变低而引进的技术，由ARQ(自动请求重传)和FEC(前向纠错编码)技术相结合产生。"
+解释一下什么是HCS,"小区分层结构（Hierachical CellStructure,【缩写】HCS）
+HCS是一种无线网络布设结构方式，将移动网络中的小区在逻辑上划分为不同的层次结构，用于承载话务、提高频率利用率。"
+解释一下什么是HFN,"超帧号（Hyper FrameNumber,【缩写】HFN）
+帧结构是分级的，一个基本帧结构称为一个信号帧。帧群定义为255信号帧，其移动网第一个帧定义为帧群头。帧群中的信号帧有唯一的帧号，标号为0~254。信号帧号被编码到当前信号帧的帧同步序列中。超帧定义为一组帧群，帧结构的顶层称为超帧群。超帧被编号，从0到最大帧群号。"
+解释一下什么是HLR,"归属位置寄存器（Home LocationRegister,【缩写】HLR）
+负责移动用户管理的数据库，存储用户开户信息(电信业务签约数据和用户状态)、移动台位置信息、MSIS-DN、IMSI等。"
+解释一下什么是HO,"切换（Handover,【缩写】HO）
+HO是指在呼叫进程中从一个无线信道转至另一个无线信道的动作。切换使得呼叫能够继续进行，从而将呼叫转到其他的无线资源。切换可以发生在时隙、射频载波、小区、基下图书-25-站、BSS、MSC间。"
+解释一下什么是HPLMN,"归属PLMN（Home PLMN,【缩写】HPLMN）
+HPLMN是指移动用户签约的PLMN,用户的HLR应在该PLMN中。"
+解释一下什么是HSCSD,"高速电路交换数据业务（High Speed CircuitService Data,【缩写】HSCSD）
+HSCSD是将多个业务信道(TCH)复用在一起供一次数据业务使用，以提高无线接口数据传输速率的一种方式。"
+解释一下什么是HSDPA,"高速下行分组接入（High Speed Down-link Packet access,【缩写】HSDPA）
+HSDPA是一种移动通信协议，该协议在-26-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读WCDMA下行路中提供分组数据业务，在一个5MHz载波上的传输速率可达8~10Mbit/s。"
+解释一下什么是HS-DSCH,"高速下行共享信道（High Speed Dow-nlink Shared CHannel,【缩写】HS-DSCH）
+HS-DSCH是指WCDMA网络中专为高速数据业务增加的下行传输信道，可映射到多个物理信道，固定扩频因子，无功控，无软切换，TTI为2ms,支持更高阶调制。"
+解释一下什么是HS-PDSCH,"高速下行共享物理信道（High Speed Physi-cal Downlink Shared CHannel,【缩写】HS-PDSCH）
+HS-PDSCH 是指WCDMA网络中专为高速数据业务增加的下行物理信道，用于高速数据业务传送，映射上层的HS-DSCH 传输信道。"
+解释一下什么是HS-SCCH,"高速同步控制信道（High Speed SharedControl CHannel,【缩写】HS-SCCH）
+HS-SCCH是指下行物理信道。由于HSDPA的用户数据是承载在多个用户共享的信道上的，因此UE需要先检测HS-SCCH,看当前是否有针对自己的数据包，然后再确定是否解调共享信道的信息。"
+解释一下什么是ICH,"指示信道（Indicator CHannel,【缩写】ICH）
+一种物理信道，用于指示某种信息是否收到"
+解释一下什么是IMEI,"国际移动设备标识码（International MobileEquipment Identity,【缩写】IMEI）
+IMEI是全球统一分配的由15位数字组成的移动终端设备的“电子串号”，它与每台移动终端设备一一对应。移动网"
+解释一下什么是IMSI,"国际移动用户识别码（International MobileSubscriber Identity,【缩写】IMSI）
+IMSI是指在全球范围内唯一标识一个移动用户。IMSI 保存在HLR、VLR 和SIM卡中，在无线接口和MAP接口上传送。总长不超过15位，采用十进制编码。由移动国家码(MCC)、移动网号(MNC)和移动用户识别码(MSIN)组成。"
+解释一下什么是IWF,"互通功能（Interworking Func-tion,【缩写】IWF）
+IWF是指可提供互通（网络互通、业务互通、补充业务互通或信令互通)的网络功能实体。它可以是GSM PLMN中的一个或多个逻辑或物理实体。"
+解释一下什么是IPTI,"PDU间的传输（Inter-PDU Trans-mission,【缩写】IPTI）
+IPTI是指对于某个特定 RAB 子流组合，Iu UPPDU 在某个时间上实际的被发送间隔。"
+解释一下什么是ISCP,"干扰信号码功率（Interference SignalCode Power,【缩写】ISCP）
+干扰信号的码功率。"
+解释一下什么是ITI,"Iu定时间隔（Iu Timing Interval,【缩写】ITI）
+ITI是指核心网与无线接入网间接口的定时间隔。"
+解释一下什么是LA,"位置区（Location Area,【缩写】LA）
+LA是指移动台可以在该区域内自由地移动而不-28-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）享受阅读需要进行位置更新。位置区可以由一个或若干个小区组成。"
+解释一下什么是LAC,"位置区码（Location Area Code,【缩写】LAC）
+位置区码（移动通信系统中)是为寻呼而设置的一个区域，覆盖一片地理区域。"
+解释一下什么是LAI,"位置区标识（Location AreaIdentity,【缩写】LAI）
+LAI是在全球范围内唯一地标识一个 PLMN的位置区的编码。"
+解释一下什么是LCS,"定位业务（Localization Service,【缩写】LCS）
+LCS是利用定位技术确定UE的位置，并据此提供各种基于位置的应用的移动增值业务。"
+解释一下什么是MAC,"媒质接入控制（Medium AccessControl,【缩写】MAC）
+在无线接口控制多个MS共享信道资源的动态信道分配方式。"
+解释一下什么是MAP,"移动应用部分（Mobile ApplicationPart,【缩写】MAP）
+在实现移动台漫游功能时，用于定义移动系统通信网络实体之间进行的信息交换方式，以使交换机能够提供标准的C、D、E、G、Lg等接口与VLR、HLR、EIR、MSC、SMC、GMLC等功能实体对接。"
+解释一下什么是MCC,"移动国家码（Mobile CountryCode,【缩写】MCC）
+MCC是用以唯一地识别移动通信系统或用户所属国家的代码，由3个十进制数移动网字组成，中国为460。作为全球唯一的国家识别标准，MCC的资源由国际电联(ITU)统一分配和管理。"
+解释一下什么是MCS,"调制编码方案（Modulation andCoding Scheme,【缩写】MCS）
+MCS是E-GPRS编码方式之一，提供了MCS-1~MCS-9共9种编码方式，9种不同的编码方式中采用不同的冗余数据，从MCS-1到MCS-9编码冗余数据逐渐减少，体现在无线接口上，其MCS1~MCS9要求的载干比提升。"
+解释一下什么是Mchip/s,"每秒兆码片（Mega chip persecond,【缩写】Mchip/s）
+Mchip/s是信息速率标识，每秒内所传递的兆码片数。"
+解释一下什么是ME,"移动设备（Mobile Equipment,【缩写】ME）
+移动台除SIM卡外被称为移动设备。移动设备包括移动终端(MT)、终端适配器(TA)等部分。"
+解释一下什么是MM,"移动性管理（Mobility Manag-ement,【缩写】MM）
+移动性管理是无线接口的功能之一，其中定义了移动用户位置更新、定期更新、鉴权、开机接入、关机退出、临时移动台标识号重新分配和设备识别等过程。"
+解释一下什么是MNC,"移动网络码（Mobile NetworkCode,【缩写】MNC）
+移动网络码是用以唯一识别某个国家内的某一个特定的公众陆地移动通信网的代码，由2个十进制数字组成。-30-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读MNC 一般由国家的有关电信管理部门统一分配，同一个营运者可以拥有一个或多个MNC,但不同的营运者不可以分享相同的MNC。目前中国有两个GSM移动通信网络，分别由中国移动和中国联通公司营运，它们的MNC分别是00和01。"
+解释一下什么是MNP,"移动号码可携性（Mobile NumberPortability,【缩写】MNP）
+MNP是指当移动用户在同一国家内改变签约网络时保持用户原有的MSISDN。用户的IMSI号码需要改变。"
+解释一下什么是MO,"移动发起（Mobile Originated,【缩写】MO）
+MO是指从移动台发起短消息的业务。"
+解释一下什么是MS,"移动台（Mobile Station,【缩写】MS）
+在移动网络中，移动台是作为用户终端设备（如手机、车载台)的功能部件。"
+解释一下什么是MSC,"移动交换中心（Mobile SwitchingCenter,【缩写】MSC）
+移动交换中心是移动通信系统的核心网元之一，执行交换、移动性管理、路由、呼叫控制以及计费等功能，可直接提供或通过移动网关(GMSC)提供和公共电话交换网(PSTN)、综合业务数字网(ISDN)、公共数据网(PDN)等固定网的接口功能，把移动用户与移动用户、移动用户和固定网用户互相连接起来。"
+解释一下什么是MSC Server,"移动交换中心服务下图书e Station.coM移动网器（Mobile SwitchingCenter Server,【缩写】MSC Server）
+移动通信系统中电路域核心网向分组交换方式演进的核心设备，它独立于底层承载协议，主要完成呼叫控制、媒体网关接入控制、移动性管理、资源分配、协议处理、路由、认证、计费等功能，并向用户提供3GPP R4阶段的电路域核心网所能提供的业务，以及配合智能SCP提供多样化的第三方业务。"
+解释一下什么是MSISDN,"移动用户ISDN号码（Mobile SubscriberISDN Number,【缩写】MSISDN）
+MSISDN是指主叫用户为呼叫GSM/WCDMA 网络中的一个移动用户所需拨的号码，其号码结构遵循ITU-T的E.164编码格式，由CC、NDC、SN三部分组成。"
+解释一下什么是MSRN,"移动台漫游号码-31-XIATUSHU.COM（Mobile StationRoaming Number,【缩写】MSRN）
+移动台漫游号码是针对移动台的移动特性所使用的临时号码。每次呼叫过程中，HLR 请求 VLR 为被叫用户分配一个移动台漫游号码，HLR将此号码转发给GMSC或主叫用户所在MSC,用以完成呼叫路由的选择。该号码在呼叫接续完成后即可释放给其他用户使用。"
+解释一下什么是MT,"移动终端（Mobile Terminal,【缩写】MT）
+移动终端是移动设备(ME)的一部分，它终止来自/至网络的无线传输，并将终端设备的能力适配到无线传输。"
+解释一下什么是NAS,"非接入网络层（Non Access Stratum,【缩写】NAS）
+UMTS的协议栈分为NAS和AS。NAS 协议处理UE 和CN之间信息的传输，传输的内容可以是用户信息或控制信息（如业务的建立、释放或-32-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读者移动性管理信息)。NAS消息一定程度上独立于下面的AS协议结构，与采用什么样的无线接入网无关（可以是GSM、GPRS、WCDMA)。控制平面的NAS消息有CM、MM、SM以及GMM等。用户平面的网络层NAS协议是IP(分组交换)，电路交换业务不需要。"
+解释一下什么是NBAP,"Node B应用部分（Node B ApplicationPart,【缩写】NBAP）
+包括公共过程和专用过程。它覆盖的过程有广播系统信息、请求/完成/释放专用资源和管理逻辑资源。"
+解释一下什么是NCH,"通知信道（Notification CH-annel,【缩写】NCH）
+用于通知移动台语音组呼叫和语音广播呼叫。"
+解释一下什么是NSAP,"网络业务接入点（Network ServiceAccess Point,【缩写】NSAP）
+网络业务接入点是网络层和传输层之间的逻辑点，网络服务从这里转交到传输层。"
+解释一下什么是Nt-SAP,"通知业务接入点（Notification SAP,【缩写】Nt-SAP）
+用于通知SAP的通知。"
+解释一下什么是OBW,"占用带宽（Occupied Bandwidth,【缩写】OBW）
+以指定信道的中心频点为中心，包含总发射功率99%功率的频带宽度。"
+解释一下什么是ODB,"运营者决定闭锁（Operator DeterminedBarring,【缩写】ODB）
+在GSM Phase2的移动网规范中新加入的一种运营者可以灵活控制的呼叫限制功能。"
+解释一下什么是OVSF,"正交可变扩频因子（Orthogonal VariableSpreading Factor,【缩写】OVSF）
+系统根据扩频因子的大小给用户分配资源，数值越大，提供的带宽越小。"
+解释一下什么是PACCH,"分组随路控制信道（Packet AssociationControlCHannel,【缩写】PACCH）
+PACCH与PDTCH随路。PACCH还携带资源分配和再分配信息。可用于PDTCH 容量分配或将来新增加PACCH。"
+解释一下什么是PAGCH,"分组接入允许信道（Packet AccessGrantedCHannel,【缩写】PAGCH）
+分组接入允许信是下行信道，用于向移动台分配一-33-个或多个PDTCH。"
+解释一下什么是PBCCH,"分组广播控制信道（Packet BroadcastControl CHannel,【缩写】PBCCH）
+PBCCH是用于广播MS接入网络进行分组数据传送的特定系统信息的信道。"
+解释一下什么是PC,"功率控制（Power Control,【缩写】PC）
+PC是指在移动网络中，为了使小区内所有移动台到达基站时的信号电平基本维持在相等水平、通信质量维持在一个可接受水平，对移动台功率进行的控制。"
+解释一下什么是PCA,"功率控制算法（Power ControlAlgorithm,【缩写】PCA）
+PCA是为小区内使用的功率控制提供调整的计-34-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）享受阅读算方法。"
+解释一下什么是PCCH,"寻呼控制信道（Paging ControlCHannel,【缩写】PCCH）
+PCCH 是指传输寻呼信息的下行链路信道，用于在一个或多个小区中呼叫UE。"
+解释一下什么是PCCPCH,"基本公共控制物理信道（Primary CommonControl Physical CHannel,【缩写】PCCPCH）
+PCCPCH 是指一个小区内只有一个主公共控制物理信道，用于承载给用户的同步和承载信息。"
+解释一下什么是PCDE,"峰值码域误差（Peak Code DomainError,【缩写】PCDE）
+峰值码域误差是指码域中误差矢量的最大值。码域日更新永久免费矢量误差是指一个码字信号的平均功率与码域中除该码字之外的其余码字信号的平均功率之比。"
+解释一下什么是PCH,"寻呼信道（Paging CHannel,【缩写】PCH）
+PCH是用于寻呼MS的信道。"
+解释一下什么是PCPCH,"物理公共分组信道（Physical CommonPacket Channel,【缩写】PCPCH）
+PCPCH用于传送传输信道CPCH 上的信息。其传输基于带快速捕获指示的DSMA-CD方法。"
+解释一下什么是P-CPICH,"主公共导频信道（Primary CPICH,【缩写】P-CPICH）
+P-CPICH只有一个，对应使用主扰码P-Scramblingcode。移动网下图XIATUSHU."
+解释一下什么是PCU,"分组控制单元（Packet Control Unit,【缩写】PCU）
+分组控制单元在GPRS 中作为BSC功能的一部分，负责MAC/RLC层的功能。"
+解释一下什么是PDCH,"分组数据信道（Packet DataCHannel,【缩写】PDCH）
+PDCH 是指承载分组逻辑信道的物理信道，逻辑上可分为业务信道和控制信道。"
+解释一下什么是PDCP,"分组数据汇聚协议（Packet Data Conve-rgence Protocol,【缩写】PDCP）
+PDCP(TS25.323)负责无线网络层PDU的发送和接收。"
+解释一下什么是PDP,"分组数据协议（Packet Data Protocol,【缩写】PDP）
+PDP是外部PDN网与GPRS接口所用的网络协议。"
+解释一下什么是PDSCH,"物理下行共享信道（Physical DownlinkShared CHannel,【缩写】PDSCH）
+PDSCH是指当UE发起业务时，RBS使用该共享物理信道在下行方向上传输数据。"
+解释一下什么是PDTCH,"分组数据业务信道（Packet Data TrafficCHannel,【缩写】PDTCH）
+PDTCH是指在分组交换模式下承载用户数据的信道。在同一物理信道有不同的逻辑信道来进行动态的复用。所有PDTCH 为单向，即或者为上行链路(PDTCH/U)用于移动发起的分组传送或下行链路(PDTCH/D)用于移动终止的分-36-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读组传送。"
+解释一下什么是PhyCH,"物理信道（Physical CHannel,【缩写】PhyCH）
+PhyCH是指在通信系统中由物理实体构成的信道。"
+解释一下什么是PICH,"寻呼指示信道（Page Indicator CH-annel,【缩写】PICH）
+寻呼指示信道不承载传输信道的数据，但却与PCH 配对使用，用以指示特定的UE是否需要解读其后跟随的PCH(映射在S-CCPCH上)。"
+解释一下什么是PIN,"个人识别号码（Personal Identifica-tion Number,【缩写】PIN）
+PIN是指用于在SIM 与用户间鉴权的私密信息，以便确认用户的正确性。"
+解释一下什么是PLMN,"公用陆地移动网络（Public Land MobileNetwork,【缩写】PLMN）
+PLMN是一个无线通信系统，趋向于面向陆地上的例如交通工具或步行中的移动用户。"
+解释一下什么是PNFE,"寻呼与通知功能实体（Paging and Notifi-cation Functional Entity,【缩写】PNFE）
+无线资源控制(RRC)由4个逻辑实体构成，分别为路由功能实体(RFE)、寻呼与通知功能实体(PNFE)、专用控制功能实体(DCFE)和广播控制功能实体(BCFE)。RFE负责把NAS 消息正确地路由给不同的接收实体(MM/CM)或CN域，DCFE传送与一个UE有关的所有功能，PNFEC 处理空闲 UE的寻呼，BCFE 处理系统信息的广播。"
+解释一下什么是PPCH,"分组寻呼信道（Packet Paging CH-annel,【缩写】PPCH）
+PPCH 是下行信道，用于寻呼移动台。"
+解释一下什么是PPS,"预付费业务（Pre-Paid Service,【缩写】PPS）
+预付费业务是基于ETSI GSM CAMEL2标准的移动通信智能网的新业务。"
+解释一下什么是PRACH,"分组随机接入信道（Packet RAndomCHannel,【缩写】PRACH）
+移动台发送随机接入信息或对寻呼的响应以用于请求分配一个或多个 PDTCH。"
+解释一下什么是PS,"分组交换（Packet Switched,【缩写】PS）
+通过标有地址的分-37-组进行路由选择传送数据，使信道仅在传送分组期间被占用的一种交换方式。"
+解释一下什么是PSC,"主同步码（Primary Synchron-isation Code,【缩写】PSC）
+WCDMA系统中下行链路共有512个PSC,每个小区分配一个PSC 作为该小区的识别参数之一。"
+解释一下什么是PTM,"点对多点业务（Point To Multi-pointservice,【缩写】PTM）
+是指在GPRS业务中，向业务请求者定义的一个区域内的所有业务用户或预定义的一组用户发送数据的业务类型。"
+解释一下什么是P-TMSI,"分组临时移动用户-38-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读识别码（Packet TMSI,【缩写】P-TMSI）
+分组域用户临时标识符，是为了加强系统的保密性而在SGSN 内分配的临时用户识别，在某一SGSN 区域内与IMSI 唯一对应。"
+解释一下什么是PTP-CLNS,"点对点无连接网络业务（PTP Connectionless-mode Network Service,【缩写】PTP-CLNS）
+PTP-CLNS是点对点业务的一种，将一个单独数据分组从用户A传送到用户B,在两个用户之间的网络层通信的无连接网络协议和IP协议支持的业务。无连接方式的传输是指发送和接收用户之间信息传送之前不需要建立端到端的会话连接。"
+解释一下什么是PTP-CONS,"点对点面向连接网络业务日更新永久免费（PTP ConnecLion-mode Network Service,【缩写】PTP-CONS）
+点对点业务的一种，由面向连接网络协议支持的业务，在两个或多个对等实体间数据分组的传送要求建立逻辑连接。面向连接业务要求有数据分组传送之前的连接建立、数据传送和连接释放程序。"
+解释一下什么是PUSCH,"上行共享物理信道（Physical UplinkShared Channel,【缩写】PUSCH）
+PUSCH是指当RBS向下发起业务时，UE使用该共享物理信道在上行方向上传输数据。"
+解释一下什么是QE,"质量评估（Quality Estimate,【缩写】QE）
+指依据规定标准，运用某种工具对特定类型的评估客体通过测试进行评价的系统工程。"
+解释一下什么是Queuing,"排队（Queuing,【缩写】Queuing）
+由于拥塞等原因，移动发起或终止的呼叫处于悬置状态。"
+解释一下什么是RA,"路由区（Routing Area,【缩写】RA）
+RA是指在GPRS业务中，移动台可以在该区域内自由移动而不需要进行路由区更新。路由区一般为位置区的一个子集。"
+解释一下什么是RAB,"无线接入承载（Radio Access Bearer,【缩写】RAB）
+无线接入承载是指在UE和CN接入层之间的概念，提供非接入层的业务，用于在UE和CN之间传送用户数据。UE与CN之间的一个业务对应于一个RAB。RAB 用于UE和CN之间传送语音、数据、多媒体等业务信息。UE和CN之间的信令连接建立完成后，才XIATUSHU.COM下图书-39-能建立RAB。RAB建立是由CN发起让UTRAN 执行的功能。"
+解释一下什么是RACH,"随机接入信道（Random AccessChannel,【缩写】RACH）
+RACH是一种上行信道，用于寻呼回答和MS主叫/登录的接入等。"
+解释一下什么是RAI,"路由区标识（Routing AreaIdentity,【缩写】RAI）
+RAI由MCC、MNC、LAC和RAC组成，所以RA应小于等于LA。在网络初期，RA和LA的区域应相等。移动台在进行数据呼叫时，跨路由区移动时将发生路由区的更新过程。系统寻呼时，是在位置区或路由区内发生寻呼的。"
+解释一下什么是RAN,"无线接入网络（Radio Access-40-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读Network,【缩写】RAN）
+RAN是指用于第三代无线通信设备的必需的基于地面的基础架构，包括到因特网的高速移动接入。RAN必须能够为每个3G用户提供广泛的任务，包括接入、漫游、透明连接到公共电话交换网(PSTN)和因特网，数据服务质量管理和网络连接。"
+解释一下什么是RANAP,"无线接入网应用部分（Radio Access Netw-orkApplication Part,【缩写】RANAP）
+RANAP是RNC和CN之间的控制面协议。"
+解释一下什么是RAT,"无线接入技术（Radio AccessTechnology,【缩写】RAT）
+RAT是指通过无线介质将用户终端与网络节点连接起来，以实现用户与网络间的每日更新永久免费信息传递的技术。无线信道传输的信号应遵循一定的协议，这些协议即构成无线接入技术的主要内容。"
+解释一下什么是RB,"无线承载（Radio Bearer,【缩写】RB）
+无线承载是RLC和RRC之间的概念，在控制面用于承载空口的RRC消息，在用户面用于承载语音、数据以及其他的具体业务数据，RB分为数据RB和信令RB两种。"
+解释一下什么是RL,"无线链路（Radio Link,【缩写】RL）
+RL是为了建立RNC 和Node B 之间的DCH的连接，为一个逻辑概念，是一个格式集，数据在L2和L1之间传输。"
+解释一下什么是RLC,"无线链路控制（Radio Link Control下图书BATUSHU.COM移动网,【缩写】RLC）
+RLC是指在无线接口采用有选择的重传进行反向纠错，从而提供数据传送的信道。"
+解释一下什么是RLP,"无线链路协议（Radio Link Protocol,【缩写】RLP）
+RLP是指在MS与IWF之间为了可靠地传送用户数据所采用的一种自动重传请求(ARQ)协议。"
+解释一下什么是RLS,"无线链路集合（Radio Link Set,【缩写】RLS）
+RLS是指按照某种规定条件而定义的多条无线链路的总称，这种定义通常是人为定义的。"
+解释一下什么是RNC,"无线网络控制器（Radio NetworkController,【缩写】RNC）
+RNC是3G网络新-41-兴的一个关键网元。它是接入网的组成部分，用于提供移动性管理、呼叫处理、链接管理和切换机制。高级任务包括：(1)管理用于传输用户数据的无线接入载波；(2)管理和优化无线网络资源；(3)移动性控制；(4)无线链路维护。"
+解释一下什么是RNL,"无线网络层（Radio NetworkLayer,【缩写】RNL）
+RNL 是指UTRAN网元在功能上的一层，包含了无线接入网有关的所有协议。UTRAN 网元在功能上一般分为无线网络层(RNL)和传送网络层(TNL)两部分。RNL 又包括控制面和用户面两部分。"
+解释一下什么是RNS,"无线网络子系统（Radio NetworkSubsystem,【缩写】RNS）
+RNS是第三代的无线网络子系统，与第二代的BSS-42-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读地位相同。RNS 部分通过Iu 接口与CN 相连。RNS包括RNC和一个或多个 Node B。Node B可以处理一个或多个小区，并通过Iub 接口与RNC 相连。RNC之间通过Iur 进行信息交互，Iur接口可以是RNC之间物理上的直接连接，也可以通过任何合适传输网络的虚拟连接来实现。每个RNS管理一组小区的资源。"
+解释一下什么是RNSAP,"无线网络子系统应用部分（Radio NetworkSubsystem Application Part,【缩写】RNSAP）
+RNSAP是应用于RNC与RNC之间的协议，即Iur上的协议。"
+解释一下什么是RNTI,"无线网络临时识别（Radio NetworkTemporary Identity,【缩写】RNTI）
+RNTI是指无线网络临时识别，用来识别SRNC中的UE 相关信息，并通过SRNC 来定每日更新永久免费位UE的地址，是一个UE的唯一标识。"
+解释一下什么是RPLMN,"上次登记的PLMN（Last RegisteredPLMN,【缩写】RPLMN）
+上次注册成功的PLMN,手机会在注册网络时优先选择上次（关机前或者离开服务区前)登记的无线网络。"
+解释一下什么是RRC,"无线资源控制（Radio ResourceControl,【缩写】RRC）
+RRC处理UE和UTRAN 之间控平面的第三层信息。主要包含以下功能：广播核心网非接入层提供的信息，将广播信息关联到接入层，建立、重新建立、维持和释放UE和UTRAN 之间的RRC 连接，RRC连接无线资源的分配、重新配置和释放，RRC连接的移动性管理，寻呼/通知功能，高层PDU路由功能等。移动网"
+解释一下什么是RSC,"递归系统卷积编码器（Recursive System-atic ConvolutionalCoder,【缩写】RSC）
+RSC码作为Turbo码的子编码器，优点是译码简单、快速，而且在任何信噪比情况下，它的性能均比等效的非系统卷积码(NSC)要好。"
+解释一下什么是RSCP,"接收信号码功率（Received SignalCode Power,【缩写】RSCP）
+RSCP 是P-CPICH一个码字上的接收功率,用于衡量覆盖情况。"
+解释一下什么是RSSI,"接收信号强度指示（Received SignalStrength Indication,【缩写】RSSI）
+RSSI具体指（前向或者反向)接收机接收到信道带-43-宽上的宽带接收功率。反向链路接收机（指基站侧）通常用RSSI表示。"
+解释一下什么是SA,"服务区（Service Area,【缩写】SA）
+SA是移动台所能获得业务提供的最大区域范围。"
+解释一下什么是SABP,"服务区广播协议（Service AreaBroadcast Protocol,【缩写】SABP）
+SABP使核心网中的小区广播中心能够定义、修改和删除来自于RNC的小区广播消息。"
+解释一下什么是SABS,"服务区广播业务（Service AreaBroadcast Service,【缩写】SABS）
+运营商可以通过小区广播业务发送给移动用户小区广播信息，诸如交通、股票信-44-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读息等。"
+解释一下什么是SACCH,"慢速随路控制信道（Slow AssociationControl CHannel,【缩写】SACCH）
+SACCH 是与TCH随路的慢速控制信道，它传送通话过程中的一些慢速信令，如时间提前量、功率控制等信息。"
+解释一下什么是SAI,"服务区标识（Service AreaIdentifier,【缩写】SAI）
+SAI是由属于同一LA的一个或多个小区组成的，用于标识核心网侧的移动台位置，SAI由位置区标识(LAI)和服务区码(SAC)组成：SAI=MCC+MNC+LAC+SAC。"
+解释一下什么是SAP,"业务接入点（Service Access Point,【缩写】SAP）
+业务接入点是通信日更新永久免费XIATUSHU.COM下图书协议中两层进行信息交流的接口；是由一对位于同一地点的“单向接入”点构成的“参考点”，它代表路径终结和适配功能之间的结合。"
+解释一下什么是SCCH,"同步控制信道（SynchronizationControl CHannel,【缩写】SCCH）
+SCCH是指WCDMA系统中的同步控制信道，SCCH是终端和基站之间用来传递建链请求、建链响应或拒绝消息的逻辑信道。SCCH 是终端和基站之间的双向传递消息的途径。"
+解释一下什么是S-CCPCH,"辅助公共控制物理信道（Secondary CommonControl Physical CHannel,【缩写】S-CCPCH）
+用于承载前向接入信道(FACH)和寻呼信道(PCH)。每个小区的最小配置中必须有一个S-CCPCH。"
+解释一下什么是SCFE,"共享控制功能实体（Shared ControlFunction Entity,【缩写】SCFE）
+负责控制PDSCH和PUSCH的分配，协助专用控制实体的工作。使用下层Tr-SAP 和UM-SAP的服务。"
+解释一下什么是SCH,"同步信道（SynchronisationCHannel,【缩写】SCH）
+SCH主要用在终端接入网络时和系统同步时。终端接入网络时，通过导频信道获得当前的短码状态，但它必须通过同步信道获得基站的PN偏置、长PN状态、系统时间以及SID和NID等信息，用于实现和系统的同步。"
+解释一下什么是S-CPICH,"辅助公共导频信道-45-（Secondary CommonPilot CHannel,【缩写】S-CPICH）
+S-CPICH是经过副扰码加扰，可以从长度为256个码片的信道化码中任意选取，用于辅助终端对专用信道进行信道估计。"
+解释一下什么是SDCCH,"独立专用控制信道（Stand alone Dedi-cated Control CHannel,【缩写】SDCCH）
+SDCCH 是指在呼叫建立过程中（在未分配TCH之前)专门用于信令控制交换的信道，如鉴权程序或一些专门信令控制程序（如补充业务控制等)。"
+解释一下什么是SF,"扩频因子（Spreading Factor,【缩写】SF）
+是扩频调制后的信号与扩频调制前的信号带宽之比。"
+解释一下什么是SFN,"系统帧号（System Frame-46-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）下图书XIATUSHU.COM高清图书享受阅读Number,【缩写】SFN）
+SFN是在UE进行小区同步时从P-CCPCH中读取的信息。"
+解释一下什么是SGSN,"服务GPRS支持节点（Serving GPRS Sup-porting Node,【缩写】SGSN）
+SGSN是核心网分组域设备的重要组成部分，主要完成分组数据包的路由转发、移动性管理、会话管理、逻辑链路管理、鉴权和加密、话单产生和输出等功能。"
+解释一下什么是SHCCH,"共享信道控制信道（Shared ChannelControl CHannel,【缩写】SHCCH）
+SHCCH 是指小区系统先为所有的共享控制信道(SHCCH)顺序编号；当一个用户(UE)产生数据业务初始化时，基站将所有SHCCH的编号日更新永久免费信息传送给该UE;当基站每次传送数据给该UE时，同时指定该UE所使用的SHCCH,并通过该UE的专用业务信道(DPCH)将SHCCH标识传送给该UE,其中，该SHCCH标识是与UE标识结合在一起，通过需要传输数据UE的DPCH提前传给该UE的。该方法可使系统在资源调配上不再受限于SHCCH,令系统资源调配更灵活，进而能够更充分地利用系统资源。"
+解释一下什么是SIM,"用户识别模块（Subscriber IdentityModule,【缩写】SIM）
+SIM是指在一电脑芯片上存储了数字移动电话客户的信息、加密的密钥以及用户的电话簿等内容，可供GSM网络客户进行身份鉴别，并对客户通话时的语音信息进行加密。"
+解释一下什么是SIR,"信干比（Signal-to-移动网Interference ratio,【缩写】SIR）
+SIR是指有用信号的功率与一个指定带宽内的干扰信号功率的比值，其值为10倍对数有用信号与干扰信号功率比，单位为dB,这个数值被定义为信干比。在WCDMA 系统中，干扰信号主要指无线传输中的无用信号，如其他基站的信号、热噪声、干扰设备、多径效应等产生的干扰。"
+解释一下什么是SMS-CB,"小区广播短消息业务（Short MessageService Cell Broadcast,【缩写】SMS-CB）
+SMS-CB是指向一定区域的所有接收者发送的非证实通用短消息的业务。"
+解释一下什么是SMS-PP,"点对点短消息业务（Short MessageService/Point to Point,【缩写】SMS-PP）
+SMS-PP是指在-47-GSM移动台和短消息实体之间通过短消息中心传送的短消息业务。"
+解释一下什么是SNDCP,"子网相关的汇聚协议（SubNetwork Depe-ndent Convergence Protocol,【缩写】SNDCP）
+SNDCP作为网络层与链路层的过渡，将高层用户数据进行分段、压缩等处理后放到下层进行传送。"
+解释一下什么是SNR,"信噪比（Signal to NoiseRatio,【缩写】SNR）
+狭义来讲是指放大器的输出信号的电压与同时输出的噪声电压的比，常常用分贝数表示，设备的信噪比越高表明它产生的杂音越少。一般来说，信噪比越大，说明混在信号中的噪声越小，声音回放的音质越高，否则相反。信噪比一般不应该低于70dB。"
+解释一下什么是SoLSA,"位置区服务（Support of LocalService area,【缩写】SoLSA）
+位置区服务是指运营者可以根据用户实际的地理位置提供给用户不同的业务、不同的费率和不同的接入。"
+解释一下什么是SRES,"符号响应（Signed RESponse,【缩写】SRES）
+SRES是指鉴权的计算结果。"
+解释一下什么是SRNC,"服务无线网络控制器（Serving RadioNetwork Controller,【缩写】SRNC）
+SRNC是针对某个具体的终端而言的，是从专用数据处理角度进行区分的，它直接和CN相连，在连接状态下，有且只有一个，主要为UE提供Iu接口服务。"
+解释一下什么是SRNS,"服务无线网络子系统（Serving RadioNetworkSubsystem,【缩写】SRNS）
+SRNS用于控制和管理用户设备与移动接入网络之间的RRC连接。"
+解释一下什么是S-RNTI,"服务无线网络临时标识符（SRNC RadioNetwork Temporary Identifier,【缩写】S-RNTI）
+用来识别SRNC中的UE相关信息，并通过SRNC来定位UE的地址。"
+解释一下什么是SSC,"辅助同步码（Secondary Sync-hronisation Code,【缩写】SSC）
+3GPP规范定义了16个辅助同步码，每个256chip长，辅助同步码被安排到64个唯一排列中的一个，SSC的特别排列提供了UE帧同步和小区移动网的主扰码。"
+解释一下什么是SSCF,"特定业务协调功能（Service SpecificCoordination Function,【缩写】SSCF）
+SSCF是UMTS中的Iu-CS控制面的传输网络层用户面协议之一的信令 ATM适配层功能，SSCF 除了将SCCP 映射到SSCOP外，还提供SAAL连接管理、链路状态以及远端处理器状态监视等功能。"
+解释一下什么是SSCF-NNI,"特定业务协调功能—网络节点接口（Service SpecificCoordination Function-NetworkNode Interface,【缩写】SSCF-NNI）
+B-ISDN 信令ATM的适配层，支持在网络节点接口信令的业务特殊协调功能。"
+解释一下什么是SSCF-UNI,"特定业务协调功能—用户网络接口（Service SpecificCo-ordination Function-UserNetwork Interface,【缩写】SSCF-UNI）
+B-ISDN信令ATM的适配层，支持在用户节点接口信令的业务特殊协调功能。"
+解释一下什么是SSCOP,"特定业务的面向连接协议（Service SpecificConnection Oriented Protocol,【缩写】SSCOP）
+SSCOP从根本上说是一种动态滑动窗口协议。对于每个连接，接收方保留准备接收报文序号的窗口，及标明该报文是否已经存在的位图(bitmap)。"
+解释一下什么是SSDT,"站点选择分集发射（Site SelectionDiversity Transmission,【缩写】SSDT）
+在3GPP的WCDMA协议中，涉及了6种-50-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读每日更新永久免费分集发射方法：空时发射分集(STTD,Space Time TransmitDiversity)、时间切换发射分集(TSTD,Time Switched TransmitDiversity)、两种闭环发射分集模式、软切换中的宏分集，以及站点选择分集发射(SSDT,SiteSelection Diversity Transmit)。"
+解释一下什么是SSS,"交换子系统（SwitchingSubSystem,【缩写】SSS）
+SSS 是由MSC、VLR、HLR、AUC、EIR功能实体组成的系统。"
+解释一下什么是STC,"信令传输转换器（Signalling TransportConverter,【缩写】STC）
+为了通过TCP等传输层在信令实体和对等信令实体之间的通信网络中传送数据，实现了基于TCP的信令传输转换器(STC)。基于TCP的STC 为信令实体和传输层之间的连接提供信令传输服务，并且包括到信令实体的接口以及到传输层的接口。基于TCP的STC对要在信令实体和传输层之间交换的数据进行处理，以通过TCP传输层将数据透明传送至对等信令实体。为了提供面向事务的数据传输服务，基于TCP的STC可包括消息包装器，其对基于TCP的消息流进行描绘，并对要交换的数据进行封装/解封装。"
+解释一下什么是STTD,"空时发射分集（Space Time Trans-mit Diversity,【缩写】STTD）
+STTD是一种基于空时编码的开环发射分集，由于能够获得最大的分集增益，可以很好地控制多径衰落，因此已经被3GPP所采用。"
+解释一下什么是TAF,"终端适配功能移动网（Terminal AdaptationFunction,【缩写】TAF）
+终端适配功能是与MS相关的功能实体，它提供了MT与终端设备(TE)间互通所必要的功能。TAF的功能取决于TE的业务和类型，它具有将MT提供的协议转换为TE的功能。"
+解释一下什么是TB,"传输块（Transport Block,【缩写】TB）
+TB是指L1和MAC之间交换数据的基本单元。"
+解释一下什么是TBF,"临时数据块流（Temporary BlockFlow,【缩写】TBF）
+TBF是指两个无线资源实体所使用的一个物理连接，以达到在PDCH上支持单向传递LLC PDU的目的。网络可以给TBF分配一个或多个PDCH。一个 TBF 包含很多RLC/MAC块，用来承载一个或多个LLC PDU。网络给每一个TBF 安排一个TFI(Temporary下图书XIATUSHU.COM-51-Flow Indicator),用来唯一地标识一个TBF。"
+解释一下什么是TBS,"传输块集（Transport Block Set,【缩写】TBS）
+TB的集合，特定时间间隔内某个传输信道在L1和MAC之间交换的TB。"
+解释一下什么是TCH,"业务信道（Traffic CHannel,【缩写】TCH）
+携带语音编码信息或用户数据的信道，分为语音业务信道和数据业务信道。"
+解释一下什么是TDD,"时分双工（Time DivisionDuplex,【缩写】TDD）
+是在帧周期的下行线路操作中及时区分无线信道以及继续上行线路操作的一种技术，也是移动通信技术使用的双工技术之一，与FDD-52-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读相对应。"
+解释一下什么是TDMA,"时分多址（Time DivisionMultiple address,【缩写】TDMA）
+TDMA是基本多址技术之一，是一种数字传输技术，先把时间分割成周期性的帧(Frame),每一个帧再分割成若干个时隙用于收发信号。"
+解释一下什么是TE,"终端设备（Terminal Equipment,【缩写】TE）
+提供用户接入协议操作所需必要功能的设备。"
+解释一下什么是TEID,"隧道端点标识符（Tunnel EndpointIdentifier,【缩写】TEID）
+GTP的概念，用于表示一条隧道(PDP),分为数据面TEID(TEID(U)和控制面TEID(TEID(C),由SGSN日更新永久免费图书XIATUSHU.COM和GGSN自己分配。"
+解释一下什么是TF,"传输格式（Transport Format,【缩写】TF）
+TF是指L1向MAC提供的一个格式，规定了特定的传输信道在一个TTI内传送TBS的格式。由半静态和动态部分组成。"
+解释一下什么是TFC,"传输格式组合（Transport FormatCombination,【缩写】TFC）
+TFC是指一个UE所有传输信道上的当前有效传输格式的组合，每一个传输格式对应一个传输信道。"
+解释一下什么是TFCI,"传输格式组合指示（Transport FormatCombination Indicator,【缩写】TFCI）
+TFCI描述了当前的传输格式组合。一个特定的下图书XIATUSHU.COM移动网TFCI值与一种特定的传输格式组合有着一一对应的关系。MAC在每个传输时间间隔与物理层通信时，用TFI指示传输信道的传输块集。物理层根据从所有并行传输信道上收到的TFI值生成物理层控制信令TFCI。作为物理层信令，TFCI用于通知接收方当前激活的传输格式组合，接收方的物理层可以据此信息确定怎么对接收到的数据进行解码，去复用以及用什么样的传输格式将收到的数据块集送到MAC子层。可供物理层选用的TFCI值由通信双方的高层(RRC)在配置物理信道时给出。通信建立时，通信的双方通过磋商机制确定出一套双方都能支持的传输格式组合集。"
+解释一下什么是TFCS,"传输格式组合集合（Transport FormatCombination Set,【缩写】TFCS）
+UE使用的一个输出格式组合的集合。"
+解释一下什么是TFI,"传输格式指示（Transport FormatIndicator,【缩写】TFI）
+TFI是MAC与物理层交换数据时的一个参数，用以指示信道传输格式集中的一个特定的传输格式。"
+解释一下什么是TFS,"传输格式集合（Transport FormatSet,【缩写】TFS）
+传输格式集合定义为一个传输信道相关的传输格式，它定义了一条传输信道上允许的传输格式的集合。"
+解释一下什么是TGD,"传输间隔距离（Transmission GapDistance,【缩写】TGD）
+压缩模式中TGD定义为一个传输间隔模式中的两个连续的传输间隔的起始时隙之间的长度，以时隙个数计。"
+解释一下什么是TGL,"传输间隔长度（Transmission GapLength,【缩写】TGL）
+压缩模式中TGL定义为在传输间隔模式内的传输间隔长度，一般有2个参数。TGL1和TGL2。"
+解释一下什么是TGPL,"传输间隔模式长度（Transmission GapPattern Length,【缩写】TGPL）
+压缩模式中TGPL定义为传输间隔模式的长度，有两种模式，分别为传输间隔模式长度1(TGPL1)和传输间隔模式长度2(TGPL2)。"
+解释一下什么是TGPRC,"传输间隔模式重复计数（Transmission GapPattern Repetition Count,【缩写】TGPRC）
+压缩模式中TGPRC定义为传输间隔模式序列中的传日更新永久免费下图书XIATUSHU.COM输间隔模式的个数。"
+解释一下什么是TGSN,"传输间隔开始时隙号（Transmission GapStarting Slot Number,【缩写】TGSN）
+压缩模式中，传输间隔模式开始于一个无线帧，这个无线帧就称为传输间隔模式的第一个无线帧，包括至少一个传输间隔时隙。TGSN 是传输间隔模式的第一个无线帧内的第一个传输间隔时隙的时隙号。"
+解释一下什么是TLLI,"临时逻辑链路识别（Temporary LogicLink Identity,【缩写】TLLI）
+TLLI用于识别MS与SGSN 之间的逻辑链路。"
+解释一下什么是TM,"透明模式（Transparent Mode,【缩写】TM）
+透明模式指发送实移动网体在高层数据上不添加任何额外控制外协议开销，仅根据业务类型决定是否进行分段操作。接收实体接收到的PDU如果出现错误，则根据配置，在错误标记后递交或者直接丢弃并向高层报告。"
+解释一下什么是TME,"传输模式实体（Transfer ModeEntity,【缩写】TME）
+TME属RRC层功能实体之一，具体处理RRC层内不同实体和RLC提供的接入点之间的映射。"
+解释一下什么是TMSI,"临时移动用户识别号码（Temporary MobileSubscriber Identify,【缩写】TMSI）
+TMSI是指为了在无线接口对IMSI保密，VLR可给来访移动用户分配一个唯一的TMSI号码，它仅在本地使用，为一个4字节的BCD-55-下图书XIATUSI编码。"
+解释一下什么是TNL,"传输网络层（Transport NetworkLayer,【缩写】TNL）
+传输层利用网络层提供的服务，并通过传输层地址提供给高层用户传输数据的通信端口，使系统间高层资源的共享不必考虑数据通信方面和不可靠的数据传输方面的问题。它的主要功能是为一个正在进行的对话或连接提供可靠的传输服务，在通向网络的单一物理连接上实现该连接的复用，在单一连接上提供端到端的序号与流量控制、差错控制及恢复等服务。"
+解释一下什么是ToA,"到达时间（Time of Arrival,【缩写】ToA）
+ToA是指下行数据到达窗口的终点(ToAWE)与特定CFN的下行帧的实际到达时间的时间差。ToA为正表示下行帧在 ToAWE 之前到达，为负表-56-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读示下行帧在 ToAWE 之后收到。"
+解释一下什么是ToAWE,"到达窗口终点（Time of ArrivalWindow Endpoint,【缩写】ToAWE）
+到达窗口终点的数值大小为从最后到达时刻到CFN(连接帧号)的时间窗终点之间的毫秒级数值，最后到达的时刻大小还考虑了Node B内部处理时延。"
+解释一下什么是ToAWS,"到达窗口起点（Time of ArrivalWindow Startpoint,【缩写】ToAWS）
+到达窗口的起点，ToAWS由控制面设置，如果数据在ToAWS 之前到达，Node B则发送一个时间调整控制帧。"
+解释一下什么是TPC,"发射功率控制日更新永久免费（Transmit PowerControl,【缩写】TPC）
+TPC是无线系统引入的特性功能之一，允许在数据传输过程中网络和终端根据无线环境进行发射功率调整的一种机制，其目的是在满足通信质量的要求下使双方发射功率最小。"
+解释一下什么是TrCH,"传输信道（Transport Channel,【缩写】TrCH）
+TrCH 是指由物理层提供给高层的服务，它定义了在空中接口上数据传输的方式和特性。"
+解释一下什么是TrFO,"带外免编解码操作（Transcoder FreeOperation,【缩写】TrFO）
+TrFO是一种带外的协商机制，可通过MSC服务器之间的信令进行协商，使得网络可以在呼叫建立前就对编解码器的类型和模式进行协商，经协商后，移动用户之间的呼叫可以完全不经过编解码器，从而提移动网高语音质量。"
+解释一下什么是TRX,"收发信机（Transceiver,【缩写】TRX）
+TRX是收信器和发信器的合称，用于无线信号的处理、发射和接收。"
+解释一下什么是TSTD,"时间交换发射分集（Time SwitchedTransmit Diversity,【缩写】TSTD）
+TSTD是一种利用多重传输站点来产生下行链路信号和改善性能的技术。这个传输站点的使用由一个固定选择模式决定（类似于跳频技术）。"
+解释一下什么是Tx,"传输发送（Transmission,【缩写】Tx）
+Tx是指将信息转移出去。"
+解释一下什么是U-,"用户—（User-,【缩写】U-）
+U-是指使用者，即使用你的产品或服务的一方。移动网中，通常指网络服务的应用者。"
+解释一下什么是UARFCN,"UTRAN绝对无线频率信道序号（Absolute Radio Fr-equency Channel Number UTRAN,【缩写】UARFCN）
+国际电信联盟(ITU)规定的频点号，用来鉴别UMTS 网络特定射频通道的编号。"
+解释一下什么是UE,"用户设备（User Equipment,【缩写】UE）
+UE是指通过Uu接口与网络设备进行数据交互，为用户提供电路域和分组域内的各种业务功能，包括普通语音、数据通信、移动多媒体、Internet应用（如E-mail、WWW浏览、-58-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读每日更新永久免费FTP等)。"
+解释一下什么是UEA,"UMTS加密算法（UMTS EncryptionAlgorithm,【缩写】UEA）
+UEA 是UMTS的加密算法。"
+解释一下什么是UICC,"通用集成电路卡（Universal IntegratedCircuit Card,【缩写】UICC）
+通用集成电路卡是定义了物理特性的智能卡的总称。作为3G用户终端的一个重要的、可移动的组成部分，UICC主要用于存储用户信息、鉴权密钥、短消息、付费方式等信息。"
+解释一下什么是UL,"上行链路（反向链路)（Uplink(ReverseLink),【缩写】UL）
+上行链路指发射信号从用户设备到基站的单向的无线连接，或者从一个移动台到另一个移动台的单向的无线连接，或是从移动台到基站的单向的无线连接。"
+解释一下什么是UM,"非确认模式（UnacknowledgedMode,【缩写】UM）
+非确认模式用于小区广播消息或一些RRC消息的传送。"
+解释一下什么是UMTS,"通用移动通信系统（Universal MobileTelecommunication System,【缩写】UMTS）
+UMTS是国际标准化组织(3GPP)制定的全球3G标准之一，它的主体包括接入网移动网络和核心网络的一系列技术规范和接口协议。"
+解释一下什么是UPLMN,"用户控制的PLMN（User controlledPLMN,【缩写】UPLMN）
+UPLMN 是指用户控制的PLMN列表。"
+解释一下什么是URA,"UTRAN注册区（UTRAN Registra-tion area,【缩写】URA）
+URA是一个由许多小区覆盖的区域。URA 仅在UTRAN 内部可以识别。"
+解释一下什么是U-RNTI,"UTRAN无线网络临时标识符（UTRAN-RNTI,【缩写】U-RNTI）
+U-RNTI是一个UE的唯一标识，它由SRNC标识和C-RNTI组成。U-RNTI分配给有RRC连接的UE。-59-"
+解释一下什么是USCH,"上行链路共享信道（Uplink SharedCHannel,【缩写】USCH）
+USCH是一个TDD模式下的上行传输信道，由几个传送专用控制或业务数据的UE共享。"
+解释一下什么是USF,"上行链路状态标记（Uplink State Flag,【缩写】USF）
+用于多个MS进行上行链路PDCH 的无线块复用。"
+解释一下什么是USSD,"非结构化补充业务数据（Unstructured Suppl-ementary Service Data,【缩写】USSD）
+USSD是一种基于GSM网络的、实时在线的新型交互会话数据业务，它基于用户识别模块(SIM),利用GSM网络的信令通道传送数据，是在-60-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读GSM的短消息系统技术基础上推出的新业务，在业务开拓方面的能力远远强于SMS系统。"
+解释一下什么是UTRA,"UMTS陆地无线接入（UMTS TerrestrialRadio access,【缩写】UTRA）
+UTRA是一个由3GPP 规定的3G服务标准。UTRA的无线接入部分基于直接扩频的WCDMA 和混合的TDCDMA 接入方法。这两种方法是为满足3G频率效率、移动性和服务质量而设计的。"
+解释一下什么是UTRAN,"UMTS陆地无线接入网（UMTS TerrestrialRadio Access Network,【缩写】UTRAN）
+UTRAN 是一种全新的接入网，是UMTS 最重要的一种接入方式，适用范围最广。UTRAN 由一组通过Iu 接口连接到核心网的无线网络子系日更新永久免费统(RNS)组成。"
+解释一下什么是UUI,"用户到用户信息（User-to-User Info-rmation,【缩写】UUI）
+通过用户到用户信令(UUS)传输信息的补充服务。"
+解释一下什么是UUS,"用户到用户信令（User-to-User Sign-alling,【缩写】UUS）
+UUS是一种补充业务，允许移动用户在与另一个ISDN 或PLMN用户间的呼叫相关的信令信道接收/发送有限量的信息。"
+解释一下什么是VAD,"语音激活检测（也叫静音检测)（Voice Activity De-tection,【缩写】VAD）
+静音检测器根据估算的能量确定样本块是作为移动网“静音块”还是作为“说话块”来处理，这样一来可以检测出双方通话过程中的停顿时段，并在该时段停止发送语音包，从而可以节省大量宝贵的网络带宽资源用于其他的语音或者数据通信。"
+解释一下什么是VBS,"语音广播业务（Voice BroadcastService,【缩写】VBS）
+语音广播业务是集群网提供的一种功能，这种服务允许在某个区域建立语音通话，单个手机用户可以通话，调度员也可以同时通话。"
+解释一下什么是VGCS,"语音组呼叫业务（Voice Group CallService,【缩写】VGCS）
+VGCS是指在GSMPLMN 中向预定义的一组用户提供半双工通话功能。"
+解释一下什么是VLR,"拜访位置寄存器（Visited LocationRegister,【缩写】VLR）
+VLR服务于其控制区域内的移动用户，存储进入其控制区域内已登记的移动用户的相关信息，为已登记的移动用户提供建立呼叫接续的必要条件。"
+解释一下什么是VMSC,"拜访移动交换中心（Visited MobileSwitching Centre,【缩写】VMSC）
+当某个移动用户离开原籍移动交换中心而到达另一个移动交换中心所管辖的地域时，该移动交换中心称为该移动用户的拜访移动交换中心。"
+解释一下什么是VPLMN,"拜访PLMN（Visited PLMN,【缩写】VPLMN）
+VPLMN 是指移动用户漫游至的PLMN,基于在归属PLMN的签约，该PLMN的-62-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读业务可被临时使用。"
+解释一下什么是WAP,"无线应用协议（Wireless ApplicationProtocol,【缩写】WAP）
+无线应用协议是由WAP 论坛定义的网络通信标准，目的是让开发者使用统一的无线标记语言(WML)来开发用于无线终端设备的网络应用业务。WAP 可以将 Internet 的丰富信息及先进的业务引入到移动电话等无线终端之中，并克服这些设备的处理局限，将信息和可用的服务剥离成最基本的文本格式。"
+解释一下什么是WCDMA,"宽带码分多址（Wideband CodeDivision Multiple Access,【缩写】WCDMA）
+WCDMA是一种由3GPP 具体定的，基于 GSMMAP 核心网，UTRAN 为无线接口的第三代移动通信系统。它是从码分多址(CDMA)演变来日更新永久免费的，在官方上被认为是IMT-2000的直接展，与现在市场上通常提供的技术相比，它能够为移动和手提无线设备提供更高的数据速率。WCDMA采用直接序列扩频码分多址(DS-CDMA)、频分双工(FDD)方式，码片速率为3.84Mchip/s,载波带宽为5MHz。"
+解释一下什么是ABR,"应答试占比（Answer Bid Ratio,【缩写】ABR）
+应答试占比简称应试比，表示的是应答信号占用次数与总试占次数的比值。"
+解释一下什么是ACM,"地址全消息（Address CompleteMessage,【缩写】ACM）
+ACM是No.7信令的第四级(TUP、ISUP)的一个消息，是后向发送的信号，用于表示呼叫至被叫用户所需的有关地址消息已收齐。在地址全消息中还可以传送有关被叫空闲及计费等附加消息。"
+解释一下什么是AG,"接入网关（Access Gateway-66-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）固定语音网高清图书享受阅读,【缩写】AG）
+接入网关位于语音网架构当中的边缘接入层，提供用户接入端口，用于直接将普通语音用户接入到语音网中。能够实现用户侧语音和传真等模拟信号到分组网络媒体信息格式的转换。"
+解释一下什么是ANM,"应答消息（Answer Message,【缩写】ANM）
+ANM是No.7信令的第四级(TUP、ISUP)的一个日更新永久免费消息，是后向发送的信号，指示被叫摘机应答。"
+解释一下什么是AO/DI,"永远在线/动态ISDN（Always On-line/Dynamic ISDN,【缩写】AO/DI）
+AO/DI是一种将ISDN和分组交换技术有机结合起来，在ISDN线路上提供永远在线和动态带宽分配功能的新技术。AO/DI技术是通过充分利用ISDN空闲的B/D信道提供低速数据分组传送的技术，可以利用ISDN提供专线上网（即永久连接Internet 或企业专网)的功能和动态带宽管理功能。"
+解释一下什么是ASR,"应答占用比（Answer SeizureRatio,【缩写】ASR）
+应答占用比简称应占比，表示的是应答信号的占用次数与总占用次数的比值。固定语音网"
+解释一下什么是BHCA,"忙时试呼次数（Busy Hour CallAttempt,【缩写】BHCA）
+忙时试呼次数是指在一天最繁忙的时段中一小时的试呼次数，是系统软硬件综合性能的重要指标。"
+解释一下什么是BICC,"与承载无关的呼叫控制协议（Bearer IndependentCall Control protocol,【缩写】BICC）
+BICC是 ITU-TSG11小组制定的与承载无关的呼叫控制协议，主要目的是解决呼叫控制和承载控制分离的问题，使呼叫控制信令可在各种网络上承载。"
+解释一下什么是BRI,"基本速率接口（Basic Rate Interface-67-,【缩写】BRI）
+BRI是指用户与ISDN 交换机之间的接口，它包含两条64kbit/s的B信道和一条16kbit/s的D信道：两条B信道处理语音和数据，D信道则处理有关呼叫和客户的信息。"
+解释一下什么是CAPS,"每秒试呼次数（Call Attempts PerSecond,【缩写】CAPS）
+BHCA除以3600s就是CAPS值。"
+解释一下什么是CAS,"随路信令（Channel AssociatedSignaling,【缩写】CAS）
+CAS是信令和语音信号在同一条话路内传送的信令传递方式。"
+解释一下什么是CCF,"呼叫控制功能（Call Control-68-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读Function,【缩写】CCF）
+呼叫控制功能在网络中负责处理呼叫和识别智能业务，通常由具有SSP 功能的程控交换机来完成。"
+解释一下什么是CCR,"呼损率（Call CongestionRatio,【缩写】CCR）
+损失话务占流入话务量的比率即为呼叫损失的比。率。"
+解释一下什么是CCS,"公共信道信令（Common ChannelSignalling,【缩写】CCS）
+公共信道信令是将传送信令的通路与传送语音的通路分开，即把各电话接续通路中的各种信令集中在一条双向的信令链路上传送。"
+解释一下什么是CCS7,"七号公共信道信令（Common Channelsignalling 7,【缩写】CCS7）
+七号公共信道信令系统是国际通用的标准公共信道信令系统，是一种专门用于电信网中处理机之间的各类信令和信息传递的数据通信的形式，借助于带标号的消息，一个单一的信道传送大量与电路有关的信令消息，或是其他的例如用于网络管理的信息。信令系统利用信令链路传递电信网中的交换机之间或其他业务节点之间的信令消息，确保在有传输干扰或网络故障的情况下信令的可靠传送。"
+解释一下什么是Centrex,"虚拟用户交换机（Central Exchange,【缩写】Centrex）
+Centrex 是利用局用程控交换机的资源组成专用网，实现为公用网用户提供用户交换机功能的新业务，将用户交换固定语音网机的功能集中到局用交换机中，被称为“集中式用户交换机”或“虚拟用户交换机”。"
+解释一下什么是CDR,"呼叫详细记录（Calling DetailRecord,【缩写】CDR）
+呼叫详细记录（含呼叫时间和主被叫等信息)是在通信系统中所使用的术语，是用于后处理的电话呼叫记录。典型的呼叫细节记录包括：呼叫的始发和目的地址、呼叫开始和结束的时间、呼叫的时间长度、打电话的日期、通过网络支付的电话费或服务费以及其他的呼叫细节。CDR 主要用于记账和网络分析。"
+解释一下什么是CFB,"遇忙呼叫前转（Call ForwardingBusy,【缩写】CFB）
+当被呼叫方占线，自动转到用户设置的电话号码-69-的业务功能。"
+解释一下什么是CFNR,"无应答呼叫前转（Call Forward NoReply,【缩写】CFNR）
+无应答呼叫前转指的是在被叫振铃一段时间无应答时，将呼叫自动转到用户预先设置的号码的业务功能。"
+解释一下什么是CFU,"无条件呼叫前转（Call Forward Unco-nditional,【缩写】CFU）
+无条件呼叫前转是指无条件地将所有呼叫（或只局限于外部呼叫)转到用户预先设置的号码的业务功能。"
+解释一下什么是CIC,"电路识别码（Circuit IdentificationCode-70-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读,【缩写】CIC）
+CIC是No.7信令系统消息的标记中的12位二进制电路编号，用来指示源信令点和目的信令点之间的电路识别码。"
+解释一下什么是CLIP,"主叫线识别业务（Calling LineIdentification Presentation,【缩写】CLIP）
+主叫线识别业务指当有来话时，会在被叫方显示主叫电话号码。"
+解释一下什么是CLIR,"主叫号码显示限制（Calling Line Ident-ification Restriction,【缩写】CLIR）
+CLIR是指限制在被叫用户话机上显示主叫的电话号码。"
+解释一下什么是CLR,"呼叫溢出比（Call Loss Ratio,【缩写】CLR）
+呼叫溢出比指的是在规定的时间内，对电路群或目的地进行试占时，找不到空闲电路的试占次数占总试占次数的百分比，即试占失败的比例。"
+解释一下什么是CPC,"主叫用户类别（Calling PartyCategory,【缩写】CPC）
+CPC是指示主叫用户的类别，可以是话务员类别(如英语、法语等)或呼叫类别(数据呼叫、测试呼叫、用户优先级)等。"
+解释一下什么是CPG,"呼叫进展（Call Progress,【缩写】CPG）
+CPG是ISDN用户信令中的消息，报告呼叫建立期间发生的事件，如呼叫前转事件和用户的状态。"
+解释一下什么是CSCF,"呼叫会话控制功能（Call Session ControlFunction,【缩写】CSCF）
+CSCF是IP多媒体子系统(IMS)内部的功能实体，是整个IMS 网络的核心。主要负责处理多媒体呼叫会话过程中的信令控制。它管理IMS网络的用户鉴权、IMS 承载面QoS、与其他网络实体配合进行SIP会话的控制，以及业务协商和资源分配等。"
+解释一下什么是CTI Server,"CTI服务器（Computer TelephonyIntegration Server,【缩写】CTI Server）
+CTI服务器接收来自交换机的呼叫信息（如呼叫电话号码等)，同时通过计算机有效地控制交换机的呼叫处理，包括呼叫转移、呼叫中止、智能呼出等服务。"
+解释一下什么是CW,"呼叫等待（Call Waiting,【缩写】CW）
+呼叫等待是一种允许用户在接听一个来电时收到新的来电提示，并且可以接听新的来电而不需要挂断第一个来电的功能。"
+解释一下什么是DID,"直接拨入（Direct-Inward-Dial,【缩写】DID）
+外线用户不需要转接，直接拨叫客户交换机的分机的业务。"
+解释一下什么是DPC,"目的信令点编码（Destination PointCode,【缩写】DPC）
+DPC指的是No.7信令网络中一个消息所要到达的信令点的编码。"
+解释一下什么是DSS1,"1号数字用户信令（Digital SubscriberSignaling 1,【缩写】DSS1）
+DSS1是ISDN 中的用户控制信令，控制用户通信的接续，适用于PRI 和BRI两种接口。"
+解释一下什么是DTMF,"双音多频（Dual Tone Multi-Frequency,【缩写】DTMF）
+DTMF是使用两个音频段频率的固定组合的多频信令。"
+解释一下什么是EC,"回声抵消器（Echo Canceler,【缩写】EC）
+EC是通信系统中用于克服由于传输距离长、时延大而引起回声的装置。它可以消弱由一个方向的信号在另一个方向造成的回音信号。"
+解释一下什么是FMC,"固定与移动融合（Fixed MobileConvergence,【缩写】FMC）
+FMC是指基于固定和无线技术相结合的方式提供通信业务。FMC有网络层面的融合，也有业务层面的融合，还有终端层面的融合。"
+解释一下什么是GK,"网守（GateKeeper,【缩写】GK）
+网络的管理点，一个网守管理的所有终端、网关和MCU的集合称之为一个管理区(Zone)。一个管理区至少包含一个终端，可以有也可以没有MCU或网关，但必须有且仅有一个网守。网守提供的功能有拨号方案管理、安全性管理、集中账务管理、数据库管理和备份、网络管理、地址翻译和接入控制服务，还可提供带宽管理和网关定位等服务。"
+解释一下什么是GT,"全局码（Global Title,【缩写】GT）
+在No.7信令系统中，在MTP的基础上引入了SCCP,为MTP增加了附加的寻址功能，SCCP寻址依赖于主叫和被叫地址信息，地址包括3种类型：信令点编码(SPC)、子系统号码(SSN)和GT。GT是其中的一种地址方式。"
+解释一下什么是HSTP,"高级信令转接点（High SignallingTransfer Point,【缩写】HSTP）
+我国No.7信令网按等级结构建立，分为3个等级，第一级是HSTP,第二级是LSTP,第三级是SP。HSTP转接省外信令，尽可能采用独立式。HSTP一般设在长途一级交换中心所在地。"
+解释一下什么是IAD,"综合接入设备（Integrated AccessDevice,【缩写】IAD）
+IAD能够通过单个广域网链接同步传输传统的PSTN 语音服务、信息包语音服务和数据服务（通过局域网端口)，它集合了语音和数据的多个信息通道。"
+解释一下什么是IAM,"初始地址消息（Initial AddressMessage,【缩写】IAM）
+IAM是No.7信令的第四级(TUP、ISUP)的一个消息，是为建立呼叫而发出的第一个消息，它含有地址信息、路由信息和呼叫处理信息。"
+解释一下什么是I-CSCF,"询问呼叫会话控制功能（Interrogating CallSession Control Function-74-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）下图书USHU.COM高清图书享受阅读,【缩写】I-CSCF）
+I-CSCF 是IMS归属网络的入口点。在注册过程中，I-CSCF 通过查询HSS,为用户选择一个S-CSCF。在呼叫过程中，去往IMS网络的呼叫首先路由到I-CSCF,由I-CSCF从HSS获取用户所注册的S-CSCF 地址，将消息路由到S-CSCF。"
+解释一下什么是IDD,"国际长途直拨（International DirectDial,【缩写】IDD）
+IDD是利用具有国际直拨功能的电话机，由用户直接拨叫世界各开放IDD业务的国家或地区的用户，以建立国际间通话的一种业务。拨打国际直拨电话的方法如下：00+国际字冠+国家代码+地区代码+对方用户电话号码。"
+解释一下什么是IMS,"IP多媒体子系统（IP MultimediaSubsystem日更新永久免费,【缩写】IMS）
+IMS 最初是3GPP在已建立的CS、PS领域以外引入的一个新的核心网领域。对于现有的CS、PS核心网络，IMS是专为实时的、端到端的移动多媒体业务而设计的，IMS通过会话协商和管理、QoS管理以及移动性管理等关键性技术实现端到端的通信业务。在NGN的框架中，IMS应同时支持固定接入和移动接入。IMS被认为是下一代网络的核心技术，也是解决移动与固网融合，引入语音、数据、视频三重融合等差异化业务的重要方式。"
+解释一下什么是IN,"智能网（Intelligent Network,【缩写】IN）
+智能网是在通信网上快速、经济、方便、有效地生成和提供智能业务的网络体系结构。它是在原有通信网络的基础上为用户提供新业务而设置的附加网络结构，它的最大特点是将网络的交换功能与控制功固定语音网能分开，在多厂商环境下快速引入新业务。"
+解释一下什么是INAP,"智能网应用协议（Intelligent NetworkApplication Protocol,【缩写】INAP）
+INAP 是智能网功能实体之间的应用层通信协议。智能网功能实体 SCP 与SSP、IP、SDP间通过INAP传递智能网业务呼叫所需的信息，从而实现对智能网业务呼叫接续的控制。INAP要通过TCAP提供的消息原语将消息传送到对端，即INAP 为TCAP的一个用户。"
+解释一下什么是IP,"智能外设（Intelligent Peripheral,【缩写】IP）
+智能外设是协助完成智能业务的特殊资源，通常具有各种语音功能，如语音合成、播放录音通知、接收DTMF拨号、进行语音识别以及提供多媒市协议书-75-体资源和语音文本转换等。智能外设可以以一个独立的物理设备存在，也可以作为SSP的一部分，接受ISCP的控制。"
+解释一下什么是IP-PBX,"IP用户交换机（IP-PBX,【缩写】IP-PBX）
+IP-PBX是基于语音IP技术的电话交换。位于企业的内部，并且能够提供简便的用户管理和高级的应用。"
+解释一下什么是ISDN,"综合业务数字网（Integrated ServicesDigital Network,【缩写】ISDN）
+ISDN提供端到端-76-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读的数字连接，以支持包括语音业务和非语音业务的一系列广泛的业务，为用户进网提供一组标准的多用途用户—网络接口。"
+解释一下什么是ISDN D-Channel,"ISDND信道（ISDN D-Channel,【缩写】ISDN D-Channel）
+ISDN D信道是在ISDN用户侧传输控制和发送信号信息的通道。"
+解释一下什么是ISDN H-Channel,"ISDNH信道（ISDN H-Channel,【缩写】ISDN H-Channel）
+ISDNH信道是一个特殊的高速信道。用户可以将H信道作为高速干线，或根据时分复用方案将其划分使用，应用于高速传真、图像、高速数据、高质量音响、由低速数据复用而成的信息流，以及分组交换信息。目前D信道有3种标准速率：H0信道是384kbit/s,H11信道是1536kbit/s(适用于PCM24路系统)，H12信道是1920kbit/s(于 PCM 30/32每日更新永久免费路系统)。"
+解释一下什么是ISUP,"综合数字业务网用户部分（ISDN User Part,【缩写】ISUP）
+ISUP是No.7信令系统的第四级，定义了协议和程序用于建立、管理和释放中继电路，该中继电路在PSTN上传输语音和数据呼叫。"
+解释一下什么是IVPN,"综合虚拟专用网（Integrated VirtualPrivate Network,【缩写】IVPN）
+IVPN 即综合VPN业务，一种电信业务，其特点为移动业务与固话业务的融合。以业务捆绑作为切入点，将固话、移动业务等简单地捆绑在一起，手机和固话被绑定到一个逻辑专网内，相互之间可以进行短号呼叫，同时在资费方面也给予一定的优惠。"
+解释一下什么是L1,"第一级（Level1,【缩写】L1）
+L1是No.7信令系统MTP的第一级，定义信令数据链路的物理、电气和功能特性，确定与数据链路的连接方法，为信令链路提供了一个信息载体。它是一条信令的双向传输通路，由两条工作方向相反、数据速率相同的数据信道组成，是No.7信令系统功能分级结构中最低的功能级。"
+解释一下什么是L2,"第二级（Level2,【缩写】L2）
+L2是No.7信令系统MTP的第二级信令链路功能，定义在一条信令链路上信令消息的传递和与其传递有关的功能和过程，第二级功能级和第一级信令数据链路作为信息载体一起，为在两点间进行信令消息的可靠传递提供一个信令链路。"
+解释一下什么是L3,"第三级（Level3,【缩写】L3）
+L3是No.7信令系统MTP的第三级，原则上定义了传送的功能和过程，这些功能和过程对每条信令链路都是公共的，与这些链路的工作无关。这些功能分为两大类：信令消息处理功能和信令网管理功能。"
+解释一下什么是L4,"第四级（Level4,【缩写】L4）
+L4 是No.7 信令系统的第四级，由不同的用户部分组成，每个用户部分规定专用于某种系统用户的信令系统的功能和过程，如电话用户部分(TUP)、综合业务数字网用户部分(ISUP)。"
+解释一下什么是LSTP,"低级信令转接点（Low SignallingTransfer Point,【缩写】LSTP）
+我国No.7信令网按等级结构建立，分为3个等级，第一级是HSTP,第二级是LSTP,第三级是 SP。LSTP 转接省内或本地区信令，可采用独立式或综合式，视网络情况而定。LSTP一般设在长途二级交换中心所在地。"
+解释一下什么是M2UA,"MTP第二层用户适配层（MTP2-User Adap-tation layer,【缩写】M2UA）
+M2UA是SIGTRAN协议组中的一个协议，是适用于通过采用流量传输控制协议(SCTP)的IP的No.7信令第二级用户信令信息回程的。"
+解释一下什么是M3UA,"MTP第三层用户适配层（MTP3-User日更新永久免费Adaptation layer,【缩写】M3UA）
+M3UA是SIGTRAN协议组中的一个协议，支持采用流量控制传输协议(SCTP),通过IP传输No.7信令的第三层用户信令。M3UA的使用是基于MTP第三层位于信令网关(SG)和MTP用户位于应用服务器(AS)的供应商/用户基础上的。"
+解释一下什么是MGCP,"媒体网关控制协议（Media GatewayControlProtocol,【缩写】MGCP）
+MGCP是下一代网络中的接口协议之一，应用于下一代网络中媒体处理和信令控制分离后所产生的控制接口。MGCP 是由IETF的MEGACO工作组较早定义的媒体网关控制协议。在软交换系统中，MGCP主要用于从功能的角度定义软交换和媒体网关或软交换与MGCP 终端之间的行为，软交换通过此协议控制媒体网固定语音网关或MGCP终端上的媒体/控制流的连接、建立和释放。"
+解释一下什么是MGC,"媒体网关控制器（Media GatewayController,【缩写】MGC）
+MGC是对与媒体网关中媒体通道连接控制相关的呼叫状态部分进行控制的装置。"
+解释一下什么是MGW,"媒体网关（Media Gateway,【缩写】MGW）
+媒体网关将一种类型网络的媒体转换成另一网络所要求的格式，可以有能力分别对音频、视频和数据进行处理，并且能够进行全双工的媒体转换。"
+解释一下什么是MRS,"媒体资源服务器（Media ResourceServer-79-,【缩写】MRS）
+MRS是NGN中提供媒体增值服务的核心资源组件。为下一代网络提供媒体数据处理服务，如放音、收号、语音合成、语音识别、录音、传真、音频会议以及视频会议等。"
+解释一下什么是MTP,"信息传递部分（Message TransferPart,【缩写】MTP）
+信息传递部分在No.7信令协议中传输信号信息，执行诸如错误控制和信令链接安全的相关功能。它也在一个网络内部提供可靠的路径，目前拥有3个层：物理层、数据层和网络层。"
+解释一下什么是NGN,"下一代网络（Next GenerationNetwork,【缩写】NGN）
+NGN是综合网络中一个重要的术语。在交换中，下一代网络以软交换为核心，采用-80-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读开放、标准体系结构，能够通过有线和无线设施提供话音、视频、数据等多媒体综合业务。"
+解释一下什么是OPC,"源信令点编码（Originating PointCode,【缩写】OPC）
+OPC指的是No.7信令网络中发出消息的信令点的编码。"
+解释一下什么是PBX,"专用交换机（Private BranchExchange,【缩写】PBX）
+PBX完成企业内部之间以及与公共电信网络的电话交换，并将电话、传真、调制解调器等功能合并。处理分机之间的通话同时通过主干线与公共交换电话网(PSTN)连接。"
+解释一下什么是P-CSCF,"代理呼叫会话控制功能（Proxy Call SessionControl Function,【缩写】P-CSCF）
+P-CSCF 是IMS拜访网络的统一入口点。所有发起于和终止于IMS终端的会话消息都要通过 P-CSCF。P-CSCF作为一个SIP Proxy,负责与接入网络无关的用户鉴权与IPSec管理、网络防攻击与安全保护、为节约无线网络资源进行SIP信令压缩与解压缩、用户的漫游控制、通过PDF(Policy DecisionFunction)进行承载面的 NAT与QoS等功能。"
+解释一下什么是PRI,"基群速率接口（Primary Rate Inter-face固定语音网,【缩写】PRI）
+基群速率接口是ISDN 接入方式，速率是2Mbit/s,支持30个64kbit/s的B通道和一个高速 DS1 电路中的64kbit/s D通道(30B+D)。"
+解释一下什么是PSTN,"公共电话交换网（Public SwitchedTelephone Network,【缩写】PSTN）
+PSTN 是一种用于全球语音通信的电路交换网络。"
+解释一下什么是SACP,"业务接入控制点（Service AccessControl Point,【缩写】SACP）
+SACP是在SCP的鉴权、计费功能迁移到OCS后，简化后的SCP。SACP负责呼叫控制功能部分，OCS负责计费批价和账户管理功能部分。"
+解释一下什么是SAM,"后续地址消息（Subsequent AddressMessage,【缩写】SAM）
+SAM是No.7信令的第四级(TUP、ISUP)的一个消息，是一种前向消息，在初始地址信息后面。"
+解释一下什么是SBC,"会话边界控制器（Session BorderController,【缩写】SBC）
+定位在NGN的IP业务网关，用于解决NGN业务部署中遇到的NAT/FW 穿越、安全、互通、QoS等问题。"
+解释一下什么是SCCP,"信令连接控制部分（Signalling Conn-ection ControlPart,【缩写】SCCP）
+在No.7信令系统中，在MTP的基础上引入了SCCP,为MTP 增加了附加的寻址功能，以便通过No.7信令网，-82-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读在电信网中的交换局之间、交换局和专用中心之间传递电路相关和非电路相关的信令信息和其他类型的信息，建立无连接和面向连接的网络业务。"
+解释一下什么是SCEP,"业务生成环境点（Service CreateEnvironment Point,【缩写】SCEP）
+业务生成环境点是智能网的组成部分，负责业务的生成、验证和模拟运行，并将经过验证的业务逻辑和业务数据传送给SMP。"
+解释一下什么是SCF,"业务控制功能（Service ControlFunction,【缩写】SCF）
+业务控制功能是存放业务逻辑程序，通过给CCF、SCF、SDF、SRF发送控制指令来控制呼叫的执行过程，实现对智能业务的控制。日更新XIATUSHU.COM永久免费"
+解释一下什么是SCP,"业务控制点（Service ControlPoint,【缩写】SCP）
+业务控制点是智能网业务的控制中心，负责业务逻辑的执行，提供呼叫处理功能，接收SSP送来的查询信息和查询数据库，验证后向SSP发出呼叫处理指令，接收SSP产生的话单并进行相应的处理。"
+解释一下什么是S-CSCF,"服务呼叫会话控制功能（Serving Call SessionControl Function,【缩写】S-CSCF）
+S-CSCF 在IMS网络会话控制中处于核心地位，它接收来自拜访网络通过P-CSCF转发来的注册请求，与HSS配合进行用户鉴权，并从HSS处下载用户签约的业务数据。S-CSCF对用户主叫及被叫侧进固定语音网XIATUSHU.CO行路由管理，根据用户签约的初始过滤规则进行SIP AS触发，实现丰富的IMS业务功能。"
+解释一下什么是SCU,"信令与控制单元（Signaling andControl Unit,【缩写】SCU）
+SCU在整个智能网系统中起着控制和处理智能业务的作用，它完成业务控制功能(SCF),同时接受SMS对它的管理。SCU可以通过内嵌的业务数据功能来协助完成业务逻辑处理，也可以通过和单设的独立SDU进行交互，完成业务逻辑功能。"
+解释一下什么是SDF,"业务数据功能（Service DataFunction,【缩写】SDF）
+业务数据功能是智能网中的数据库，存放用户数据、业务数据、网络数据，供SCF实时查询、修改。-83-"
+解释一下什么是SDU,"业务数据单元（Service Data Unit,【缩写】SDU）
+SDU主要完成业务数据功能(SDF)。SDU的存在，使得系统可以对用户数据进行集中管理，便于对系统容量进行平滑扩容，提高了系统容量，实现对用户大容量数据的需求。"
+解释一下什么是SG,"信令网关（Signaling Gateway,【缩写】SG）
+SG的功能是完成No.7信令消息与IP网信令消息的互通。信令网关的协议包含两部分：电路信令侧协议和IP网络侧协议。信令网关可以是一个独立的物理设备，也可以嵌入在其他设备（如软交换或媒体网关)中实现。"
+解释一下什么是SIB,"业务独立构件（Service IndependentBuilding Block,【缩写】SIB）
+ITU-T定义了一个标准的可重用功能块，称为与业务无关的功能块，即业务独立构件(SIB)。每个 SIB 完成某种标准的网络功能，这些标准的可重用块搭配出不同的业务属性，进而构成不同的业务。"
+解释一下什么是SIP,"初始会话协议（Session InitiationProtocol,【缩写】SIP）
+SIP是IETF制定的，用于多方多媒体通信。按照IETF RFC 2543的定义，SIP是一个基于文本的应用层控制协议，独立于底层传输协议(TCP/UDP/SCTP),用于建立、修改和终止IP网上的双方或多方多媒体会话。"
+解释一下什么是SLC,"信令链路码（Signaling Link Code,【缩写】SLC）
+信令链路码是No.7信令网管理消息中标号的一个字段，指出在连接相关的两个信令点的信令链路中传递消息的信令链路。"
+解释一下什么是SMAP,"业务管理接入点（Service ManagementAccess Point,【缩写】SMAP）
+业务管理接入点是提供给业务管理者的一个管理窗口，具有与SMP的接口，业务管理者可以通过SMAP接入SMP 来管理业务。为用户提供接入到SMP的能力。当用户通过SMAP对智能网中的业务进行管理时，SMAP完成接入、数据输入和初始数据鉴权的功能。"
+解释一下什么是SMP,"业务管理点（Service ManagementPoint固定语音网,【缩写】SMP）
+业务管理点是智能网各业务、用户数据的管理中心，它与SMAP 一起组成了一个用户信息管理网络，完成业务管理、用户管理、网络管理、计费管理、接入管理、系统管理等功能。"
+解释一下什么是SP,"信令点（Signaling Point,【缩写】SP）
+信令点是处理控制消息的节点，产生消息的信令点为该消息的源点，消息到达的信令点为该消息的目的节点。"
+解释一下什么是SPC,"信令点编码（Signaling Point Code,【缩写】SPC）
+信令点编码是为了识别信令网中的各信令点（含信令转接点)，供信令消息在信令网中选择路由使用。"
+解释一下什么是SRF,"专用资源功能（Specialized Resour-ce Function,【缩写】SRF）
+专用资源功能是实现智能网中智能外设应具有的功能，如发送语音提示、语音合成等。"
+解释一下什么是SS,"软交换（Softswitch,【缩写】SS）
+软交换是网络演进以及下一代分组网络的核心设备之一，它独立于传送网络，主要完成呼叫控制、资源分配、协议处理、路由、认证、计费等主要功能，同时可以向用户提供现有电路交换机所能提供的所有业务。"
+解释一下什么是SSF,"业务交换功能（Service SwitchingFunction-86-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读,【缩写】SSF）
+业务交换功能是CCF与SCF之间的接口，处理CCF与SCF之间的通信，并进行两者之间的消息格式转换。"
+解释一下什么是SSP,"业务交换点（Service SwitchingPoint,【缩写】SSP）
+SSP具有检测智能业务呼叫的能力，在检测到智能业务时向业务控制点(SCP)报告，并能根据SCP发来的控制命令进行呼叫接续，从而完成智能业务。SSP功能可以由交换机完成，也可以由独立设备完成。"
+解释一下什么是STP,"信令转接点（Signal Transfer Point,【缩写】STP）
+具有信令转发功能，能将信令消息从一条信令链路转送到另一条信令链路的信令节点，称为信令转接点。日更新永久免费"
+解释一下什么是TCAP,"事务处理能力应用部分（TransactionCapabilities Application Part,【缩写】TCAP）
+TCAP是No.7信令协议之一，是SCCP的用户部分。在信令点间提供非电路相关信息的交换。如在SSP和SCP之间建立远程操作对话，交换局访问网络数据库中心及数据库之间建立远程操作对话过程等。"
+解释一下什么是TG,"中继网关（Trunk Gateway,【缩写】TG）
+中继网关用于完成软交换与PSTN/PLMN电话交换机的中继连接，将PSTN/PLMN中的PCM中继64kbit/s的语音信号转换为IP包。"
+解释一下什么是TKG,"电路群组（Trunk Group,【缩写】TKG）
+电路群组是把中继线按照不同路由、方向、性质进行归类的电路群。"
+解释一下什么是TUP,"电话用户部分（Telephone User Part,【缩写】TUP）
+TUP是No.7信令系统的第四级，定义了电话呼叫控制信令必要的信令功能。"
+解释一下什么是UC,"统一通信（Unified Commun-ications,【缩写】UC）
+统一通信是指把计算机技术与传统的通信技术融合起来的新通信模式，即融合计算机网络与传统通信网络在一个网络平台上，实现电话、传真、数据传输、音视频会议、呼叫中心、即时通信等众多应用服务。-87-"
+解释一下什么是UMG,"通用媒体网关（Universal MediaGateway,【缩写】UMG）
+通用媒体网关完成媒体流格式转换与信令转换功能，具有TMG、内置SG、AMG等多种用途，可用于连接PSTN交换机、PBX、接入网、NAS、基站控制器等多种设备。"
+解释一下什么是UP,"用户部分（User Part,【缩写】UP）
+用户部分构成No.7信令系统的第四级，它的功能是处理信令消息。根据不同的应用，可以有不同的用户部分。例如，电话用户部分(TelephoneUser Part)处理电话网中的呼叫控制消息；综合业务数字网用户部分(ISDN User Part)处理ISDN 中的呼叫控制信令消息。"
+解释一下什么是VC,"充值中心（Voucher Center,【缩写】VC）
+充值中心负责完成充值卡的鉴权管理，多用于智能网平台的用户充值。"
+解释一下什么是VIG,"视频互通网关（Video InterworkingGateway,【缩写】VIG）
+VIG实现不同网络间多媒体视频业务的互通。"
+解释一下什么是WAC,"广域Centrex 业务（Wide Area Centrex,【缩写】WAC）
+广域Centrex 业务是将位于不同交换节点上的“集中用户交换机(Centrex)”通过物理及信令上的连接，组成一个虚拟的、跨地域的专用网络。这种网络虽然在地域上具有分散性，但是在性质或使用方式上却类同于单个Centrex。"
+解释一下什么是ADM,"分插复用器（Add and DropMultiplexer,【缩写】ADM）
+在电信网络的节点上，经常需要把部分信号流从节点上“分”出来，或把某些信号流“插”进网络传输系统，这种可以把信号分出来、插进去的设备叫做“分插复用器”，也叫做“上下复用器”。"
+解释一下什么是AIS,"告警指示信号（Alarm IndicationSignal,【缩写】AIS）
+AIS是一种传送内容全为“1”的信号。它代替了原有的传输信号以确保传输的连续性，并告知接收设备在发送AIS的设备或其上游设备出现了传输的错误。"
+解释一下什么是APS,"自动保护倒换（Automatic Prote-ction Switching,【缩写】APS）
+APS是应用在通信网中的一项技术，当工作线路发生故障时，传输的信号可以自动切换到保护线路，用以提高传输的可靠性。"
+解释一下什么是ASON,"自动交换光网络（Automatically Sw-itched Optical Network,【缩写】ASON）
+ASON是指在路由和信令的控制下完成自动交换功能的智能光网络，同传统光传送网相比，ASON的一个明显特征是在网络中引入了独立的控制平面，以实现网络资源的按需分配，从而实现网络的智能化。-93-下图书XIATUSHU.COM"
+解释一下什么是AU,"管理单元（Administration Unit,【缩写】AU）
+AU是一种提供高阶通道层和复用段之间适配的信息结构，由信息净荷和管理指针组成。该管理指针提供净荷帧起始位置相对于复用段帧起始的偏移。"
+解释一下什么是AUG,"管理单元组（Administrative UnitGroup,【缩写】AUG）
+AUG是在一个同步传送模块(STM)净负荷区中，固定地占据规定位置的一个或多个管理单元。一个AUG由同类的字节间插的AU-3的集合或一个AU-4组成。"
+解释一下什么是BBE,"背景误块（Background BlockError-94-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读,【缩写】BBE）
+BBE是指扣除不可用时间和严重误码秒之外的误块。"
+解释一下什么是BBER,"背景误块比（Background BlockError Ratio,【缩写】BBER）
+BBER是指背景误块数与在一段测量时间内扣除不可用时间和有严重误码秒期间所有块数后的总块数之比。"
+解释一下什么是CC,"交叉连接（Cross Connection,【缩写】CC）
+CC指同一网元内两个连接终端点之间的连接。"
+解释一下什么是DCC,"数据通信信道（Data Communicat-ion Channel,【缩写】DCC）
+在一个STM-N信号中，有两条DCC通路：一条由日更新永久免费字节D4~D12组成，提供一条576kbit/s的通路；一条由字节D1~D3组成，提供一条192kbit/s的通路。"
+解释一下什么是DDF,"数字配线架（Digital DistributionFrame,【缩写】DDF）
+DDF是数字复用设备之间、数字复用设备与程控交换设备或非话业务设备之间的配线连接设备。"
+解释一下什么是DXC,"数字交叉连接设备（Digital Cross-Connect,【缩写】DXC）
+DXC相当于一种自动的数字电路配线架。其核心部分是可控的交叉连接开关（空分或时分)矩阵。参与交叉连接的基本电路速率可以等于或低于端口速率，它取决于信道容量分配的基本单位。一般每个输入信号被分接为多个并行支路信号，然后通过时分（或空分）交换网传输络，按照预先存放的交叉连接图或动态计算的交叉连接图对这些电路进行重新编排，最后将重新编排后的信号复接成高速信号输出。"
+解释一下什么是ECC,"嵌入控制信道（Embedded ControlChannel,【缩写】ECC）
+ECC提供SDH网元之间的一条逻辑通路。它使用DCC(数据通信信道)作为它的物理层。"
+解释一下什么是EFS,"无误码秒（Error Free Second,【缩写】EFS）
+EFS是指不出现任何误码的秒数。"
+解释一下什么是EPS,"设备保护倒换（Equipment Protect-ion Switching,【缩写】EPS）
+EPS机制确保传输-95-的连续性，当故障发生时，故障设备可以倒换至备用设备。"
+解释一下什么是ES,"误码秒（Errored Second,【缩写】ES）
+ES是指出现误码的秒数。"
+解释一下什么是ESR,"误码秒比（Errored Second Ratio,【缩写】ESR）
+ESR是指在规定测量时间段内出现的误码秒总数与总的可用时间的比值。"
+解释一下什么是FC,"流控制（Flow Control,【缩写】FC）
+FC是指对数据网中两个指定节点之间（例如数据终端设备和数据交换机之间)的分组传送速率进行控制的过程。在全双工以太网链路上一般采用PAUSE 功能防止瞬时过载而导致缓冲区溢出，造成不必要的帧-96-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读丢弃。"
+解释一下什么是FWM,"四波混频（Four-Wave Mixing,【缩写】FWM）
+FWM是光纤介质三阶极化实部作用产生的一种光波间耦合效应，是因不同波长的两三个光波相互作用而导致在其他波长上产生所谓的混频产物，或边带的新光波，这种互作用可能发生于多信道系统的信号之间，可以产生三倍频、和频、差频等多种参量效应。"
+解释一下什么是GFP,"通用成帧规程（Generic FramingProcedure,【缩写】GFP）
+GFP 属于 ITU-TG.7041规范，是一种新的封装规程。在多业务传送平台中，除可以使用传统的点到点协议/高速数据链路协议(PPP/HDLC)、SDH上的链路接入规程(LAPS)作为数据分组的封装协议外，GFP是一种新的选择方案。日更新永久免费下图书"
+解释一下什么是HO,"高阶（High Order,【缩写】HO）
+PDH/SDH信号的传输速率将分成高阶(HO)和低阶(LO)信号。高阶：PDH140Mbit/s, SDH:STM-N;阶：PDH 2Mbit/s、34/45Mbit/s,SDH(国内制式)：VC-12、VC-3。"
+解释一下什么是HOM,"高阶矩阵（High Order Matrix,【缩写】HOM）
+HOM是SDH功能模型中的一个模块，用于完成高阶信号的交叉连接。"
+解释一下什么是HP,"高阶通道（Higher order Path,【缩写】HP）
+在SDH网中，高阶通道层为低阶通道层提供服务网络。“低”和“高”这两个相比较的词仅指这种服务/客户关系中的两个参与者。相对于U.COM传输VC-1和VC-2,VC-3/4通道可称为“高阶”；而相对于VC-3而言，VC-4通道可称为“高阶”。"
+解释一下什么是IODF,"智能型光纤配线架（Intelligent OpticalDistribution Frame,【缩写】IODF）
+IODF是集计算机通信、自动控制、光传输及测试技术于一体，并与传统的光纤分配架(ODF)完美结合的高技术系统。主要通过各种智能化模块实时采集所监测光纤的光功率变化值，并上报各级网管中心。当发现告警时迅速发出告警信息，及时准确地排除光缆线路故障，从而有效地压缩了障碍历时；同时，也可以预报传输系统物理线路的故障隐患，通过统计分析光缆性能，为管理人员提供决策依据。"
+解释一下什么是LA,"线路放大器（Line Amplifier,【缩写】LA）
+LA用于周期性地-97-补偿线路传输损耗，一般要求比较小的噪声指数、较大的输出光功率。"
+解释一下什么是LCAS,"链路容量调整机制（Link Capacity Ad-justment Scheme,【缩写】LCAS）
+LCAS技术就是建立在源和目的之间双向往来的控制信息系统。这些控制信息可以根据需求动态地调整虚容器组中成员的个数，以此来实现对带宽的实时管理，从而在保证承载业务质量的同时，大大提高了网络利用率。"
+解释一下什么是LOF,"帧丢失（Loss Of Frame,【缩写】LOF）
+LOF是指当接收端无法正确接收并识别帧定位信息达到一定时长后产生的告警。"
+解释一下什么是LOP,"指针丢失（Loss Of Pointer-98-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读,【缩写】LOP）
+当导致指针无法确知的条件连续出现规定的次数时，SDH设备进入指针丢失状态。"
+解释一下什么是LOS,"信号丢失（Lost Of Signal,【缩写】LOS）
+LOS是指接收端没有接收到信号。"
+解释一下什么是LP,"低阶通道（Lower order Path,【缩写】LP）
+在SDH网中，高阶通道层为低阶通道层提供服务（器）网络。“低”和“高”这两个相比较的词仅指这种服务（器）/客户关系中的两个参与者。相对于VC-3 和VC-4,VC-12通道可称为“低阶”；而相对于VC-4而言，VC-3通道可称为“低阶”。"
+解释一下什么是LPA,"低阶通道适配（Lower order PathAdaptation,【缩写】LPA）
+LPA采用把PDH信号映射入或映射出同步容器的方式适配到SDH网中。如果信号是异步的，则映射过程还应包括比特级的调整。"
+解释一下什么是MMF,"多模光纤（Multi Mode Fibre,【缩写】MMF）
+MMF是能传播多种模式的光纤，模式的数目可以很多，在规定的波长上能传播两种以上模式。"
+解释一下什么是MPLS,"多协议标签交换（Multi-ProtocolLabel Switching,【缩写】MPLS）
+MPLS是IETF定义的一种新型协议，它可以简化IP 的寻址过程。具有 MPLS的数据分组在进入网络时，可被分配至一个唯一的转发等价类传输(Forward Equivalence Class),该标签在每一跳中都与数据分组一起发送。当数据分组到达通路中的下一节点时，该标签可作为一个查找表的索引，此表将提供一个新的标签替换旧标签，并与数据分组一起在通路中进行发送。"
+解释一下什么是MS-SPRing,"复用段共享保护环（Multiplex SectionShared Protection Ring,【缩写】MS-SPRing）
+所有MS-SPRing保护环中的网元都包含一对互为保护的端口：一个端口称作West(西端)，另一个称为East(东端)。网元的西端必须与其相邻网元的东端相连：组成两纤MS-SPRing 环网的网元使用两条光纤连接，一条光纤在某一方向上传送信号，另一条则反向传送信号。"
+解释一下什么是MSOH,"复用段开销（Multiplex SectionOverHead下图杰XIATUSHU.COM-99-,【缩写】MSOH）
+段开销信息加上净荷信息形成一个STM-N。段开销包括成帧信息、维护信息、性能监视信息和其他一些操作功能。段开销又可以进一步分为在再生段终结的再生段开销和在复用段终结的复用段开销。复用段开销透明地通过再生段，并在AUG组装和拆装的时候终结。"
+解释一下什么是MSP,"复用段保护（Multiplex SectionProtection,【缩写】MSP）
+MSP用于保护相邻网元之间的光纤链路（复用段)，也称作自动保护倒换(APS)。SDH 网络中可以采用MSP(1+1)保护方式，工作线路和备用线路永远使用相同的信号，发送方执行信号广播，接收方将进行信号选择。根据端口保护的关联性，MSP(1+1)可分为两类：单端保护和双端保护。单端MSP:每个选择器是独立的；双端MSP:每个选择器或者选择来自于工作线路-100-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读侧输入的STM-N信号，或者选择来自于备用线路的信号，使用K1/K2协议。端口间存在一定的关联关系。"
+解释一下什么是MSTP,"多业务传送平台（Multi ServiceTransfer Platform,【缩写】MSTP）
+MSTP是指基于SDH 平台同时实现 TDM、ATM、以太网等业务的接入、处理和传送，提供统一网管的多业务节点。"
+解释一下什么是MUX,"复用（Multiplexing,【缩写】MUX）
+MUX是把若干个异源信号组合成能在一条公共传输通路上传输的单一合成信号的过程。"
+解释一下什么是OA,"光放大器（Optical Amplifier日更新永久免费下图书XIATUSHU.COM,【缩写】OA）
+OA提供光信号增益，以补偿光信号在通路中的传输衰减，增大系统的无中继传输距离。"
+解释一下什么是OADM,"光分叉复用器（Optical Add/DropMultiplexer,【缩写】OADM）
+传统的波分系统(WDM)中的分插复用设备(ADM)采用光/电/光的处理方式，对每个通道的信号都要进行单独的处理，当波分系统的通道数达到一定程度后，它需要的设备变得非常冗杂且成本也十分昂贵。而OADM 无需光/电转换，不受电子处理速率瓶颈的限制，且可透明传输各种接入方式的数据，能提高网络的灵活性和可控性，它是现代全光网的一个关键器件。"
+解释一下什么是ODF,"光纤配线架（Optical DistributionFrame传输,【缩写】ODF）
+ODF用于光纤通信系统中局端主干光缆的成端和分配，可方便地实现光纤线路的连接、分配和调度。"
+解释一下什么是OLA,"光线路放大器（Optical LineAmplifier,【缩写】OLA）
+OLA是指利用受激辐射，使经过特定活性介质的光信号进行放大的器件或子系统。"
+解释一下什么是OMU/ODU,"合波器/分波器（Optical MultiplexerUnit/Optical Demultiplexer Unit,【缩写】OMU/ODU）
+OMU用在传输系统的发送端，是一种具有多个输入端口、一个输出端口的器件，它的每一个输入端口输入一个预定波长的光信号，输入的不同波长的光波由同一个输出端口输出。ODU用在传输系统的接收端，正好与OMU相反，它具有一个输入端口和多个输出端-101-下图书口，将多个不同波长的信号分离开来。"
+解释一下什么是OSC,"光监控信道（Optical SupervisoryChannel,【缩写】OSC）
+OSC是指通过特定光波长信号实现光传输网络中不同节点间的通信，完成光监控信息的传输的信道技术。"
+解释一下什么是OSNR,"光信噪比（Optical Signal NoiseRatio,【缩写】OSNR）
+OSNR是指在0.1nm的有效带宽内光信号功率和噪声功率的比值。光信号的功率一般取峰峰值，而噪声的功率一般取两相临通路的中间点的功率电平。"
+解释一下什么是OTM,"光终端复用器（Optical TerminalMultiplexer-102-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读,【缩写】OTM）
+OTM可以由光波长转换类单板和光分插复用类单板构成。它可以采用不同类型的光波长转换类单板和光分插复用类单板，OTM可适用于密集型波分复用系统和粗波分复用系统。"
+解释一下什么是OTN,"光传送网（Optical TransportNetwork,【缩写】OTN）
+OTN是以波分复用技术为基础、在光层组织网络的传送网，是下一代的骨干传送网。"
+解释一下什么是OTU,"波长转换器（Optical TransponderUnit,【缩写】OTU）
+OTU是一种将光波长进行变化、转换的器件，它先将光信号转换成电信号，经定时再生后，产生再生的电信号和时钟信号，再用该电信号对标准波日更新永久免费下图书XIATUSHU.COM长的激光器重新进行调制，从而实现波长转换。"
+解释一下什么是PA,"前置放大器（Pre-Amplifier,【缩写】PA）
+PA是处于分波器之前、线路放大器之后的一种光放大器，用于信号放大，提高接收机的灵敏度（在光信噪比满足要求的情况下，较大的输入功率可以压制接收机本身的噪声，提高接收灵敏度)，它要求噪声指数很小，对输出功率没有太大的要求。"
+解释一下什么是PDH,"准同步数字系列（PlesiochronousDigital Hierachy,【缩写】PDH）
+PDH是指为了将低速信道复接成高速信道并使复接方便，规定了各信道比特流之间的等级速率标称值和容差范围的一种传输体制。这种允许比特率有偏差但几乎是同步的工作状态，称之为准同步工作，相传输应的比特系列则称为准同步数字系列。"
+解释一下什么是POS,"在SDH通道中直接传送IP数据包（Packet over SDH,【缩写】POS）
+POS 是一种将IP与SDH网结合起来的数据通信体系结构，其物理层、数据链路层和网络层分别定义为SDH、链路接入规程(LAPS)和IP协议层。"
+解释一下什么是PPP,"点对点通信协议（Point to PointProtocol,【缩写】PPP）
+PPP是为在同等单元之间传输数据包这样的简单链路所设计的链路层协议。这种链路提供全双工操作，并按照顺序传输数据包。设计目的主要是用来通过拨号或专线方式建立点对点连接传送数据，使其成为各种主机、网桥和路由器之间简单连接的一种共通的解决方案。-103-"
+解释一下什么是PTN,"分组传送网（Packet TransportNetwork,【缩写】PTN）
+PTN是指这样一种光传送网络架构和具体技术：在IP 业务和底层光传输媒质之间设置了一个层面，它针对分组业务流量的突发性和统计复用传送的要求而设计，以分组业务为核心并支持多业务提供，具有更低的总体使用成本(TCO),同时秉承光传输的传统优势，包括高可用性和可靠性，高效的带宽管理机制和流量工程，便捷的操作、管理、维护(OAM)和网管，可扩展，较高的安全性等。"
+解释一下什么是PTR,"指针（Pointer,【缩写】PTR）
+PTR用于指示虚容器相对于支持它的传输实体的帧参考点的帧偏移。"
+解释一下什么是PW,"伪线（Pseudo-Wire,【缩写】PW）
+PW是一种承载帧中继(Frame Relay)、异步转移模式(ATM)、以太网(Ethernet)、时分复用(TDM)以及SONET/SDH 等本地服务数据帧，穿过分组交换的提供商网络，提供跨提供商网络的本地服务连通性的机制。"
+解释一下什么是RDI,"远端缺陷指示（Remote DefectIndication,【缩写】RDI）
+RDI是指路径终结中断点发送给特征信息产生点网元的载有特征信息状态故障的信息。RDI能将由路径终端宿功能接收到的特征信息中的缺陷状态回送到产生特征信息的网元。"
+解释一下什么是REG,"再生中继器（Regenerator日更新永久免费,【缩写】REG）
+数字信号在传输过程中会受到噪声干扰，导致信号幅度的失真，通过对信号的均衡放大、再生判决将信号恢复的设备称为再生中继器，在光传输系统中，REG将经过光纤长距离传输后受到较大衰减和色散畸变的光脉冲信号转换成电信号，进行放大、整形、再定时、再生成为规范的电脉冲信号，再经过调制光源变换成光脉冲信号，送入光纤继续传输，以延长通信距离。"
+解释一下什么是RPR,"弹性分组环（Resilient PacketRing,【缩写】RPR）
+RPR是面向数据的一种光环新技术，它利用了大部分数据业务实时性要求较话音业务低的特点，使用双环同时工作的方式。RPR 与媒体无关，可扩展，采用分布式的管理、拥塞控制与保护机制，具备分服务等级的能力。能比SONET/SDH更有效地分配带宽和处理数据。传输"
+解释一下什么是RSOH,"再生段开销（Regenerator SectionOverHead,【缩写】RSOH）
+段开销信息加上净荷信息形成一个 STM-N。段开销包括成帧信息、维护信息、性能监测信息和其他一些操作功能。段开销又可以进一步分为在再生段终结的再生段开销和在复用段终结的复用段开销。再生段开销在再生段终结。"
+解释一下什么是SDH,"同步数字体系（Synchronous DigitalHierarchy,【缩写】SDH）
+SDH是一种将复接、线路传输及交换功能融为一体，并由统一网管系统操作的综合信息传送网络，是美国贝尔通信技术研究所提出来的同步光网络(SONET)。国际电话电报咨询委员会(CCITT)(现ITU-T)于1988年接受了SONET 概念并重新命名为下图书-105-SDH,使其成为不仅适用于光纤也适用于微波和卫星传输的通用技术体制。它可实现网络的有效管理、实时业务监控、动态网络维护、不同厂商设备间的互通等多项功能，能大大提高网络资源的利用率、降低管理及维护费用、实现灵活可靠和高效的网络运行与维护。"
+解释一下什么是SEC,"SDH网元时钟（SDH Element Clock,【缩写】SEC）
+SEC 是指SDH 设备时钟。报据G.813和G.703建议，SEC输出频率偏差不应大于4.6×10~6。"
+解释一下什么是SES,"严重误码秒（Severely ErroredSecond,【缩写】SES）
+由于某些系统会出现短时间内大误码率的情况，严重影响通话质量，因此引入严重误码秒这个参数。选择监测时间T为1个月，取样时间To为1-106-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读秒。定义误码率劣于1×103的秒数为严重误码秒。"
+解释一下什么是SESR,"严重误码秒比（Severely ErroredSecond Ratio,【缩写】SESR）
+SESR是在测量时间段内出现的SES总数与总的可用时间之比。"
+解释一下什么是SETPI,"同步设备定时物理接口（SynchronousEquipment Timing PhysicalInte-rface,【缩写】SETPI）
+SETPI为外部同步信号和同步设备定时源之间提供接口。"
+解释一下什么是SMSR,"边模抑制比（Side Mode Sup-pression Ratio,【缩写】SMSR）
+对于单纵模激光器日更新永久免费(DFB-LD)边模抑制比为在最坏反射时，全调制条件下，主纵模峰值光功率P与最大次纵模光功率Pm之比，即：SMSR(dB)=10lg(P/Pm)。"
+解释一下什么是SNCP,"子网连接保护（Sub-Network Con-nection Protection,【缩写】SNCP）
+SNCP是指对某一子网连接预先安排专用的保护路由，一旦子网发生故障，专用保护路由便取代子网承担在整个网络中的传送任务。"
+解释一下什么是SOH,"段开销（Section OverHead,【缩写】SOH）
+SOH指网络节点接口数据流中扣除信息净负荷和管理单元指针之后的部分，包含帧定位及运行、管理和维护等信息。段开销可进一步划分为再生段开销(RSOH)和复用段开销(MSOH)。"
+解释一下什么是SONET,"同步光纤网络（Synchronous OpticalNetwork,【缩写】SONET）
+光纤传输系统定义了同步传输的线路速率等级结构，其传输速率以51.84Mbit/s为基础，大约对应于T3/E3的传输速率，此速率对电信号称为第1级同步传送信号，即STS-1;对光信号则称为第1级光载波(OC, Optical Carrier),即 OC-1。现已定义了从OC-1(51.84Mbit/s)一直到OC-3072(约160Gbit/s)的标准。"
+解释一下什么是SRG,"共享风险组（Shared Risk Group,【缩写】SRG）
+在快速环保护协议(RRPP)双归属网络中，两机房之间为了保证可靠性部署双链路连接，但实际应用中这两条链路或光纤都处于一个地沟或管道中，这样就出现了SRG,链路保护无任何意义；同时该种网络中还会浪费核心交换机的端-107-口资源和光纤资源。"
+解释一下什么是SSM,"同步状态消息（SynchronizationStatus Message,【缩写】SSM）
+SSM采用4bit的编码，共16种信号，用于在同步定时链路中传递定时信号等级，使同步网中的各网元时钟通过解读SSM获取上游网元时钟同步状态信息，根据该信息对本网元的时钟进行相应的操作（跟踪、倒换或保持)，并将该网元的时钟同步状态信息传给下游网元。在SDH中，SSM是通过复用段开销(MSOH)中的S1字节来传递的。"
+解释一下什么是ST,"倒换时间（Switching Time,【缩写】ST）
+ST是指系统在检测到信号失效后，从启动保护倒换或开始实施硬件切换到全部倒换动作结束而使业务得以恢复之间的时长。-108-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）XIATUSHU块高清图书享受阅读"
+解释一下什么是STM-N,"第N级同步传送模（Synchronous Tran-sport Module-N,【缩写】STM-N）
+SDH采用的信息结构等级称为同步传送模块STM-N(N为1,4,16,64)，最基本的模块为STM-1,4个STM-1同步复构成STM-4,16个STM-1或4个STM-4同步复用构成STM-16。"
+解释一下什么是TM,"终端复用器（Termination Mult-iplexer,【缩写】TM）
+TM的主要功能是将若干个PDH低速率支路信号复用成为STM-1帧结构电（或光)信号，或将若干个STM-n信号复用成为STM-N(n<N)信号输出。解复用过程与复用过程相反。"
+解释一下什么是TU,"支路单元（Tributary Unit,【缩写】TU）
+TU是为低阶通道层和高阶通道层之间提供适配功能的一种信息结构。它由一个信息净负荷（低阶VC)和一个支路单元指针组成，支路单元指针指示净负荷帧起点相对于高阶VC帧起点的偏移。TU-n(n为1,2,3)由一个VC-n和一个支路单元指针组成。"
+解释一下什么是TUG,"支路单元组（Tributary UnitGroup,【缩写】TUG）
+TUG是指一个或多个在高阶VC-n净负荷中占据固定的确定位置的支路单元，TUG可由不同的支路单元组成，以增加传送网的灵活性。"
+解释一下什么是UAS,"不可用秒（UnAvailable Second,【缩写】UAS）
+指在任一秒的时间传输间隔内出现业务中断，该秒即被记为不可用秒。"
+解释一下什么是VC,"虚容器（Virtual Container,【缩写】VC）
+VC是支持通道层连接的信息结构，包括净荷和通道开销。通道开销是125us或500us重复的块状帧结构，同步信息识别VC-n的帧起始位置，由服务网络层提供。"
+解释一下什么是VCG,"虚级联组（Virtual ConcatenationGroup,【缩写】VCG）
+VCG是指多个相邻或非相邻的较小虚容器复用为单个较大的虚容器，这些较小的虚容器在传送过程中相互独立，而在传输的终结点处将这些较小虚容器重新组合成一个相邻带宽。"
+解释一下什么是WDM,"波分复用（Wavelength DivisionMultiplexing,【缩写】WDM）
+WDM是指在一根光纤上同时传输多个不同波长的光信号，只要不同的光信号在波长上有一定的间隔，它们之间就可以没有相互干扰，能同时在一根光纤上传输，实现波分复用的技术。波分复用系统的基本构成是：在发送端，将若干具有不同波长的光源发出的光，通过一个合波器（波长复用器)将它们合并起来，共同送入一根光纤进行传输；在接收端，通过一个分波器（解复用器)将这些不同波长的光载波分开。采用波分复用技术的突出优点是可以使光纤的传输容量成倍地增加，充分地利用光纤的带宽资源。"
+解释一下什么是AC,"接入控制器（Access Controller,【缩写】AC）
+接入控制器在WLAN 系统中特指对 AP 设备进行集中资源管理控制及数据汇聚的设备。接入控制器能够实现对WLAN 网络更加完善的安全支持、访问控制、个性化管理和计费信息采集等功能。"
+解释一下什么是ADSL,"非对称数字用户线（Asymmetric DigitalSubscriber Line,【缩写】ADSL）
+非对称数字用户线是指上行（从用户到电信服务提供商的方向，如上传动作)和下行（从电信服务提供商到用户的方向，如下载动作)带宽不对称(即上行和下行的速率不相同)的数字用户线路。它采用频分复用技术把普通的电话线分成了-114-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）XIATUSHU.COM接入网高清图书享受阅读电话、上行和下行3个相对独立的信道，从而避免了相互之间的干扰。ITU-T G992.1标准中，ADSL 的传输距离有效范围为3~5km,可以提供512kbit/s~1Mbit/s的上行速度和1~8Mbit/s的下行速度。在ITU-T G992.5中，ADSL2+可以提供3.5Mbit/s的上行速度和24Mbit/s的下行速度。"
+解释一下什么是AN,"接入网（Access Network,【缩写】AN）
+接入网是指由用户—网络接口(UNI)到业务节点接口(SNI)之间的一系列传送实体所组成的全部设施。"
+解释一下什么是AON,"有源光网络（Active OpticalNetwork日更新永久免费,【缩写】AON）
+有源光网络是指信号在进出网络时进行电/光转换和光/电转换，在网络中进行传输和交换时始终都是以光的形式进行的网络。因为在整个传输过程中没有电的处理，所以PDH、SDH、ATM等各种传送方式均可使用，提高了网络资源的利用率。"
+解释一下什么是AP,"接入点（Access Point,【缩写】AP）
+AP是组建无线局域网时最常用的设备。AP是连接有线网和无线网的桥梁，其主要作用是将各个无线网络客户端连接到一起，然后将无线网络接入到有线以太网。目前大多数无线AP都支持多用户接入、数据加密、多速率发送等功能，一些产品更提供了完善的无线网络管理功能，可以应用于家庭、办公室这样的小范围无线局域网。AP分为胖AP(即FatAP)和瘦AP(即Fit AP)两种。胖AP将WLAN的物理层、用户数接入网据加密、用户认证、QoS、网络管理、漫游技术以及其他应用层的功能集于一身，胖AP无线网络解决方案可由胖AP直接在有线网的基础上构成，但胖AP设备结构复杂，且难于集中管理。瘦AP是一个只有加密、射频功能的AP,功能单一，不能独立工作。整个瘦AP无线网络解决方案由无线交换机和瘦AP在有线网的基础上构成。瘦AP上“零配置”，所有配置都集中到无线交换机上。这也促成了瘦AP解决方案更加便于集中管理，并由此具有三层漫游、基于用户下发权限等胖AP不具备的功能。"
+解释一下什么是B-ISDN,"宽带综合业务数字网（BroadbandIntegrated Service Digital Net-work,【缩写】B-ISDN）
+宽带综合业务数字网是在窄带综合业务数字网(N-ISDN)的基础上发展起来的数字通信网络，其核心技术是采用ATM(异步转移模式)。-115-B-ISDN的主要特征是以同步转移模式(STM)和异步转移模式(ATM)兼容方式，在同一网络中支持范围广泛的声音、图像和数据的应用。"
+解释一下什么是BRAS,"宽带远程接入服务器（Broadband RemoteAccess Server,【缩写】BRAS）
+宽带远程接入服务器是面向宽带网络应用的新型接入网关，它位于骨干网的边缘层，可以完成用户数据接入（目前接入手段主要基于 xDSL、PON、Cable Modem、高速以太网技术(LAN)/无线宽带数据接入(WLAN)等)，实现商业楼宇及小区住户的宽带上网、基于IPSec(IP Security Protocol)的IPVPN服务、构建企业内部Intranet、支持ISP向用户批发业务等应用。"
+解释一下什么是CAPWAP,"无线接入点的控制和保障（Control And Provi--116-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读sioning of Wireless Access Points,【缩写】CAPWAP）
+无线接入点的控制和保障是集中控制型WLAN网络的AP管理协议，是IETF为了解决集中控制型WLAN网络中AP和AC设备之间隧道协议不兼容而成立的标准化协议，作为通用隧道协议，它完成AP自动发现AC、AC对AP进行安全认证、AP从AC获取软件映像、AP从AC获取初始和动态配置等基本功能。"
+解释一下什么是CPE,"用户终端设备（Customer PremiseEquipment,【缩写】CPE）
+用户终端设备是指物理上位于用户侧的硬件，如服务器、工作站、通信硬件(CSU/DSU、调制解调器)、LAN设备（集线器、网桥、交换机）、WAN设备（路由器）。"
+解释一下什么是DSLAM,"数字用户线路接入复用器（Digital SubscriberLineAccess Multiplexer,【缩写】DSLAM）
+数字用户线路接入复用器是各种DSL 系统的局端设备，属于最后一公里接入设备，其功能是接纳所有的DSL线路，汇聚流量，相当于一个二层交换机。"
+解释一下什么是EPON,"以太无源光网络（Ethernet PassiveOptical Network,【缩写】EPON）
+以太无源光网络是一种新型的光纤接入网技术，EPON的标准是IEEE 802.3ah,标准中定义了EPON的物理层、MPCP(多点控制协议)、OAM(运行管理维护)等相关内容。提供固定上、下行1.25Gbit/s的速率。它采用点到多点结构、无源光纤传输，在以太网之上提供多种业务。它在物理层采用了PON 技术，在链路层使用以太网协议，利用PON的拓扑结构实现了以太网的接入。因此，它接入网综合了PON技术和以太网技术的优点：低成本；高带宽；扩展性强，灵活快速的服务重组；与现有以太网的兼容性；方便的管理，等等。"
+解释一下什么是FE,"快速以太网（Fast Ethernet,【缩写】FE）
+快速以太网可以满足日益增长的网络数据流量速度需求。100Mbit/s 快速以太网标准分为100Base-TX、100Base-FX、100Base-T4 3个子类。快速以太网技术可以有效保障用户在布线基础实施上的投资，它支持3/4/5类、超5类及6类双绞线以及光纤的连接，能有效利用现有的设施。早期以太网(10Mbit/s)称为标准以太网。"
+解释一下什么是FTTB,"光纤到楼（Fiber To TheBuilding,【缩写】FTTB）
+光纤到楼是利用数字宽带技术，光纤直接到小区，-117-再通过双绞线（超五类双绞线或4对非屏蔽双绞线)到各个用户。"
+解释一下什么是FTTC,"光纤到路边（Fiber To The Curb,【缩写】FTTC）
+光纤到路边是指从中心局到离家庭或办公室300m以内的路边之间光缆的安装和使用。"
+解释一下什么是FTTH,"光纤到户（Fiber To The Home,【缩写】FTTH）
+光纤到户就是一根光纤直接到家庭。具体来说，FTTH 是指将光网络单元(ONU)安装在住家用户或企业用户处，是光接入系列中较为靠近用户的光接入网应用类型。"
+解释一下什么是GPON,"吉比特无源光纤接-118-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读入网络（Gigabit-CapablePassive Optical Network,【缩写】GPON）
+吉比特无源光纤接入网络技术是基于ITU-T G.984.x标准的最新一代宽带无源光综合接入标准，具有高带宽、高效率、大覆盖范围、用户接口丰富等众多优点，被大多数运营商视为实现接入网业务宽带化、综合化改造的理想技术。GPON是原CCITT 以155Mbit/s ATM 技术为基础的APON(ATM PON)标准，后来更名为BPON(宽带PON)发展而来的。GPON 标准的制订考虑了对传统TDM业务的支持。GPON支持多种速率等级，可以支持上下行不对称速率，下行2.5Gbit/s或1.25Gbit/s,上行1.25Gbit/s 或622Mbit/s,根据实际需求来决定上下行速率。"
+解释一下什么是HDSL,"高速数字用户线（High-speed DigitalSubscriber Line,【缩写】HDSL）
+高速数字用户线是xDSL 家族中开发比较早、应用比较广泛的一种，采用回波抑制、自适应滤波和高速数字处理技每日更新永久免费术，使用2B1Q编码，利用两对双绞线实现数据的双向对称传输，传输速率为2048/1544kbit/s(E1/T1),每对电话线传输速率为1168kbit/s,使用24AWG(American Wire Gauge,美国线缆规程)双绞线（相当于0.51mm)时传输距离可以达到3.4km,可以提供标准的E1/T1接口和V.35接口。"
+解释一下什么是HG,"家庭网关（Home Gateway,【缩写】HG）
+家庭网关是一个在家庭内的网络化信息设备与智能宽带接入网之间的智能化网关。"
+解释一下什么是IPoE,"宽带IP业务接入模式（IP over Ethernet,【缩写】IPoE）
+宽带IP业务接入模式是通过上网用户的物理位置（通过唯一的VLAN ID/PVCID)对用户进行认证和计费，用接入网户上网时无需输入用户名和密码。"
+解释一下什么是ISM Band,"工业、科学和医疗频段（Industrial ScientificMedical Band,【缩写】ISM Band）
+此频段(2.4~2.4835GHz)主要是开放给工业、科学和医疗3个主要领域使用，该频段是依据美国联邦通信委员会(FCC)定义出来的，属于Free License,并没有所谓使用授权的限制。WLAN 主要使用这个频段进行数据传输，此频段允许任何人随意地传输数据，但是对所有的功率进行管制，使得发射台只有很短的传输距离，因而不会相互干扰。因此大多数政府都已经留出了这些频段，用于非授权用途。车库门控制器、无绳电话、无线鼠标，以及许多国家的无线家用设备都使用ISM 频段。"
+解释一下什么是LLID,"逻辑链路标识（Logical LinkIdentifier,【缩写】LLID）
+逻辑链接标识是EPON 系统分配给通过点到点仿真子层(P2PE Sublayer)建立起来的逻辑链接的一种数字标识，每一个逻辑链接都会分配到不同的LLID。OLT连续广播发送下行信号时，ONU选择性接收。PON 的技术标准为 EPON时，EPON 根据LLID 来接收信号。EPON 下行为广播方式，所有的ONU都能收到相同的数据，但是通过LLID 来区分不同业务的数据，ONU通过过滤来接收属于自己的数据。"
+解释一下什么是MAN,"城域网（Metropolitan AreaNetwork,【缩写】MAN）
+城域网是一种界于局域网与广域网之间，覆盖一个城市的地理范围，用来将同一区域内的多个局域网互联起来的中等范围的计算机网。"
+解释一下什么是NAS,"网络接入服务器（Network AccessServer,【缩写】NAS）
+网络接入服务器是进入另一网络的网关，远程用户通常与NAS连接，通常的接入服务器响应远程用户的拨入呼叫并执行登录/身份验证以核实用户。在许多接入服务器上，身份验证由RADIUS执行。"
+解释一下什么是OAN,"光纤接入网（Optical AccessNetwork,【缩写】OAN）
+光纤接入网是指用光纤作为主要的传输媒质，实现接入网的信息传送功能。通过光线路终端(OLT)与业务节点相连，通过光网络单元(ONU)与用户连接。光纤接入网包括远端设备——ONU和局端设备——OLT,它们通过传输设备相连。"
+解释一下什么是ODN,"光分配网（Optical DistributionNetwork,【缩写】ODN）
+光分配网是基于PON 设备的FTTH 光缆网络。其作用是为OLT和ONU之间提供光传输通道。从功能上分，ODN从局端到用户端可分为馈线光缆子系统、配线光缆子系统、入户线光缆子系统和光纤终端子系统4个部分。"
+解释一下什么是OLT,"光线路终端（Optical LineTerminal,【缩写】OLT）
+光线路终端是用于连接光纤干线的终端设备，是一个多业务提供平台，同时支持IP业务和传统的TDM业务。放置在城域网边缘或社区接入网的出口，收敛接入业务并分别传递到IP网。"
+解释一下什么是ONU,"光网络单元（Optical Network接入网Unit,【缩写】ONU）
+光网络单元是一种装有包括光接收机、上行光发射机、多个桥接放大器网络监控的设备，为接入网提供用户侧接口，具有光/电转换功能。ONU分为有源光网络单元和无源光网络单元。"
+解释一下什么是PPPOE,"以太网上的点到点协议（Point-to-Point Pr-otocolOver Ethernet,【缩写】PPPOE）
+以太网上的点到点协议是在以太网上承载PPP(点到点连接协议)，它利用以太网将大量主机组成网络，通过一个远端接入设备连入因特网，并对接入的每一个主机实现控制。"
+解释一下什么是RADIUS,"远程用户拨号认证系统-121-（Remote Authentic-ation Dial In User Service,【缩写】RADIUS）
+远程用户拨号认证系统是一种为拨号用户进行认证和计费的协议，是一项通用的认证计费协议。我们通常所说的RADIUS,是指基于 RADIUS协议的认证计费平台。"
+解释一下什么是SSID,"服务集标识（Service Set IDentifier,【缩写】SSID）
+服务集标识用来标识不同的无线网络，最多可以有32个字符，无线网卡设置了不同的SSID 就可以进入不同的网络，SSID通常由AP广播出来，通过终端自带的扫描功能可以查看当前区域内的SSID。出于安全考虑可以不广播SSID,此时用户就要手工设置SSID 才能进入相应的网络。简单地说，SSID就是一个局域网的名称，只有设置为名称相同SSID的值的电脑才能互相通信。"
+解释一下什么是STA,"终端（Station-122-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读,【缩写】STA）
+STA在WLAN中一般为客户端，可以是装有无线网卡的计算机，也可以是有Wi-Fi 模块的智能手机。STA可以是移动的，也可以是固定的，是无线局域网的最基本的组成单元。"
+解释一下什么是VDSL,"高速数字用户线路（Very-high-bit-rateDigital Subscriber Line,【缩写】VDSL）
+高速数字用户线路就是ADSL的快速版本。使用VDSL,短距离内的最大下传速率可达55Mbit/s,上传速率可达19.2Mbit/s,甚至更高。VDSL采用了先进的调制技术，即上行和下行使用不同的频率范围。VDSL2技术类似于 ADSL 及ADSL2+技术，VDSL2技术采用DMT 调制，但是频率范围增加到30MHz,可以提供高达100Mbit/s的带宽。"
+解释一下什么是VPLS,"虚拟专用局域网服务（Virtual Private LANService,【缩写】VPLS）
+虚拟专用局域网服务技术属于二层分组承载技术，本质上是一种基于IP/MPLS和以太网技术的L2VPN(二层虚拟专用网)技术。其核心思想是利用信令协议在VPLS实例中的PE(运营商边缘路由器)节点之间建立及维护PW(伪线)，将二层协议帧封装后在PW上传输、交换，使广域范围内多个局域网在数据链路层面被整合为一张网络，向用户提供虚拟的以太网服务。VPLS技术有效地结合了IP/MPLS、L2VPN以太网交换等多种技术的特点，支持点到点、点到多点、多点到多点的业务类型，能够在较大的网络规模下支持电信级以太网服务。"
+解释一下什么是WEP,"有线等效保密（Wired EquivalentPrivacy,【缩写】WEP）
+有线等效保密协议接入网XIATUSH种无线联网的技术，是一个无是802.11b标准中定义的一个用于无线局域网(WLAN)的安全性协议，被用来提供和有线LAN 同级的安全性。经由无线电波的WLAN没有和LAN同样的物理结构，因此容易受到攻击、干扰。WEP的目标就是通过对无线电波中的数据加密提供安全性，如同端一端发送一样。WEP特性中使用了rsa 数据安全性公司开发的rc4 ping 算法。不过密码分析学家已经找出了WEP好几个弱点，因此在2003被 Wi-Fi ProtectedAccess(WPA)淘汰，又在2004年由完整的IEEE 802.11i标准(又称为WPA2)所取代。"
+解释一下什么是Wi-Fi,"无线保真（Wireless Fidelity,【缩写】Wi-Fi）
+Wi-Fi 原来是无线保真的缩写，在无线局域网的范畴是指“无线相容性认证”，实质上是一种商业认证，同时也是线网络通信技术的品牌，由Wi-Fi联盟(Wi-Fi Alliance)所-123-持有。目的是改善基于 IEEE802.11标准的无线网络产品之间的互通性。"
+解释一下什么是WISPR,"无线因特网服务提供商漫游（Wireless InternetService Provider Roaming,【缩写】WISPR）
+无线因特网服务提供商漫游是由Wi-Fi 联盟提出的协议规范，以满足用户在不同无线因特网服务提供商进行漫游使用WLAN 服务的需求。WISPR Specification 规定了实现WLAN漫游用户接入无线服务提供商的最佳鉴权认证的建议，包括接入方式、认证方式以及安全建议。"
+解释一下什么是WLAN,"无线局域网（Wireless Local AreaNetwork,【缩写】WLAN）
+无线局域网是利用无线技术实现快速接入以太网的技术。无线局域网本质的特点-124-下图书www.xiatushu.com高清图书享受阅读每日更新永久免费通信信息技术常用术语解释（第一版）是不再使用通信电缆将计算机与网络连接起来，而是通过无线的方式连接，从而使网络的构建和终端的移动更加灵活。遵循IEEE 802.11b和802.11a标准，它们分别工作在2.4GHz 和5GHz频段，前者采用直接序列扩频(DSSS)技术，传送速率可达11Mbit/s,后者则采用正交频分复用(OFDM)技术，传送速率可达54Mbit/s。后在媒质接入控制/链路连接控制(MAC/LLC)层面上进行扩展，形成了802.11c以及802.11d标准。当前，IEEE正进行802.11e、f、g、h、i等标准的制定。"
+解释一下什么是WMM,"Wi-Fi多媒体（Wi-Fi Multimedia,【缩写】WMM）
+Wi-Fi 多媒体是Wi-Fi Alliance(WFA)制定的QoS 服务等级，是WLAN 标准中802.11e 标准的一个子集。WMM 允许无线通信根据数据类型定义一个优先级范围，对时间敏感的数据，如视频/音频数据将比普通的数据有更高的优先级。为了使WMM功能工作，无线客户端也必须支持WMM。客户可以根据需求选择是或否。WMM一经启用，适配器便用它来支持Wi-Fi 网络的优先级标记和排队功能。"
+解释一下什么是WPA,"Wi-Fi保护接入（Wi-Fi ProtectedAccess,【缩写】WPA）
+Wi-Fi 保护接入是一种基于标准的可互操作的WLAN 安全性增强解决方案，可大大增强现有以及未来无线局域网系统的数据保护和访问控制水平。WPA 源于正在制定中的IEEE802.11i标准并将与之保持前向兼容。部署适当的话，WPA可保证WLAN用户的数据受到保护，并且只有授权的网络用户才可以访问 WLAN。WPA实现了IEEE 802.11i标准的大部分，是在802.11i完备之前替代WEP的过渡方案。由于WEP的不安全性，在802.11i协议完善前，采用WPA为用户提供一个临时性的解决方案。该接入网下图杰标准的数据加密采用TKIP(Temporary Key Integrity Proto-col),认证有两种模式可供选择：一种是使用802.1x协议进行认证，另一种是预先共享密钥(PSK,Pre-Shared Key)模式。有WPA和WPA2两个标准，是一种保护无线电脑网络(Wi-Fi)安全的系统，它是由研究者在前一代的系统有线等效保密(WEP)中找到的几个严重的弱点而产生的。"
+解释一下什么是WPS,"Wi-Fi安全设置（Wi-Fi ProtectedSetup,【缩写】WPS）
+Wi-Fi 安全设置是由Wi-Fi 联盟组织实施的认证项目，主要致力于简化无线局域网的安装及安全性能配置工作。WPS能帮助用户自动设置网络名(SSID)、配置强大的 WPA数据编码及实现认证功能，用户只需输入个人信息码(PIN方法)或按下按钮（按钮设置，或称PBC),即能安全地连入WLAN。这大大简化了无线安全-125-设置的操作。WPS 支持多种通过Wi-Fi认证的802.11产品，包括接入点、无线适配器、Wi-Fi电话以及其他消费性电子设备。"
+解释一下什么是ABR,"区域边界路由器（Area Border Router,【缩写】ABR）
+区域边界路由器是位于一个或多个OSPF 区域边界上、将这些区域连接到主干网络的路由器。它同时被认为是OSPF 主干和相连区域的成员。"
+解释一下什么是ACL,"访问控制列表（Access Control List,【缩写】ACL）
+访问控制列表是路由器和交换机接口的指令列表，用来控制端口进出的数据分组。"
+解释一下什么是AD,"管理距离（AdministrativeDistance,【缩写】AD）
+管理距离是一种路由协议的路由可信度。每一种路互联网互联网由协议按可靠性从高到低，依次分配一个信任等级。"
+解释一下什么是ARP,"地址解析协议（Address ResolutionProtocol,【缩写】ARP）
+地址解析协议是一种实现通过IP地址得知其物理地址的协议。"
+解释一下什么是AS,"自治系统（AutonomousSystem,【缩写】AS）
+自治系统是处于一个管理机构控制之下的路由器和网络群组。"
+解释一下什么是BFD,"双向转发检测（Bi-directional-127-Forwarding Detection,【缩写】BFD）
+双向转发检测是一种检测链路或系统转发传输流能力的简单方法，是从基础传输技术逐步发展而来的，它提供了一个通用的、标准化的、与介质无关的快速故障检测机制，可以为各上层协议（路由协议、MPLS等)统一地快速检测两台路由器间双向转发路径的故障。"
+解释一下什么是BGMP,"边界网关组播协议（Border GatewayMulticast Protocol,【缩写】BGMP）
+边界网关组播协议是一种为域间组播提供路由选择的协议。"
+解释一下什么是BGP,"边界网关协议（Border GatewayProtocol,【缩写】BGP）
+边界网关协议是一种在自治系统之间动态交换路-128-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读由信息的路由协议。"
+解释一下什么是CE,"用户网络边缘设备（Customer Edge,【缩写】CE）
+用户网络边缘设备是用于将一个用户站点接入服务提供者网络的边缘设备，可以是路由器，也可以是交换机。"
+解释一下什么是CIDR,"无类域间路由选择（Classless Inter-Domain Routing,【缩写】CIDR）
+无类域间路由选择是为解决地址耗尽而提出的一种措施。它是将好几个IP网络结合在一起，使用一种无类别的域际路由选择算法，可以减少由核心路由器运载的路由选择信息的数量。"
+解释一下什么是CR,"核心路由器（Core Router,【缩写】CR）
+核心路由器是位于日更新永久免费XIATUSHU.COM下图书网络核心的路由器，主要用于数据分组选路和转发，具有较大的吞吐量。"
+解释一下什么是DHCP,"动态主机配置协议（Dynamic HostConfiguration Protocol,【缩写】DHCP）
+动态主机配置协议是一个局域网的网络协议，它使用UDP工作。DHCP服务允许网络设备连接到网络并且自动获取一个IP地址。"
+解释一下什么是DNS,"域名系统（Domain NameSystem,【缩写】DNS）
+域名系统是由解析器和域名服务器组成的。域名服务器是指保存有该网络中所有主机的域名和对应的IP地址，并具有将域名转换为IP地址功能的服务器。"
+解释一下什么是DVMRP,"距离矢量组播路由选择协议（Distance VectorMulticast Routing Protocol,【缩写】DVMRP）
+是一种互联网路由协议，为互联网络的主机组提供了一种面向无连接信息组播的有效机制。"
+解释一下什么是ECMP,"等价多路径（Equal-Cost Multip-ath Routing,【缩写】ECMP）
+等价多路径是在多条不同链路到达同一目的地址的网络环境中同时使用多条链路。这样既增加了传输带宽，还可以无时延、无丢包地备份失效链路的数据传输。"
+解释一下什么是EGP,"外部网关协议（Exterior GatewayProtocol,【缩写】EGP）
+外部网关协议是一种在自治系统的相邻两个网关主机间交换路由信息的协议。-129-下图书XIATUSH"
+解释一下什么是FRR,"快速重路由（Fast ReRoute,【缩写】FRR）
+快速重路由是一种路由保护机制，在主用路由失效后，通过快速路由收敛，重新计算路由，实现链路快速倒换。"
+解释一下什么是FTP,"文件传输协议（File TransferProtocol,【缩写】FTP）
+文件传输协议是一种用于因特网上控制文件的双向传输协议。"
+解释一下什么是GRE,"通用路由封装（Generic RoutingEncapsulation,【缩写】GRE）
+通用路由封装是在任意网络层协议上封装任意一个其他网络层的协议。"
+解释一下什么是ICMP,"因特网控制报文协议（Internet ControlMessage Protocol,【缩写】ICMP）
+因特网控制报文协议是一种用于在IP主机、路由器之间传递控制消息的协议。"
+解释一下什么是IDC,"因特网数据中心（Internet Data Center,【缩写】IDC）
+因特网数据中心是基于因特网，为集中式收集、存储、处理和发送数据的设备提供运行维护的设施以及相关的服务体系。"
+解释一下什么是IGMP,"因特网组管理协议（Internet GroupManagement Protocol,【缩写】IGMP）
+因特网组管理协议是因特网协议家族中的一个组播协议，用于IP主机向任一个直接相邻的路由器报告他们的组成员情况。日更新永久免费"
+解释一下什么是IGP,"内部网关协议（Interior GatewayProtocol,【缩写】IGP）
+内部网关协议是一种专用于一个自治系统中网关间交换数据流转通道信息的协议。"
+解释一下什么是IP,"因特网协议（Internet Protocol,【缩写】IP）
+因特网协议是为计算机网络相互连接通信而设计的协议，规定了计算机在因特网上进行通信时应遵守的规则。"
+解释一下什么是IPv4,"因特网协议第四版（Internet ProtocolVersion 4,【缩写】IPv4）
+因特网协议第四版是第一个被广泛使用，构成现今互联网技术基石的协议。1981年IETF 在RFC791中定义了互联网IP,IPv4可以运行在各种各样的底层网络上，比如端对端的串行数据链路、卫星链路等。"
+解释一下什么是IPv6,"因特网协议第六版（Internet ProtocolVersion 6,【缩写】IPv6）
+因特网协议第六版是下一代因特网协议，IP的第6个版本，其基本功能与IPv4协议相同，但QoS、安全性更好，支持移动性，并大大增加了地址空间。"
+解释一下什么是ISATAP,"内部站点自动隧道寻址协议（Intra Site AutomaticTunnelAddressing Protocol,【缩写】ISATAP）
+内部站点自动隧道寻址协议是一种地址分配和主机到主机、主机到路由器和路由器到主机的自动隧道技术，它为IPv6 主机之间提供了跨越IPv4内部网络的单播IPv6 连通性。ISATAP 一般用于 IPv4 网络中-131-下图书的IPv6/IPv4节点间的通信。"
+解释一下什么是IS-IS,"中间系统到中间系统的路由选择协议（Intermediate Systemto Intermediate System RoutingProtocol,【缩写】IS-IS）
+中间系统到中间系统的路由选择协议是一个分级的链接状态路由协议，基于DECnet PhaseV 路算法，使用Hello 协议寻找毗邻节点，使用一个传播协议发送链接信息，是目前主要使用的IGP之一。"
+解释一下什么是L2F,"第二层转发协议（The Layer2Forwarding Protocol,【缩写】L2F）
+第二层转发协议用来建立跨越公共网络的安全隧道来将ISP POP 连接到企业内部网关。这个隧道建立了一个用户与企业客户网络间的虚拟点对点连接。"
+解释一下什么是L2TP,"第二层隧道协议（Layer 2 TunnelingProtocol,【缩写】L2TP）
+第二层隧道协议是一种二层隧道协议，它结合了PPTP和L2F两种二层隧道协议的优点，为众多公司所接受，已经成为IETF有关二层隧道协议的工业标准。"
+解释一下什么是LDP,"标签分发协议（Label DistributionProtocol,【缩写】LDP）
+标签分发协议是一系列过程的控制协议，这些过程包括MPLS 中转发等价类的分类和标签的分配、分配结果的传输以及标签交换路径的建立和维护等。"
+解释一下什么是LDPFRR,"标签分发协议快速日更新永久免费重路由（Label DistributionProtocol-FastReRoute,【缩写】LDPFRR）
+标签分发协议快速重路由是一项解决MPLS网络可靠性的技术，借助了LDP这种应用最广泛的标签分发协议。默认情况下，它工作在下游自主的标签分发和自由的标签保持模式下，并为路由分配标签。"
+解释一下什么是LSA,"链路状态通告（Link-State Adverti-sement,【缩写】LSA）
+链路状态通告是链接状态协议使用的一个分组，它包括有关邻居和通道成本的信息。LSA被接收路由器用于维护它们的路由选择表。"
+解释一下什么是LSP,"标签交换路径（Label Switched Path,【缩写】LSP）
+标签交换路径是一个转发等价类在 MPLS 网络中经过的路径。"
+解释一下什么是MBGP,"多协议边界网关协议（Multiprotocol BGP,【缩写】MBGP）
+多协议边界网关协议是BGP-4的多协议扩展。MBGP对BGP-4进行了多协议扩展之后，不仅能携带IPv4单播路由信息，也能携带其它网络层协议（如组播、IPv6等）的路由信息。"
+解释一下什么是MBR,"最大比特率（Maximum Bit Rate,【缩写】MBR）
+最大比特率是可变码率的最大值。"
+解释一下什么是MIP,"移动因特网协议（Mobile IP Protocol,【缩写】MIP）
+移动因特网协议是为满足移动节点在移动中保持其连接性而设计的网络服务，实现跨越不同网段的漫游功能。"
+解释一下什么是MPLSTE,"多协议标签交换流量工程（Multi Protocol LabelSwitching-Traffic Engineering,【缩写】MPLSTE）
+多协议标签交换流量工程是一种将流量工程技术与MPLS 这种叠加模型相结合的技术。通过MPLS TE,可以建立指定路径的LSP 隧道，进行资源预留，并且可以进行定时优化，在资源紧张的情况下，可以根据优先级和抢占参数的情况，抢占低优先级的LSP 隧道的带宽资源等等；同时，还可以通过备份路径和快速重路由技术，在链路或节点失败的情况下提供保护。"
+解释一下什么是MSDP,"组播源发现协议（Multicast SourceDiscovery Protocol,【缩写】MSDP）
+组播源发现协议是一种连接多 PIM-SM 域的机制。每种PIM-SM域都使用自己独立的RP,它并不依赖于其他域内的RP。-134-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读"
+解释一下什么是MTU,"最大传输单元（Maximum Trans-mission Unit,【缩写】MTU）
+最大传输单元是指一种通信协议的某一层上面所能通过的最大数据报大小。"
+解释一下什么是NAT,"网络地址翻译（Network AddressTranslation,【缩写】NAT）
+网络地址翻译是一种将私有（保留）地址转化为合法IP地址的转换技术，它被广泛应用于各种类型的Internet 接入方式和各种类型的网络中。NAT不仅完美地解决了IP地址不足的问题，而且还能够有效地避免来自网络外部的攻击，隐藏并保护网络内部的计算机。"
+解释一下什么是NBMA,"非广播多路访问网络（Non-Broadcast日更新永久免费下图XIATUSHUMultiple access,【缩写】NBMA）
+非广播多路访问网络是OSPF通信协议中的4种网络之一，用于精确模拟X.25和帧中继环境。"
+解释一下什么是OSPF,"开放式最短路径优先（Open Shortest PathFirst,【缩写】OSPF）
+开放式最短路径优先是一个内部网关协议，用于在单一自治系统内决策路由。"
+解释一下什么是PE,"运营商边缘设备（Provider Edge,【缩写】PE）
+运营商边缘设备是与用户CE路由器相连的、服务提供者的边缘设备。"
+解释一下什么是PIM,"独立组播协议（Protocol Indepen-dent multicast互联网,【缩写】PIM）
+独立组播协议不依赖于某一特定单播路由协议，它可利用各种单播路由协议建立的单播路由表完成RPF检查功能。"
+解释一下什么是PIM-DM,"密集模式独立组播协议（Protocol Independ-ent Multicast-Dense Mode,【缩写】PIM-DM）
+密集模式独立组播协议是一种能有效地路由到跨越大范围网络(WAN和域间)组播组的协议，主要用于局域网。"
+解释一下什么是PIM-SM,"稀疏模式独立组播协议（Protocol Independ-entMulticast-Sparse Mode,【缩写】PIM-SM）
+稀疏模式独立组播协议是一种能有效地路由到跨越大范围网络(WAN和域间)组播组的协议，它不依赖于任何-135-特定的单播路由协议，主要被设计用来支持稀疏组。"
+解释一下什么是RARP,"反向地址转换协议（Reverse AddressResolution Protocol,【缩写】RARP）
+反向地址转换协议是允许局域网的物理设备从网关服务器的ARP表或者缓存上请求其IP地址的协议。"
+解释一下什么是RP,"汇聚点（Rendezvous Point,【缩写】RP）
+汇聚点是指在PIM-SM模式中，发送者和接收者进行汇聚的汇合点。对于所有的组播路由器，必须知道某个组播组对应哪个汇聚点。"
+解释一下什么是SAN,"储域网（Storage AreaNetwork,【缩写】SAN）
+储域网是一种高速-136-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读网络或子网络，提供在计算机与存储系统之间的数据传输。它是将网络和设备的通信协议与传输物理介质隔离开的网络，使多种协议在同一个物理连接上同时传送。"
+解释一下什么是SR,"业务路由器（Service Router,【缩写】SR）
+业务路由器是业内第一个专为高性能运营商级数据、语音和视频业务而设计和优化的IP/MPLS 业务路由器，主要作为大客户的专线接入网关、MPLS VPN PE 设备以及组播业务网关。它具备高密度的高速接口；能提供大容量的L3VPN、L2 VPN(VLL)和VPLS业务的能力；强大、灵活的QoS能力；提供高性能的组播复制、转发能力等优点。"
+解释一下什么是STP,"生成树协议日更新永久免费（Spanning TreeProtocol,【缩写】STP）
+生成树协议是逻辑上断开网络的环路、防止广播风暴产生的协议。"
+解释一下什么是TACACS+,"终端访问控制器访问控制系统（Terminal AccessController Access Control Sys-tem,【缩写】TACACS+）
+终端访问控制器访问控制系统是Cisco的一种专属协议，它为路由器等网络设备通过一个或多个集中的服务器提供访问控制，包括独立的认证、授权和记账服务。"
+解释一下什么是TCP,"传输控制协议（TransmissionControl Protocol,【缩写】TCP）
+传输控制协议是一种面向连接的、可靠的、基于字节流的传输层通信协议。"
+解释一下什么是TE,"流量工程（Traffic Engineering,【缩写】TE）
+流量工程是对流量进行管理、控制，将用户的业务数据流映射到物理拓扑/链路上的一项任务，是由一系列技术一起配合来完成的。"
+解释一下什么是TFTP,"简单文件传输协议（Trivial File TransferProtocol,【缩写】TFTP）
+简单文件传输协议是TCP/IP协议族中的一个用来在客户机与服务器之间进行简单文件传输的协议，提供不复杂、开销不大的文件传输服务。"
+解释一下什么是UDP,"用户数据报协议（User DatagramProtocol,【缩写】UDP）
+用户数据报协议是一种面向无连接的传输层协议，提供面向事务的简单不可靠信息传送服务。"
+解释一下什么是URL,"统一资源定位符（Uniform/UniversalResource Locator,【缩写】URL）
+统一资源定位符是因特网上标准的资源的地址(Address)。它最初是由蒂姆·伯纳斯·李发明用来作为万维网地址的。现在它已经被万维网联盟编制为因特网标准RFC 1738。Internet 上的每一个网页都具有一个唯一的名称标识，通常称之为URL地址，这种地址可以是本地磁盘，也可以是局域网上的某一台计算机，更多的是Internet 上的站点。简单地说，URL 就是Web 地址，俗称“网址”。"
+解释一下什么是VLSM,"可变长子网掩码（Variable LengthSubnet Mask,【缩写】VLSM）
+可变长子网掩码是为了解决在一个网络系统中使用多种层次的子网化IP地址的问题而发展起来的技术。-138-下图书www.xiatushu.com通信信息技术常用术语解释（第一版）高清图书享受阅读"
+解释一下什么是VPNFRR,"虚拟专用网快速重路由（VPN-Fast ReRoute,【缩写】VPNFRR）
+虚拟专用网快速重路由是一项解决CE双归属网络中当PE设备故障时业务快速收敛的技术。VPN FRR 利用基于VPN 的私网路由快速切换技术，通过预先在远端PE中设置的指向主用PE 和备用PE的主备用转发项，结合PE故障快速探测，可以解决PE节点故障导致的端到端业务收敛时间长（大于1s)的问题，同时解决PE节点故障恢复时间与其承载的私网路由的数量相关的问题。"
+解释一下什么是VRRP,"虚拟路由器冗余协议（Virtual RouterRedundancy Protocol,【缩写】VRRP）
+虚拟路由器冗余协议是一种LAN接入设备容错协议，它对共享多存取访问介质日更新永久免费(如以太网)上终端IP设备的默认网关进行冗余备份，从而在其中一台路由设备宕机时，备份路由设备能及时接管转发工作，向用户提供透明的切换，从而提高网络服务质量。"
+解释一下什么是VTP,"虚拟局域网干道协议（VLAN TrunkingProtocol,【缩写】VTP）
+虚拟局域网干道协议是一种Cisco 私有协议。由于在大量交换机组成的企业网中，需要配置的VLAN工作量很大，使用虚拟局域网干道协议，就可以把一台交换机配置成VTPServer,其余交换机配置成VTPClient,这样VTP Client 可以自动学习到 VTP Server 上的VLAN 信息。"
